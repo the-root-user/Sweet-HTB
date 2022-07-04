@@ -8,6 +8,7 @@ Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.
 ## How does it look
 
 ![lockscreen](sddm/Sweet-HTB/Preview.png)
+![splash](look-and-feel/Sweet-HTB/contents/previews/splash.png)
 ![Wallpaper02](looks.png)
 
 ## Installation
