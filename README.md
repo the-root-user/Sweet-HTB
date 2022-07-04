@@ -15,6 +15,8 @@ Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.
 
 ### Home
 ![wallpaper](looks.png)
+**App view**
+![wallpaper1](looks1.png)
 
 ## Installation
 
