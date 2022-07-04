@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   version="1.1"
+   viewBox="0 0 16.933 16.933"
+   id="svg10"
+   sodipodi:docname="distributor-logo-parrot.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3184"
+       id="linearGradient3186"
+       x1="5.0677919"
+       y1="7.3627858"
+       x2="16.062979"
+       y2="13.787391"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3184">
+      <stop
+         style="stop-color:#1a1a1a;stop-opacity:0.80392158"
+         offset="0"
+         id="stop3180" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1"
+         id="stop3182" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="12.5"
+     inkscape:cx="29.8"
+     inkscape:cy="31.16"
+     inkscape:window-width="1920"
+     inkscape:window-height="970"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <rect
+     style="fill:#55ddff;fill-opacity:1;stroke-width:0.280665"
+     id="rect872"
+     width="14.40025"
+     height="14.355887"
+     x="1.2690243"
+     y="1.3096966"
+     ry="3.2921886" />
+  <g
+     transform="translate(0,-280.07)"
+     id="g8">
+    <g
+       transform="matrix(1.0385,0,0,1.0385,-0.32619,-11.092)"
+       stroke-width="0.92729"
+       id="g4" />
+  </g>
+  <g
+     id="g3629"
+     transform="matrix(0.74848862,0,0,0.74848862,2.2798951,2.2425558)">
+    <path
+       style="fill:url(#linearGradient3186);fill-opacity:1;stroke:none;stroke-width:0.264578px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 9.3308086,2.81434 8.5399944,7.1198708 c 0.01008,2.4076492 0.240292,5.0784402 -1.10295,6.5794172 -1.713036,1.53284 -2.542544,1.367539 -5.921692,1.474419 L 9.8618714,16.61886 9.3308086,2.81434"
+       id="path3041"
+       sodipodi:nodetypes="cccccc"
+       inkscape:label="parrot_shadow" />
+    <g
+       transform="matrix(1.0871627,0,0,1.0871627,-0.79008589,-305.25914)"
+       id="g8-3"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.243366;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="parrot"
+       sodipodi:insensitive="true">
+      <path
+         style="fill:#191919;fill-opacity:1;stroke:none;stroke-width:0.0427657px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 5.5658321,281.9084 3.7436251,1.46545 5.0462518,8.13999 -2.603826,-1.95394 -0.325657,4.5592 -0.976969,-2.2796 -0.6513146,4.2321 -0.6513135,-8.13855 -1.6282843,-0.65132 -1.3011989,-2.60525 -1.3026274,-0.97698 -1.1412272,0.97698 v -2.27961 z"
+         id="path879"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:label="parrot_shape" />
+    </g>
+  </g>
+</svg>
