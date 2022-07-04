@@ -23,7 +23,7 @@ Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.
 ## Installation
 
 ```shell
-git clone https://
+git clone https://github.com/the-root-user/Sweet-HTB.git
 cd Sweet-HTB
 bash install.sh
 ```
