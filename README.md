@@ -1,9 +1,7 @@
 
 # Sweet-HTB
 
-Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.eu
-
-( Only for KDE )
+Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.eu (only for KDE)
 
 ![Cover](wallpapers/Sweet-Wallpapers/Sweet-HTB.png)
 
