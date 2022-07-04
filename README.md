@@ -3,9 +3,10 @@
 
 Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.eu
 
+![Wallpaper01](wallpapers/Sweet-Wallpapers/Sweet-HTB.png)
+
 ## How does it look
 
-![Wallpaper01](wallpapers/Sweet-Wallpapers/Sweet-HTB.png)
 ![Wallpaper02](looks.png)
 
 ## Installation
