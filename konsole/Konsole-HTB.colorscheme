@@ -1,5 +1,5 @@
 [Background]
-Color=26,34,49
+Color=28,36,52
 
 [BackgroundFaint]
 Color=28,37,53
@@ -26,13 +26,13 @@ Color=229,80,97
 Color=245,86,104
 
 [Color2]
-Color=83,208,0
+Color=1,208,53
 
 [Color2Faint]
-Color=74,184,0
+Color=0,184,43
 
 [Color2Intense]
-Color=104,211,38
+Color=40,208,68
 
 [Color3]
 Color=215,144,37
@@ -62,13 +62,13 @@ Color=239,77,207
 Color=255,82,220
 
 [Color6]
-Color=46,191,189
+Color=243,150,96
 
 [Color6Faint]
-Color=44,185,183
+Color=239,148,95
 
 [Color6Intense]
-Color=48,202,197
+Color=243,150,96
 
 [Color7]
 Color=178,178,178
@@ -92,5 +92,5 @@ Color=0,178,131
 Blur=true
 ColorRandomization=false
 Description=Konsole-HTB
-Opacity=0.95
+Opacity=0.9
 Wallpaper=
