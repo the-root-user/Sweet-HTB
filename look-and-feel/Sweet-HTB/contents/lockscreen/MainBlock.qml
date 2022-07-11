@@ -64,11 +64,12 @@ SessionManagementScreen {
             inputMethodHints: Qt.ImhHiddenText | Qt.ImhSensitiveData | Qt.ImhNoAutoUppercase | Qt.ImhNoPredictiveText
             enabled: !authenticator.graceLocked
 
-            placeholderTextColor: "#C3C7D1"
-            palette.text: "#C3C7D1"
+            placeholderTextColor: "#a1adc8" // "#C3C7D1"
+            palette.text: "#a1adc8" // "#C3C7D1"
             
             background: Rectangle {
-                color: "#0F111A"
+                color: "#1a2231"
+                // color: "#0F111A"
                 opacity: 0.5
                 radius: parent.width / 2
                 height: 30
@@ -129,7 +130,8 @@ SessionManagementScreen {
                 radius: width / 2
                 rotation: -90
                 anchors.centerIn: parent
-                color: "#00A9A5"
+                color: "#84e500"
+                // color: "#00A9A5"
                
             }
 

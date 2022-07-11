@@ -316,6 +316,7 @@ PlasmaCore.ColorScope {
             anchors.centerIn: mainStack
             radius: 10
             color: "#0F111A"
+            // color: "#1a2231"
             opacity: 0.5
             z:-1
         }
