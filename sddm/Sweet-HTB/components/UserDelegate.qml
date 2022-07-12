@@ -67,6 +67,7 @@ Item {
         height: width
         radius: width / 2
         color: "#84e500"
+        // color: "#7bec04"
         // color: "#00A9A5"
         opacity: 0.7
         z:-1
