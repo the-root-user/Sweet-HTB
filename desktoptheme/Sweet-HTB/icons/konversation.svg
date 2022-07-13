@@ -5,7 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg14"
+   id="svg12"
    viewBox="0 0 22 22"
    version="1.1"
    height="22"
@@ -23,16 +23,23 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs5">
+     id="defs3">
     <style
        type="text/css"
-       id="current-color-scheme"> .ColorScheme-Text { color:#363636; } </style>
+       id="current-color-scheme">.ColorScheme-Text { color:#363636; }
+  </style>
   </defs>
   <g
-     id="g12"
+     id="g10"
      transform="translate(-326 -534.36)">
     <g
-       id="distribute-horizontal-x">
+       id="konversation">
+      <path
+         id="path5"
+         class="ColorScheme-Text"
+         fill="currentColor"
+         d="m11 3.9727c-3.8568-0.021092-7.0156 3.1568-7.0156 7.0137 0 3.8569 3.1587 7.0137 7.0156 7.0137l0.05273 2.0039c1.9473-0.003906 7.9473-3.0039 7.9473-8.0039s-3-8-8-8.0273z"
+         transform="translate(326 534.36)" />
       <rect
          id="rect7"
          fill="none"
@@ -40,11 +47,6 @@
          width="22"
          y="534.36"
          x="326" />
-      <path
-         id="path9"
-         d="m329 541.36v8h5v-8h-5zm11 0v8h5v-8h-5zm-10 1h3v6h-3v-6zm11 0h3v6h-3v-6zm-6 1v4h1v-1h2v1h1v-4h-1v1h-2v-1h-1z"
-         fill="currentColor"
-         class="ColorScheme-Text" />
     </g>
   </g>
 </svg>

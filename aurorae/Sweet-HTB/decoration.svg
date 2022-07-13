@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="262.2872"
-     inkscape:cy="146.48315"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="254.03762"
+     inkscape:cy="137.15867"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1848"
+     inkscape:window-width="1850"
      inkscape:window-height="1056"
-     inkscape:window-x="72"
+     inkscape:window-x="70"
      inkscape:window-y="24"
      width="48px"
      height="48px"
@@ -478,7 +478,7 @@
       <path
          id="path6211-7"
          d="M 470,277 H 325 v 12 h 145 z"
-         style="opacity:0.8;fill:#182230;fill-opacity:1;stroke:none;stroke-width:1.41421"
+         style="opacity:0.9;fill:#18212f;fill-opacity:1;stroke:none;stroke-width:1.41421"
          inkscape:connector-curvature="0" />
     </g>
     <path
@@ -555,7 +555,7 @@
       <path
          id="path6211-7-5"
          d="M 470,276.92202 H 325 v 12 h 145 z"
-         style="opacity:0.8;fill:#151c28;fill-opacity:1;stroke:none;stroke-width:1.41421"
+         style="opacity:0.9;fill:#171e2b;fill-opacity:1;stroke:none;stroke-width:1.41421"
          inkscape:connector-curvature="0" />
     </g>
     <path
@@ -615,7 +615,7 @@
        inkscape:label="#decoration-bottomleft">
       <path
          id="rect7023-1"
-         style="opacity:0.8;fill:#182230;fill-opacity:1;stroke:none"
+         style="opacity:0.9;fill:#18212f;fill-opacity:1;stroke:none"
          d="m 81,196 c 0,6.648 5.352,12 12,12 h 17 v -12 z"
          transform="translate(385,94.000015)" />
       <g
@@ -645,7 +645,7 @@
        id="decoration-inactive-bottomleft">
       <path
          id="path4207"
-         style="opacity:0.8;fill:#151c28;fill-opacity:1;stroke:none;stroke-width:1.41421"
+         style="opacity:0.9;fill:#171e2b;fill-opacity:1;stroke:none;stroke-width:1.41421"
          d="m 441,196 c 0,6.648 5.352,12 12,12 h 14 3 v -12 z"
          transform="translate(0,90)"
          sodipodi:nodetypes="cscccc" />

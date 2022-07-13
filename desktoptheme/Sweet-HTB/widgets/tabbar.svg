@@ -17,14 +17,14 @@
      inkscape:current-layer="svg119"
      inkscape:window-maximized="1"
      inkscape:window-y="24"
-     inkscape:window-x="72"
-     inkscape:cy="132.72749"
-     inkscape:cx="237.44119"
-     inkscape:zoom="6.1094026"
+     inkscape:window-x="70"
+     inkscape:cy="153.30467"
+     inkscape:cx="272.83745"
+     inkscape:zoom="3.0547013"
      showgrid="false"
      id="namedview90"
      inkscape:window-height="1056"
-     inkscape:window-width="1848"
+     inkscape:window-width="1850"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -50,18 +50,18 @@
      id="defs123" />
   <g
      id="north-active-tab-top"
-     transform="matrix(.8125 0 0 .83333 290.56 -685.63)">
+     transform="matrix(0.8125,0,0,0.83333,290.56,-685.63)">
     <rect
        class="ColorScheme-Background"
        transform="matrix(0,-1,-1,0,0,0)"
-       x="-916.36"
+       x="-916.35999"
        y="-51"
        width="6"
        height="32"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="rect2"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="north-active-tab-topleft"
@@ -69,9 +69,9 @@
     <path
        d="m 25,910.36 c -6.648,0 -12,5.352 -12,12 h 12 v -10 z"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="path5"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="north-active-tab-topright"
@@ -79,9 +79,9 @@
     <path
        d="m 45,910.36 v 12 h 12 c 0,-6.648 -5.352,-12 -12,-12 z"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="path8"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="north-active-tab-bottom"
@@ -94,9 +94,9 @@
        width="6"
        height="32"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="rect11"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="north-active-tab-bottomleft"
@@ -104,9 +104,9 @@
     <path
        d="m 13,942.36 c 0,6.648 5.352,12 12,12 v -12 H 15 Z"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="path14"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="north-active-tab-bottomright"
@@ -114,9 +114,9 @@
     <path
        d="m 45,942.36 v 12 c 6.648,0 12,-5.352 12,-12 H 47 Z"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="path17"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="north-active-tab-left"
@@ -129,9 +129,9 @@
        width="6"
        height="32"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="rect20"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="north-active-tab-right"
@@ -143,9 +143,9 @@
        width="6"
        height="32"
        fill="#fff"
-       opacity=".15"
+       opacity="0.15"
        id="rect23"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <rect
      id="north-active-tab-center"
@@ -156,7 +156,7 @@
      height="20"
      fill="#fff"
      opacity=".15"
-     style="fill:#e5e5e5;fill-opacity:1" />
+     style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   <rect
      id="hint-tile-center"
      x="45"
@@ -212,7 +212,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect32"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="south-active-tab-topleft"
@@ -222,7 +222,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path35"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="south-active-tab-topright"
@@ -232,7 +232,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path38"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="south-active-tab-bottom"
@@ -247,7 +247,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect41"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="south-active-tab-bottomleft"
@@ -257,7 +257,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path44"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="south-active-tab-bottomright"
@@ -267,7 +267,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path47"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="south-active-tab-left"
@@ -282,7 +282,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect50"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="south-active-tab-right"
@@ -296,7 +296,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect53"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <rect
      id="south-active-tab-center"
@@ -307,7 +307,7 @@
      height="20"
      fill="#fff"
      opacity=".15"
-     style="fill:#e5e5e5;fill-opacity:1" />
+     style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   <rect
      id="south-focus-hint-right-margin"
      transform="scale(-1)"
@@ -353,7 +353,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect61"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="west-active-tab-topleft"
@@ -363,7 +363,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path64"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="west-active-tab-topright"
@@ -373,7 +373,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path67"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="west-active-tab-bottom"
@@ -388,7 +388,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect70"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="west-active-tab-bottomleft"
@@ -398,7 +398,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path73"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="west-active-tab-bottomright"
@@ -408,7 +408,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path76"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="west-active-tab-left"
@@ -423,7 +423,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect79"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="west-active-tab-right"
@@ -437,7 +437,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect82"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <rect
      id="west-active-tab-center"
@@ -448,7 +448,7 @@
      height="20"
      fill="#fff"
      opacity=".15"
-     style="fill:#e5e5e5;fill-opacity:1" />
+     style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   <rect
      id="west-focus-hint-right-margin"
      transform="scale(-1)"
@@ -494,7 +494,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect90"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="east-active-tab-topleft"
@@ -504,7 +504,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path93"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="east-active-tab-topright"
@@ -514,7 +514,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path96"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="east-active-tab-bottom"
@@ -529,7 +529,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect99"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="east-active-tab-bottomleft"
@@ -539,7 +539,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path102"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="east-active-tab-bottomright"
@@ -549,7 +549,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="path105"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="east-active-tab-left"
@@ -564,7 +564,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect108"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <g
      id="east-active-tab-right"
@@ -578,7 +578,7 @@
        fill="#ffffff"
        opacity="0.15"
        id="rect111"
-       style="fill:#e5e5e5;fill-opacity:1" />
+       style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   </g>
   <rect
      id="east-active-tab-center"
@@ -589,7 +589,7 @@
      height="20"
      fill="#fff"
      opacity=".15"
-     style="fill:#e5e5e5;fill-opacity:1" />
+     style="fill:#e5e5e5;fill-opacity:1;opacity:0.1" />
   <rect
      id="east-focus-hint-right-margin"
      transform="scale(-1)"
