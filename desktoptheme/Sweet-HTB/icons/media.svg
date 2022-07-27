@@ -6,11 +6,35 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="76"
    height="32"
    version="1.1"
    viewBox="0 0 20.108389 8.4667"
-   id="svg53">
+   id="svg53"
+   sodipodi:docname="media.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1850"
+     inkscape:window-height="1056"
+     id="namedview36"
+     showgrid="false"
+     inkscape:zoom="5.9220193"
+     inkscape:cx="51.820949"
+     inkscape:cy="18.083701"
+     inkscape:window-x="70"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg53" />
   <metadata
      id="metadata57">
     <rdf:RDF>
@@ -19,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -31,7 +55,7 @@
   </defs>
   <g
      id="media-playback-paused"
-     transform="matrix(0.26458,0,0,0.26458,0.52914934,1.3229139)">
+     transform="matrix(0.24747569,0,0,0.24747569,0.7173004,1.5110619)">
     <rect
        x="0.00021085"
        y="3.0110999e-05"
@@ -47,7 +71,7 @@
   </g>
   <g
      id="media-playback-playing"
-     transform="matrix(0.26458,0,0,0.26458,7.0776124,7.4082619)">
+     transform="matrix(0.24693129,0,0,0.24693129,7.2717519,7.1964774)">
     <rect
        x="0.00021085"
        y="-23"
@@ -64,7 +88,7 @@
   </g>
   <g
      id="media-playback-stopped"
-     transform="matrix(0.26458,0,0,0.26458,0.92629185,8.2020019)">
+     transform="matrix(0.24753122,0,0,0.24753122,1.9321701,7.9462701)">
     <rect
        x="48"
        y="-26"
