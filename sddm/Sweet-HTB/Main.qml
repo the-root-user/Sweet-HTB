@@ -403,7 +403,7 @@ PlasmaCore.ColorScope {
             height: blurBg.height
             width: blurBg.width
             source: blurArea
-            radius: 50
+            radius: 90
             samples: 50 * 2 + 1
             cached: true
             anchors.centerIn: blurBg

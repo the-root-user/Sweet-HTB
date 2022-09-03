@@ -52,7 +52,7 @@ Item {
     FastBlur {
         id: wallpaperBlur
         anchors.fill: parent
-        radius: 50 * wallpaperFader.factor
+        radius: 90 * wallpaperFader.factor
     }
     ShaderEffect {
         id: wallpaperShader
