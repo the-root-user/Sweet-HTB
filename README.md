@@ -8,17 +8,17 @@ Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.
 ## How does it look
 
 ### Login Screen
-![loginscreen](sddm/Sweet-HTB/Preview.png)
+![Login Screen](sddm/Sweet-HTB/Preview.png)
 
 ### Splash
-![splash](look-and-feel/Sweet-HTB/contents/previews/splash.png)
+![Splash Screen](look-and-feel/Sweet-HTB/contents/previews/splash.png)
 
 ### Home
-![wallpaper](looks.png)
+![Default Wallpaper](looks.png)
 
 **App view**
 
-![wallpaper1](looks1.png)
+![Dolphin AppView](looks1.png)
 
 ## Installation
 
@@ -27,7 +27,7 @@ git clone https://github.com/the-root-user/Sweet-HTB.git
 cd Sweet-HTB
 bash install.sh
 ```
-![installation](install.png)
+![Installation](install.png)
 
 Yes, simple as that.
 
