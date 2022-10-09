@@ -1,14 +1,15 @@
 #!/bin/bash
 echo ""
-echo "+--------------------------------------+"
+echo "┌────────────────────────────────────────┐"
+# │
 echo ""
-echo "  Sweet-HTB - Modern theme for Hackers "
+echo "   Sweet-HTB - Modern theme for Hackers  "
 echo ""
-echo "  @therootuser_ "
+echo "   @therootuser_  "
 # echo ""
 # echo "  Fork of Sweet-Mars, Layan, WhiteSur & Ocean themes"
 echo ""
-echo "+--------------------------------------+"
+echo "└────────────────────────────────────────┘"
 echo ""
 sleep 1
 
@@ -17,8 +18,9 @@ if [[ $EUID -eq 0 ]]; then
     exit
 fi
 
+echo "┌─ Installing.."
 if [ -d aurorae/Sweet-HTB ]; then
-    sleep 0.25; echo -e "[+] Installing aurorae theme.. "
+    sleep 0.25; echo -e "├── aurorae theme "
     if ! [ -d $HOME/.local/share/aurorae/themes/ ]; then
         mkdir -p $HOME/.local/share/aurorae/themes/
     fi
@@ -26,15 +28,23 @@ if [ -d aurorae/Sweet-HTB ]; then
 fi
 
 if [ -f color-schemes/SweetHTB.colors ]; then
-    sleep 0.25; echo -e "[+] Installing color scheme.. "
+    sleep 0.25; echo -e "├── color scheme "
     if ! [ -d $HOME/.local/share/color-schemes/ ]; then
         mkdir -p $HOME/.local/share/color-schemes/
     fi
     cp color-schemes/SweetHTB.colors $HOME/.local/share/color-schemes/SweetHTB.colors
 fi
 
+if [ -f Kwrite-HTB.theme ]; then
+    # sleep 0.25; echo -e "├── editor theme "
+    if ! [ -d $HOME/.local/share/org.kde.syntax-highlighting/themes/ ]; then
+        mkdir -p $HOME/.local/share/org.kde.syntax-highlighting/themes/
+    fi
+    cp Kwrite-HTB.theme $HOME/.local/share/org.kde.syntax-highlighting/themes/Kwrite-HTB.theme
+fi
+
 if [ -d Kvantum/Sweet-HTB ]; then
-    sleep 0.25; echo -e "[+] Installing kvantum theme.. "
+    sleep 0.25; echo -e "├── kvantum theme "
     if ! [ -d $HOME/.config/Kvantum/ ]; then
         mkdir -p $HOME/.config/Kvantum/
     fi
@@ -42,7 +52,7 @@ if [ -d Kvantum/Sweet-HTB ]; then
 fi
 
 if [ -d desktoptheme/Sweet-HTB ]; then
-    sleep 0.25; echo -e "[+] Installing desktop theme.. "
+    sleep 0.25; echo -e "├── desktop theme "
     if ! [ -d $HOME/.local/share/plasma/desktoptheme/ ]; then
         mkdir -p $HOME/.local/share/plasma/desktoptheme/
     fi
@@ -50,7 +60,7 @@ if [ -d desktoptheme/Sweet-HTB ]; then
 fi
 
 if [ -d look-and-feel/Sweet-HTB ]; then
-    sleep 0.25; echo -e "[+] Installing login/splash theme.. "
+    sleep 0.25; echo -e "├── login/splash theme "
     if ! [ -d $HOME/.local/share/plasma/look-and-feel/ ]; then
         mkdir -p $HOME/.local/share/plasma/look-and-feel/
     fi
@@ -58,7 +68,7 @@ if [ -d look-and-feel/Sweet-HTB ]; then
 fi
 
 if [ -f konsole/Sweet-HTB.profile ]; then
-    sleep 0.25; echo -e "[+] Installing konsole theme.. "
+    sleep 0.25; echo -e "├── konsole theme "
     if ! [ -d $HOME/.local/share/konsole/ ]; then
         mkdir -p $HOME/.local/share/konsole/
     fi
@@ -69,7 +79,7 @@ if [ -f konsole/Sweet-HTB.profile ]; then
 fi
 
 if [ -d wallpapers/Sweet-HTB ]; then
-    sleep 0.25; echo -e "[+] Installing wallpapers.. "
+    sleep 0.25; echo -e "├── wallpapers "
     if ! [ -d $HOME/.local/share/wallpapers/ ]; then
         mkdir -p $HOME/.local/share/wallpapers/
     fi
@@ -80,20 +90,20 @@ if [ -d wallpapers/Sweet-HTB ]; then
 fi
 
 if ! [ -d $HOME/.local/share/icons/WhiteSur ]; then
-    sleep 0.5; echo -e "[-] Icon theme installation aborted."
-    echo -e "    WhiteSur icon theme not found. Please install it."
+    sleep 0.5; echo -e "├─ Icon theme installation aborted."
+    echo -e "│   WhiteSur icon theme not found. Please install it."
 else
     if [ -d WhiteSur ]; then
-        sleep 0.25; echo -e "[+] Installing icon theme.. "
+        sleep 0.25; echo -e "├── icon theme "
         cp WhiteSur $HOME/.local/share/icons/ -r
     fi
 fi
 
 if [[ $1 = 'sddm' ]]; then
     if [ -d sddm/Sweet-HTB ]; then
-        sleep 0.25; echo -e "[+] Installing sddm theme.. "
+        sleep 0.25; echo -e "├── sddm theme "
         if ! [[ $EUID -eq 0 ]]; then
-            echo -e "    Please provide "
+            echo -e "│      Please provide "
         fi
         if ! [ -d /usr/share/sddm/themes/ ]; then
             sudo mkdir -p /usr/share/sddm/themes/
@@ -101,9 +111,28 @@ if [[ $1 = 'sddm' ]]; then
         sudo cp sddm/Sweet-HT* /usr/share/sddm/themes/ -r
     fi
 elif [[ $1 = '' ]]; then
-    sleep 0.5; echo -e "\n[*] If you want to install sddm theme, execute "
-    echo -e "    $0 sddm"
+    sleep 0.25; echo -e "│\n├─ If you want to install sddm theme, execute "
+    echo -e "│    $0 sddm"
 fi
 
+sleep 0.5
+echo -e "│\n└─ Installation done."
+
 sleep 1
-echo -e "\n[✔] Installation Done."
+echo " "
+echo -ne "┌─ Do You want to apply the theme? "
+read REPLY;
+if [[ "$REPLY" =~ ^[y/Y]$ ]]; then
+    echo -ne "├─ Applying theme"
+    sleep 0.3; echo -ne ".";
+    lookandfeeltool -a Sweet-HTB 2> /dev/null
+    sleep 0.3; echo -ne "."; sleep 0.3; echo -ne ". ";
+    sleep 0.5; echo -e "Applied."
+else
+    echo -ne "├─ Ok"
+    sleep 0.3; echo -ne ".. "
+    sleep 0.3; echo -ne "OK! "
+    sleep 0.5; echo -e "I'm not tampering with your settings. "
+fi
+sleep 1
+echo -e "│\n└─ Job done, Bye."

@@ -104,8 +104,8 @@
                 "text-color": "#c678dd"
             },
             "Strong Text": {
-                "selected-text-color": "#d19a66",
-                "text-color": "#d19a66"
+                "selected-text-color": "#e78264",
+                "text-color": "#e78264"
             }
         },
         "Python": {
