@@ -91,7 +91,7 @@ fi
 
 if ! [ -d $HOME/.local/share/icons/WhiteSur ]; then
     sleep 0.5; echo -e "├─ Icon theme installation aborted."
-    echo -e "│   WhiteSur icon theme not found. Please install it."
+    echo -e "│   WhiteSur icon theme not found, please install it."
 else
     if [ -d WhiteSur ]; then
         sleep 0.25; echo -e "├── icon theme "
