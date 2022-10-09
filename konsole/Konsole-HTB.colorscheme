@@ -26,13 +26,13 @@ Color=229,80,97
 Color=245,86,104
 
 [Color2]
-Color=1,208,53
+Color=60,208,102
 
 [Color2Faint]
 Color=0,184,43
 
 [Color2Intense]
-Color=40,208,68
+Color=55,208,98
 
 [Color3]
 Color=215,144,37
@@ -53,7 +53,7 @@ Color=75,124,239
 Color=79,126,255
 
 [Color5]
-Color=248,80,214
+Color=248,89,211
 
 [Color5Faint]
 Color=239,77,207
@@ -80,7 +80,7 @@ Color=101,101,101
 Color=241,241,241
 
 [Foreground]
-Color=0,195,137
+Color=0,182,133
 
 [ForegroundFaint]
 Color=0,170,127
