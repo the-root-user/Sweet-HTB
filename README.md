@@ -15,7 +15,7 @@ Based on the awesome [WhiteSur](https://github.com/vinceliuice/WhiteSur-kde) the
 <!-- ### Lock Sceen
 ![Lock Screen](lockscreen.png) -->
 
-### Splash
+### Splash Screen
 ![Splash Screen](look-and-feel/Sweet-HTB/contents/previews/splash.png)
 
 ### Home
