@@ -19,22 +19,28 @@
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="2.3704148"
-     inkscape:cx="-131.83347"
-     inkscape:cy="8.4373419"
+     showgrid="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:zoom="1.0582386"
+     inkscape:cx="-240.49396"
+     inkscape:cy="51.973154"
      inkscape:window-width="1920"
-     inkscape:window-height="1003"
+     inkscape:window-height="1005"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg" />
+     inkscape:current-layer="svg">
+    <inkscape:grid
+       type="xygrid"
+       id="grid920" />
+  </sodipodi:namedview>
   <defs
      id="defs81">
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#dedede; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#dedede; }
+   .ColorScheme-Text { color:#363636; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#363636; }
   </style>
   </defs>
   <g
@@ -160,7 +166,7 @@
   </g>
   <g
      id="22-22-user-desktop"
-     transform="translate(-195.23536)">
+     transform="translate(-203)">
     <rect
        id="rect853"
        width="22"
@@ -187,7 +193,7 @@
   </g>
   <g
      id="16-16-user-desktop"
-     transform="translate(-195.23536,-2)">
+     transform="translate(-203,-2)">
     <rect
        id="rect845"
        width="16"
@@ -216,7 +222,7 @@
   </g>
   <g
      id="32-32-user-desktop"
-     transform="translate(-195.23536)">
+     transform="translate(-203)">
     <rect
        id="rect837"
        width="32"
@@ -244,35 +250,10 @@
        style="opacity:1" />
   </g>
   <g
-     id="48-48-user-desktop"
-     transform="translate(91.764642)">
-    <path
-       id="rect846"
-       d="m -218,-16 h 48 v 48 h -48 z"
-       fill="none" />
-    <g
-       id="g1632"
-       fill="currentColor"
-       class="ColorScheme-Text">
-      <path
-         id="rect1026"
-         d="m -209,-6 c -2.77,0 -5,2.23 -5,5 v 18 c 0,2.77 2.23,5 5,5 h 30 c 2.77,0 5,-2.23 5,-5 V -1 c 0,-2.77 -2.23,-5 -5,-5 z m 0,2 h 30 c 1.662,0 3,1.338 3,3 v 18 c 0,1.662 -1.338,3 -3,3 h -30 c -1.662,0 -3,-1.338 -3,-3 V -1 c 0,-1.662 1.338,-3 3,-3 z" />
-      <rect
-         id="rect1331"
-         width="28"
-         height="2"
-         x="-208"
-         y="16"
-         ry="1"
-         rx="1"
-         style="opacity:1" />
-    </g>
-  </g>
-  <g
      id="user-desktop"
-     transform="matrix(2,0,0,2,-128.23536,-22)">
+     transform="matrix(2,0,0,2,-130,-12)">
     <rect
-       id="rect865"
+       id="rect1056"
        width="32"
        height="32"
        x="25"
@@ -281,12 +262,12 @@
        ry="0"
        style="fill:none;stroke-width:0.914286" />
     <path
-       id="path867"
+       id="path1058"
        d="m 32,1 c -2.216,0 -4,1.784 -4,4 v 12 c 0,2.216 1.784,4 4,4 h 18 c 2.216,0 4,-1.784 4,-4 V 5 C 54,2.784 52.216,1 50,1 Z m 0,2 h 18 c 1.108,0 2,0.892 2,2 v 12 c 0,1.108 -0.892,2 -2,2 H 32 c -1.108,0 -2,-0.892 -2,-2 V 5 c 0,-1.108 0.892,-2 2,-2 z"
        class="ColorScheme-Text"
        fill="currentColor" />
     <rect
-       id="rect869"
+       id="rect1060"
        width="18"
        height="2"
        x="32"
@@ -296,5 +277,34 @@
        class="ColorScheme-Text"
        fill="currentColor"
        style="opacity:1" />
+  </g>
+  <g
+     id="48-48-user-desktop"
+     transform="translate(84,-47)">
+    <rect
+       id="rect912"
+       width="48"
+       height="48"
+       x="-218"
+       y="32"
+       style="fill:none;stroke-width:2.18182" />
+    <path
+       id="path914"
+       d="m -208,42 c -3.324,0 -6,2.676 -6,6 v 16 c 0,3.324 2.676,6 6,6 h 28 c 3.324,0 6,-2.676 6,-6 V 48 c 0,-3.324 -2.676,-6 -6,-6 z m 0,4 h 28 c 1.108,0 2,0.892 2,2 v 16 c 0,1.108 -0.892,2 -2,2 h -28 c -1.108,0 -2,-0.892 -2,-2 V 48 c 0,-1.108 0.892,-2 2,-2 z"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="stroke-width:2"
+       sodipodi:nodetypes="ssssssssssssssssss" />
+    <rect
+       id="rect916"
+       width="20"
+       height="4"
+       x="-204"
+       y="58"
+       rx="2"
+       ry="2"
+       class="ColorScheme-Text"
+       fill="currentColor"
+       style="opacity:1;stroke-width:2" />
   </g>
 </svg>

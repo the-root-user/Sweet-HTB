@@ -1,21 +1,27 @@
-<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
+  <linearGradient id="linearGradient860">
+   <stop stop-color="#4deb47" offset="0"/>
+   <stop stop-color="#ffa000" offset="1"/>
+  </linearGradient>
+  <linearGradient>
+   <stop stop-color="#5df240" offset="0"/>
+   <stop stop-color="#fff400" offset="1"/>
+  </linearGradient>
   <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#565656; } .ColorScheme-Highlight { color:#5294e2; }</style>
-  <style type="text/css">.ColorScheme-Text { color:#363636; }</style>
+  <linearGradient id="linearGradient848" x2="22" y1="11" y2="11" gradientTransform="matrix(.63636 0 0 .63636 26 1.0273)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient860"/>
+  <linearGradient id="linearGradient877" x1="3" x2="19" y1="11" y2="11" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient860"/>
  </defs>
- <g id="16-16-compass" transform="translate(-27)">
-  <rect x="54" y="4" width="16" height="16" rx="0" ry="0" opacity="0" stroke-width="1.4888" style="paint-order:fill markers stroke"/>
-  <path class="ColorScheme-Text" d="m56 5c-1.108 0-2 0.892-2 2v9c0 1.108 0.892 2 2 2h12c1.108 0 2-0.892 2-2v-8c0-1.108-0.892-2-2-2h-7.6289c-0.57985-0.0229-0.60474 0.076886-1.0391-0.35742-0.43381-0.43381-0.61297-0.64213-1.332-0.64258zm0 1h2c0.31116-1.7e-6 0.52033 1.383e-4 0.99805 0.4707 0.47877 0.47161 0.6388 0.5293 1 0.5293h8.002c0.554 0 1 0.446 1 1v1h-14v-2c0-0.554 0.446-1 1-1zm-1 4h14v6c0 0.554-0.446 1-1 1h-12c-0.554 0-1-0.446-1-1z" fill="currentColor"/>
+ <g id="16-16-compass">
+  <rect x="25" width="16" height="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="2.1333"/>
+  <path class="ColorScheme-Text" d="m33 1.0273c-3.866 0-7 3.1182-7 7s3.134 7 7 7 7-3.1182 7-7-3.134-7-7-7zm0 1.9727c2.7614 0 5 2.2909 5 5.0273s-2.2386 5.0273-5 5.0273-5-2.2909-5-5.0273 2.2386-5.0273 5-5.0273zm3.5 1.5273-3.5 1.1455c-1.2217 0-2.334 1.1455-2.334 2.3545l-1.166 3.5 3.5-1.1455c1.2217 0 2.334-1.1455 2.334-2.3545zm-3.5 2.3545c0.61088 0 1.166 0.50909 1.166 1.1455-1.9e-5 0.63636-0.55518 1.1455-1.166 1.1455-0.61085 0-1.166-0.50909-1.166-1.1455-3e-5 -0.63636 0.55514-1.1455 1.166-1.1455z" fill="url(#linearGradient848)"/>
  </g>
- <g id="22-22-compass">
-  <rect width="22" height="22" rx="0" ry="0" opacity="0" stroke-width="2" style="paint-order:fill markers stroke"/>
-  <g transform="translate(-51 -1)">
-   <rect x="54" y="4" width="16" height="16" rx="0" ry="0" opacity="0" stroke-width="1.4888" style="paint-order:fill markers stroke"/>
-   <path class="ColorScheme-Text" d="m56 5c-1.108 0-2 0.892-2 2v9c0 1.108 0.892 2 2 2h12c1.108 0 2-0.892 2-2v-8c0-1.108-0.892-2-2-2h-7.6289c-0.57985-0.0229-0.60474 0.076886-1.0391-0.35742-0.43381-0.43381-0.61297-0.64213-1.332-0.64258zm0 1h2c0.31116-1.7e-6 0.52033 1.383e-4 0.99805 0.4707 0.47877 0.47161 0.6388 0.5293 1 0.5293h8.002c0.554 0 1 0.446 1 1v1h-14v-2c0-0.554 0.446-1 1-1zm-1 4h14v6c0 0.554-0.446 1-1 1h-12c-0.554 0-1-0.446-1-1z" fill="currentColor"/>
-  </g>
+ <g id="compass" transform="matrix(2 0 0 2 -58 -36.055)">
+  <rect x="25" width="16" height="16" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="2.1333"/>
+  <path class="ColorScheme-Text" d="m33 1.0273c-3.866 0-7 3.1182-7 7s3.134 7 7 7 7-3.1182 7-7-3.134-7-7-7zm0 1.9727c2.7614 0 5 2.2909 5 5.0273s-2.2386 5.0273-5 5.0273-5-2.2909-5-5.0273 2.2386-5.0273 5-5.0273zm3.5 1.5273-3.5 1.1455c-1.2217 0-2.334 1.1455-2.334 2.3545l-1.166 3.5 3.5-1.1455c1.2217 0 2.334-1.1455 2.334-2.3545zm-3.5 2.3545c0.61088 0 1.166 0.50909 1.166 1.1455-1.9e-5 0.63636-0.55518 1.1455-1.166 1.1455-0.61085 0-1.166-0.50909-1.166-1.1455-3e-5 -0.63636 0.55514-1.1455 1.166-1.1455z" fill="url(#linearGradient848)"/>
  </g>
- <g id="compass">
-  <rect x="-8" y="-36.055" width="32" height="32" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="4.2666"/>
-  <path class="ColorScheme-Text" d="m-1.75-32c-2.3372 0-4.25 1.9128-4.25 4.25v14.5c0 2.3372 1.9128 4.25 4.25 4.25h19.5c2.3372 0 4.25-1.9128 4.25-4.25v-12.5c0-2.3372-1.9128-4.25-4.25-4.25h-12.357c-0.39658-0.01566-0.37762-0.03333-0.41211-0.05664-0.03449-0.02331-0.22767-0.22381-0.60938-0.60547-0.34455-0.34455-0.64469-0.68072-1.125-0.95117-0.48031-0.27046-1.0654-0.38629-1.7461-0.38672zm0 1h3.25c1.1684 7.32e-4 1.4591 0.33998 2.1641 1.0449 0.70584 0.70575 0.7472 0.91786 1.6895 0.95508h12.396c1.8005 0 3.25 1.4495 3.25 3.25v0.75h-26v-2.75c0-1.8005 1.4495-3.25 3.25-3.25zm-3.25 7h26v10.75c0 1.8005-1.4495 3.25-3.25 3.25h-19.5c-1.8005 0-3.25-1.4495-3.25-3.25z" fill="currentColor"/>
+ <g id="22-22-compass" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2" stroke-width="2">
+  <circle cx="11" cy="11" r="11" fill="#a2c725" opacity=".25"/>
+  <path d="m16.657 5.3431a8 8 0 0 0-11.314 0 8 8 0 0 0 0 11.314 8 8 0 0 0 11.314 0 8 8 0 0 0 0-11.314zm-1.4142 1.4142a6 6 0 0 1 0 8.4853 6 6 0 0 1-8.4853 0 6 6 0 0 1 0-8.4853 6 6 0 0 1 8.4853 0zm0 0-3.2731 1.4032a3 3 0 0 0-3.0908 0.71816 3 3 0 0 0-0.71816 3.0881l-1.4032 3.2759 3.2731-1.4032a3 3 0 0 0 3.0908-0.71816 3 3 0 0 0 0.71816-3.0881zm-3.5355 3.5355a1 1 0 0 1 0 1.4142 1 1 0 0 1-1.4142 0 1 1 0 0 1 0-1.4142 1 1 0 0 1 1.4142 0z" fill="url(#linearGradient877)"/>
  </g>
 </svg>
