@@ -6,7 +6,7 @@
    viewBox="0 0 22 22"
    id="svg65"
    sodipodi:docname="media.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -20,9 +20,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="3.1534091"
-     inkscape:cx="81.499099"
-     inkscape:cy="19.661261"
+     inkscape:zoom="7.5309848"
+     inkscape:cx="17.593981"
+     inkscape:cy="11.15392"
      inkscape:window-width="1440"
      inkscape:window-height="748"
      inkscape:window-x="0"
@@ -42,11 +42,12 @@
        y="1030.4"
        width="22"
        height="22"
-       opacity=".001"
-       id="rect5" />
+       opacity="0.00100002"
+       id="rect5"
+       x="0" />
     <path
        class="ColorScheme-Highlight"
-       d="m11 1035.4c-3.311 0-6 2.6888-6 6 0 3.311 2.689 6 6 6s6-2.689 6-6c0-3.3112-2.689-6-6-6z"
+       d="m 11,1035.4 c -3.311,0 -6,2.6888 -6,6 0,3.311 2.689,6 6,6 3.311,0 6,-2.689 6,-6 0,-3.3112 -2.689,-6 -6,-6 z"
        fill="#f96060"
        id="path7" />
   </g>
@@ -57,13 +58,21 @@
        y="1030.4"
        width="22"
        height="22"
-       opacity=".001"
-       id="rect10" />
+       opacity="0.00100002"
+       id="rect10"
+       x="0" />
     <path
        class="ColorScheme-Text"
-       d="m5 1035.4v12h12v-12z"
+       d="m 5,1035.4 v 12 h 12 v -12 z"
        fill="currentColor"
-       id="path12" />
+       id="path12"
+       style="display:none" />
+    <path
+       class="ColorScheme-Text"
+       d="m 7.7498683,1038.15 h 6.5002637 v 6.5001 H 7.7498684 Z m 3.2501327,-5.4168 c -4.8015053,0 -8.6668559,3.8652 -8.6668559,8.6669 0,4.8014 3.865513,8.6668 8.6668559,8.6668 4.801504,0 8.666854,-3.8654 8.666854,-8.6668 0,-4.8017 -3.865513,-8.6669 -8.666854,-8.6669 z"
+       fill="currentColor"
+       id="path62-7"
+       style="color:#a1adc8;stroke-width:1.62499" />
   </g>
   <g
      id="media-skip-forward"
@@ -144,17 +153,25 @@
   <g
      id="media-playback-pause"
      transform="translate(-22,-1030.4)">
+    <path
+       class="ColorScheme-Text"
+       d="m 12.086753,1038.1398 h 2.173508 v 6.5205 h -2.173508 z m -4.347016,0 h 2.173508 v 6.5205 H 7.739737 Z m 3.260262,-5.4336 c -4.816469,0 -8.693868,3.8774 -8.693868,8.6939 0,4.8165 3.877562,8.6938 8.693868,8.6938 4.816471,0 8.69387,-3.8773 8.69387,-8.6938 0,-4.8165 -3.877562,-8.6939 -8.69387,-8.6939 z"
+       fill="currentColor"
+       id="path52-6"
+       style="color:#a1adc8;stroke-width:1.63005" />
     <rect
        y="1030.4"
        width="22"
        height="22"
-       opacity=".001"
-       id="rect40" />
+       opacity="0.00100002"
+       id="rect40"
+       x="0" />
     <path
        class="ColorScheme-Text"
-       d="m5 1035.4v12h4v-12zm8 0v12h4v-12z"
+       d="m 5,1035.4 v 12 h 4 v -12 z m 8,0 v 12 h 4 v -12 z"
        fill="currentColor"
-       id="path42" />
+       id="path42"
+       style="display:none" />
   </g>
   <g
      id="media-playback-start"
@@ -163,19 +180,27 @@
        y="1030.4"
        width="22"
        height="22"
-       opacity=".001"
-       id="rect45" />
+       opacity="0.00100002"
+       id="rect45"
+       x="0" />
+    <path
+       d="m 11.498918,1032.7459 c -4.7948539,0 -8.6541893,3.8593 -8.6541893,8.6542 0,4.7949 3.8593354,8.6541 8.6541893,8.6541 4.794854,0 8.656353,-3.8592 8.656353,-8.6541 0,-4.7949 -3.861499,-8.6542 -8.656353,-8.6542 z m -2.1635472,5.4088 4.3270952,3.2454 -4.3270952,3.2453 z"
+       fill="currentColor"
+       id="path57-3"
+       class="ColorScheme-Text"
+       style="color:#a1adc8;fill:#a1adc8;fill-opacity:1;stroke-width:1.08177" />
     <path
        class="ColorScheme-Text"
-       d="m6 1035.4v12l11-6-9.8992-5.3996z"
+       d="m 5.9999999,1035.4 v 12 L 17,1041.4 7.1007999,1036.0004 Z"
        fill="currentColor"
-       id="path47" />
+       id="path47"
+       style="display:none;fill:#ea7fa0;fill-opacity:1" />
   </g>
   <g
      id="media-playback-paused"
      transform="matrix(1.5,0,0,1.5,-4.6412,-1522.6)">
     <rect
-       x="3.6667"
+       x="3.6666999"
        y="1034"
        width="14.667"
        height="14.667"
@@ -183,7 +208,7 @@
        id="rect50" />
     <path
        class="ColorScheme-Text"
-       d="m11.667 1039.4h1.3334v4.0002h-1.3334zm-2.6668 0h1.3334v4.0002h-1.3334zm2.0001-3.3334c-2.9548 0-5.3335 2.3787-5.3335 5.3335s2.3788 5.3335 5.3335 5.3335c2.9548 0 5.3335-2.3787 5.3335-5.3335s-2.3788-5.3335-5.3335-5.3335z"
+       d="m 11.667,1039.4 h 1.3334 v 4.0002 H 11.667 Z m -2.6668,0 h 1.3334 v 4.0002 H 9.0002 Z m 2.0001,-3.3334 c -2.9548,0 -5.3335,2.3787 -5.3335,5.3335 0,2.9548 2.3788,5.3335 5.3335,5.3335 2.9548,0 5.3335,-2.3787 5.3335,-5.3335 0,-2.9548 -2.3788,-5.3335 -5.3335,-5.3335 z"
        fill="currentColor"
        id="path52" />
   </g>
@@ -191,15 +216,15 @@
      id="media-playback-playing"
      transform="matrix(1.5,0,0,1.5,19.358,-1522.6)">
     <rect
-       x="3.667"
+       x="3.6670001"
        y="1034"
        width="14.667"
        height="14.667"
        fill-opacity="0"
        id="rect55" />
     <path
-       transform="matrix(.66668 0 0 .66668 -12.906 1015.1)"
-       d="m35.857 31.402c-4.4324 0-8 3.5676-8 8s3.5676 8 8 8 8.002-3.5676 8.002-8-3.5696-8-8.002-8zm-2 5 4 3-4 3z"
+       transform="matrix(0.66668,0,0,0.66668,-12.906,1015.1)"
+       d="m 35.857,31.402 c -4.4324,0 -8,3.5676 -8,8 0,4.4324 3.5676,8 8,8 4.4324,0 8.002,-3.5676 8.002,-8 0,-4.4324 -3.5696,-8 -8.002,-8 z m -2,5 4,3 -4,3 z"
        fill="currentColor"
        id="path57"
        class="ColorScheme-Text" />
@@ -216,7 +241,7 @@
        id="rect60" />
     <path
        class="ColorScheme-Text"
-       d="m8.9999 1039.4h4.0002v4.0002h-4.0002zm2.0001-3.3334c-2.9548 0-5.3335 2.3787-5.3335 5.3335s2.3788 5.3335 5.3335 5.3335c2.9548 0 5.3335-2.3787 5.3335-5.3335s-2.3788-5.3335-5.3335-5.3335z"
+       d="m 8.9999,1039.4 h 4.0002 v 4.0002 H 8.9999 Z M 11,1036.0666 c -2.9548,0 -5.3335,2.3787 -5.3335,5.3335 0,2.9548 2.3788,5.3335 5.3335,5.3335 2.9548,0 5.3335,-2.3787 5.3335,-5.3335 0,-2.9548 -2.3788,-5.3335 -5.3335,-5.3335 z"
        fill="currentColor"
        id="path62" />
   </g>

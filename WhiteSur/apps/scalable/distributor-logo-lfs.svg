@@ -14,7 +14,7 @@
    viewBox="0 0 16.933 16.933"
    id="svg47"
    sodipodi:docname="distributor-logo-lfs.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <metadata
      id="metadata51">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,15 +37,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1846"
-     inkscape:window-height="1056"
+     inkscape:window-width="1920"
+     inkscape:window-height="964"
      id="namedview49"
      showgrid="false"
      inkscape:zoom="4.391796"
      inkscape:cx="4.5005334"
      inkscape:cy="39.359517"
-     inkscape:window-x="74"
-     inkscape:window-y="24"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg47" />
   <defs
@@ -308,7 +308,7 @@
   <g
      id="g946"
      stroke-width="0.82146"
-     transform="matrix(0.39678212,0,0,0.39678212,-0.9256394,-0.85769258)">
+     transform="matrix(0.34508775,0,0,0.34508775,0.29800623,0.35710067)">
     <path
        id="path918"
        fill="#181818"
