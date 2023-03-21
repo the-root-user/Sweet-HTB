@@ -96,6 +96,12 @@ else
     if [ -d WhiteSur ]; then
         sleep 0.25; echo -e "├── icon theme "
         cp WhiteSur $HOME/.local/share/icons/ -r
+        if [ -d WhiteSur/actions ]; then
+            cp WhiteSur/actions $HOME/.local/share/icons/WhiteSur-dark -r
+        fi
+        if [ -d WhiteSur/places/symbolic ]; then
+            cp WhiteSur/places/symbolic $HOME/.local/share/icons/WhiteSur-dark/places -r
+        fi
     fi
 fi
 
