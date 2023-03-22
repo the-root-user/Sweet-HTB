@@ -41,6 +41,12 @@ Row {
 
         height: batteryLabel.height
         width: height
+        
+        // Rectangle {
+        //     anchors.fill: parent
+        //     color: "green" // set the color of the rectangle to your desired color
+        //     opacity: battery.visible ? 1 : 0 // set the opacity of the rectangle based on the visibility of the battery icon
+        // }
     }
 
     PlasmaComponents.Label {
