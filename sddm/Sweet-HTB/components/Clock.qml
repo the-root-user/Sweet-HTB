@@ -28,7 +28,7 @@ RowLayout {
 
     Label {
         text: Qt.formatDate(timeSource.data["Local"]["DateTime"])
-        color: config.color
+        color: config.clock_color
         style: softwareRendering ? Text.Outline : Text.Normal
         styleColor: softwareRendering ? ColorScope.backgroundColor : "transparent" //no outline, doesn't matter
         font.pointSize: 11
@@ -38,7 +38,7 @@ RowLayout {
     }
     Label {
         text: Qt.formatTime(timeSource.data["Local"]["DateTime"])
-        color: config.color
+        color: config.clock_color
         style: softwareRendering ? Text.Outline : Text.Normal
         styleColor: softwareRendering ? ColorScope.backgroundColor : "transparent" //no outline, doesn't matter
         font.pointSize: 11

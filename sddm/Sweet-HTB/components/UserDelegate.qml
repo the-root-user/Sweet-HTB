@@ -57,7 +57,8 @@ Item {
         width: imageSource.width + 4 // Subtract to prevent fringing
         height: width
         radius: width / 2
-        color: "#1a2231"
+        color: "#1a2332"
+        // color: "#1a2231"
         // color: "#0F111A"
         opacity: 0.8
     }
@@ -66,8 +67,8 @@ Item {
         width: imageSource.width + 10 // Subtract to prevent fringing
         height: width
         radius: width / 2
-        color: "#84e500"
-        // color: "#7bec04"
+        color: "#76e500"
+        // color: "#84e500"
         // color: "#00A9A5"
         opacity: 0.7
         z:-1

@@ -461,7 +461,10 @@ PlasmaCore.ColorScope {
                 }
             }
 
-            Battery {}
+            Battery {
+                id: battery
+                visible: true
+            }
 
             Clock {
                 id: clock

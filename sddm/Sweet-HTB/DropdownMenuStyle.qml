@@ -7,14 +7,14 @@ import QtQuick.Controls 1.3 as QQC
 
 QQCS.MenuStyle {
     frame: Rectangle {
-        color: "#0F111A"
-        border.color: "#040407"
+        color: "#1c2636"
+        border.color: "#1a2332"
         border.width: 1
     }
     itemDelegate.label: QQC.Label {
         height: contentHeight * 2
         verticalAlignment: Text.AlignVCenter
-        color: config.highlight_color
+        color: "#a1adc8" // config.highlight_color
         font.pointSize: config.fontSize
         font.family: config.font
         text: styleData.text
