@@ -57,6 +57,9 @@ if [ -d desktoptheme/Sweet-HTB ]; then
         mkdir -p $HOME/.local/share/plasma/desktoptheme/
     fi
     cp desktoptheme/Sweet-HTB $HOME/.local/share/plasma/desktoptheme/ -r
+    if [ -d desktoptheme/Sweet-HTB-alt ]; then
+        cp desktoptheme/Sweet-HTB-alt $HOME/.local/share/plasma/desktoptheme/ -r
+    fi
 fi
 
 if [ -d look-and-feel/Sweet-HTB ]; then
