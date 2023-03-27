@@ -53,7 +53,7 @@
         color:#eff0f1;
       }
       .ColorScheme-Highlight {
-        color:#716ffb;
+        color:#951FE7;
       }
       .ColorScheme-ViewText {
         color:#31363b;
@@ -65,7 +65,7 @@
         color:#93cee9;
       }
       .ColorScheme-ViewFocus{
-        color:#716ffb;
+        color:#951FE7;
       }
       .ColorScheme-ButtonText {
         color:#31363b;
@@ -77,7 +77,7 @@
         color:#93cee9;
       }
       .ColorScheme-ButtonFocus{
-        color:#716ffb;
+        color:#951FE7;
       }</style>
     <linearGradient
        id="linearGradient989">
