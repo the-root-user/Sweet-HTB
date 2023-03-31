@@ -124,8 +124,12 @@ SessionManagementScreen {
             width: parent.width
             height: width / 9
             radius: width / 2
-            color: config.selected_color
-            opacity: enabled ? 1.0 : 0.3
+            // color: config.selected_color
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: config.selected_color }
+                GradientStop { position: 1.0; color: config.selected_color_1 }
+            }
+            opacity: enabled ? 1.0 : 0.4
             anchors.centerIn: parent
 
         }

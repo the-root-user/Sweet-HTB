@@ -24,7 +24,7 @@ import org.kde.plasma.components 2.0 as PlasmaComponents
 import org.kde.plasma.workspace.components 2.0 as PW
 
 Row {
-    spacing: units.smallSpacing
+    spacing: 5 // units.smallSpacing
     visible: pmSource.data["Battery"]["Has Cumulative"]
 
     PlasmaCore.DataSource {
@@ -41,17 +41,11 @@ Row {
 
         height: batteryLabel.height
         width: height
-        
-        // Rectangle {
-        //     anchors.fill: parent
-        //     color: "green" // set the color of the rectangle to your desired color
-        //     opacity: battery.visible ? 1 : 0 // set the opacity of the rectangle based on the visibility of the battery icon
-        // }
     }
-
+    
     PlasmaComponents.Label {
         id: batteryLabel
-        height: undefined
+        height: 12 // undefined
         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","%1%", battery.percent)
         Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Battery at %1%", battery.percent)
         color: config.battery_color

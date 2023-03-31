@@ -354,15 +354,16 @@ PlasmaCore.ColorScope {
 
         }
 
-
+        
+        // background rectangle
         Rectangle {
             id: blurBg
             anchors.fill: parent
             anchors.centerIn: parent
-            color: "#0F111A"
+            color: "#121822"
             opacity: 0.1
             z:-1
-            radius: 10
+            radius: 12
         }
 
         Rectangle {
@@ -370,8 +371,8 @@ PlasmaCore.ColorScope {
             width: mainStack.width + actionButtonsColumn.width*2
             height: mainStack.height
             anchors.centerIn: mainStack
-            radius: 10
-            color: "#0F111A"
+            radius: 12
+            color: "#121822"
             opacity: 0.5
             z:-1
         }
@@ -381,8 +382,8 @@ PlasmaCore.ColorScope {
             width: actionButtonsColumn.width 
             height: mainStack.height
             anchors.centerIn: actionButtonsColumn
-            radius: 10
-            color: "#0F111A"
+            radius: 12
+            color: "#131a24"
             opacity: 0.5
             z:-1
         }
@@ -427,6 +428,15 @@ PlasmaCore.ColorScope {
                     duration: units.longDuration
                 }
             }
+            
+            Rectangle {
+                anchors.centerIn: parent
+                color: "black"
+                opacity: 0.1
+                radius: 8
+                width: parent.width * 1.05
+                height: parent.height * 1.2
+            }
 
             PlasmaComponents.ToolButton {
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
@@ -436,6 +446,7 @@ PlasmaCore.ColorScope {
             }
 
             KeyboardButton {
+                id: keyboardButton
             }
 
             SessionButton {
@@ -447,7 +458,7 @@ PlasmaCore.ColorScope {
         RowLayout {
             id: footerRight
             spacing: 10
-            visible:true
+            visible: true
 
             anchors {
                 bottom: parent.bottom
@@ -460,7 +471,16 @@ PlasmaCore.ColorScope {
                     duration: units.longDuration
                 }
             }
-
+            
+            Rectangle {
+                anchors.centerIn: parent
+                color: "black"
+                opacity: 0.1
+                radius: 8
+                width: parent.width * 1.1
+                height: parent.height * 1.35
+            }
+            
             Battery {
                 id: battery
                 visible: true

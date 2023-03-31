@@ -19,6 +19,30 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient1040"
+       inkscape:collect="always">
+      <stop
+         id="stop1036"
+         offset="0"
+         style="stop-color:#13cc00;stop-opacity:1" />
+      <stop
+         id="stop1038"
+         offset="1"
+         style="stop-color:#86e500;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient946"
+       inkscape:collect="always">
+      <stop
+         id="stop942"
+         offset="0"
+         style="stop-color:#13cc00;stop-opacity:1" />
+      <stop
+         id="stop944"
+         offset="1"
+         style="stop-color:#73e500;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient964"
        inkscape:collect="always">
       <stop
@@ -139,7 +163,7 @@
        y1="243"
        x1="331.27734"
        id="linearGradient855"
-       xlink:href="#linearGradient964"
+       xlink:href="#linearGradient946"
        inkscape:collect="always" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
@@ -159,6 +183,15 @@
        id="linearGradient871"
        xlink:href="#linearGradient964"
        inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1040"
+       id="linearGradient962"
+       gradientUnits="userSpaceOnUse"
+       x1="331.27734"
+       y1="243"
+       x2="347.27734"
+       y2="243" />
   </defs>
   <sodipodi:namedview
      inkscape:document-rotation="0"
@@ -176,9 +209,9 @@
      showgrid="true"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="12.499812"
-     inkscape:cx="3.0315159"
-     inkscape:zoom="12.040181"
+     inkscape:cy="5.7503347"
+     inkscape:cx="11.991008"
+     inkscape:zoom="11.216738"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      objecttolerance="10"
@@ -220,7 +253,7 @@
        transform="translate(-51,1)"
        id="radiobutton">
       <circle
-         style="fill:url(#linearGradient871);fill-opacity:1.0;stroke:none;stroke-width:1.14286"
+         style="fill:url(#linearGradient871);fill-opacity:1;stroke:none;stroke-width:1.14286"
          id="path4181-6"
          cx="79"
          cy="71"
@@ -233,7 +266,7 @@
          style="fill:#3e4357;fill-opacity:1;stroke:none;stroke-width:1.16667" />
       <circle
          r="3.5"
-         style="fill:url(#linearGradient863);fill-opacity:1.0;stroke:none;stroke-width:0.875"
+         style="fill:url(#linearGradient863);fill-opacity:1;stroke:none;stroke-width:0.875"
          id="circle4185-9"
          cx="78.856003"
          cy="71.141998" />
@@ -246,7 +279,7 @@
          inkscape:connector-curvature="0"
          id="path5"
          d="m 333.27734,235 c -1.108,0 -2,0.892 -2,2 v 12 c 0,1.108 0.892,2 2,2 h 12 c 1.108,0 2,-0.892 2,-2 v -12 c 0,-1.108 -0.892,-2 -2,-2 z m 9.70703,3.72461 c 0.96792,-0.0556 1.94344,0.95226 1.07032,1.98633 l -5.55469,6.57812 -3.57813,-3.00781 c -1.11762,-0.9392 0.19589,-3.16185 1.56055,-2.19531 l 1.92774,1.36328 3.67773,-4.27539 c 0.25228,-0.29339 0.57385,-0.43068 0.89648,-0.44922 z"
-         style="fill:url(#linearGradient855);fill-opacity:1" />
+         style="fill:url(#linearGradient962);fill-opacity:1" />
     </g>
   </g>
 </svg>

@@ -47,6 +47,7 @@ RowLayout {
         font.family: config.font
 
     }
+    
     DataSource {
         id: timeSource
         engine: "time"
