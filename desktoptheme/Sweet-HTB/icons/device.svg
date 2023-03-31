@@ -61,7 +61,7 @@
      id="defs3">
     <style
        id="current-color-scheme"
-       type="text/css">.ColorScheme-Text { color:#dedede; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#dedede; }</style>
+       type="text/css">.ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#a1adc8; }</style>
   </defs>
   <g
      id="22-22-device-notifier">
@@ -70,7 +70,7 @@
        class="ColorScheme-Text"
        width="22"
        height="22"
-       color="#dedede"
+       color="#a1adc8"
        fill-opacity="0" />
     <rect
        id="rect14"
@@ -82,16 +82,16 @@
        class="ColorScheme-Text"
        width="22"
        height="22"
-       color="#dedede"
+       color="#a1adc8"
        fill-opacity="0" />
     <path
        id="rect849"
        d="m10 2c-2.77 0-5 2.23-5 5v3 6h12v-6-3c0-2.77-2.23-5-5-5h-2zm1 1a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1z"
-       fill="#dedede" />
+       fill="#a1adc8" />
     <path
        id="path20"
        d="m7 17v3h8v-3h-8zm1 1h2v1h-2v-1zm4 0h2v1h-2v-1z"
-       color="#dedede"
+       color="#a1adc8"
        enable-background="new"
        fill="currentColor"
        filter="url(#filter7554)"
@@ -113,13 +113,13 @@
        y="25.993"
        width="16"
        height="16"
-       color="#dedede"
+       color="#a1adc8"
        fill-opacity="0" />
     <path
        id="path9"
        class="ColorScheme-Text"
        d="m5 38.994v1.999h6v-1.999z"
-       color="#dedede"
+       color="#a1adc8"
        enable-background="new"
        fill="currentColor"
        filter="url(#filter7554)"
@@ -128,7 +128,7 @@
     <path
        id="rect853"
        d="m6 27c-1.662 0-3 1.338-3 3v2 3 3h3 4 3v-3-3-2c0-1.662-1.338-3-3-3h-4z"
-       fill="#dedede" />
+       fill="#a1adc8" />
   </g>
   <g
      id="device-notifier">
@@ -144,17 +144,17 @@
        y="-34"
        width="32"
        height="32"
-       color="#dedede"
+       color="#a1adc8"
        fill-opacity="0" />
     <path
        id="path29"
        d="m11-9v4h10v-4h-10zm2 1h2v2h-2v-2zm4 0h2v2h-2v-2z"
-       color="#dedede"
+       color="#a1adc8"
        enable-background="new"
        fill="currentColor"
        filter="url(#filter7554)" />
     <g
-       fill="#dedede"
+       fill="#a1adc8"
        id="g24">
       <path
          id="rect871"

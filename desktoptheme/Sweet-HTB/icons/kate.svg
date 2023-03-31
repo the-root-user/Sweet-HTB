@@ -49,7 +49,7 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#dedede; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#dedede; }
+   .ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#a1adc8; }
   </style>
   </defs>
   <g
@@ -75,7 +75,7 @@
        d="m 505.9931,-27.11922 v 3.12 h 3.12 l 7.88,-7.88 -3.12,-3.12 z m 13.76,-7.51 c 0.33,-0.33 0.33,-0.85 0,-1.18 l -1.95,-1.95 c -0.33,-0.33 -0.85,-0.33 -1.18,0 l -1.63,1.64 3.12,3.12 z"
        id="path5071"
        sodipodi:nodetypes="cccccccsscccc"
-       style="fill:#dedede;fill-opacity:1;stroke:none" />
+       style="fill:#a1adc8;fill-opacity:1;stroke:none" />
   </g>
   <g
      id="22-22-kate">
@@ -109,7 +109,7 @@
          d="m 505.9931,-27.11922 v 3.12 h 3.12 l 7.88,-7.88 -3.12,-3.12 z m 13.76,-7.51 c 0.33,-0.33 0.33,-0.85 0,-1.18 l -1.95,-1.95 c -0.33,-0.33 -0.85,-0.33 -1.18,0 l -1.63,1.64 3.12,3.12 z"
          id="path836"
          sodipodi:nodetypes="cccccccsscccc"
-         style="fill:#dedede;fill-opacity:1;stroke:none" />
+         style="fill:#a1adc8;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>

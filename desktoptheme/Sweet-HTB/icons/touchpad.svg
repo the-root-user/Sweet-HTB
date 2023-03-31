@@ -50,7 +50,7 @@
     <style
        id="current-color-scheme"
        type="text/css">
-   .ColorScheme-Text { color:#dedede; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#dedede; }
+   .ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#a1adc8; }
   </style>
   </defs>
   <g
@@ -61,7 +61,7 @@
        style="opacity:0;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#dedede;fill-opacity:1;stroke:none"
+       style="fill:#a1adc8;fill-opacity:1;stroke:none"
        d="m 4,5.00336 c -1,0 -1,1 -1,1 v 11 c 0,0 0,1 1,1 h 13 c 0,0 1,0 1,-1 v -11 c 0,-1 -1,-1 -1,-1 z m 1,2 h 11 v 6 H 5 Z m 0,7 h 5 v 2 H 5 Z m 6,0 h 5 v 2 h -5 z"
        id="path5073-3"
        inkscape:connector-curvature="0"
@@ -88,7 +88,7 @@
          x="61.000198"
          y="467" />
       <path
-         style="fill:#dedede;fill-opacity:1;stroke:none;opacity:0.5"
+         style="fill:#a1adc8;fill-opacity:1;stroke:none;opacity:0.5"
          d="m 185,340 c -1,0 -1,1 -1,1 v 11 c 0,0 0,1 1,1 h 13 c 0,0 1,0 1,-1 v -11 c 0,-1 -1,-1 -1,-1 z m 1,2 h 11 v 6 h -11 z m 0,7 h 5 v 2 h -5 z m 6,0 h 5 v 2 h -5 z"
          transform="rotate(-90,195.00178,471.99822)"
          id="path842"
