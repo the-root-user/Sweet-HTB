@@ -79,13 +79,14 @@
        cx="41"
        cy="20"
        r="9.3332996"
-       opacity="0.1"
+       opacity="0.0"
        stroke-width="1.0694"
        id="circle15" />
     <circle
        cx="41"
        cy="20"
        r="8"
+       opacity="0.0"
        fill="#ffffff"
        id="circle17" />
   </g>
