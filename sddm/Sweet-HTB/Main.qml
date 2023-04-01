@@ -432,7 +432,7 @@ PlasmaCore.ColorScope {
             Rectangle {
                 anchors.centerIn: parent
                 color: "black"
-                opacity: 0.1
+                opacity: config.footer_bg_opacity_left
                 radius: 8
                 width: parent.width * 1.05
                 height: parent.height * 1.2
@@ -475,7 +475,7 @@ PlasmaCore.ColorScope {
             Rectangle {
                 anchors.centerIn: parent
                 color: "black"
-                opacity: 0.1
+                opacity: config.footer_bg_opacity_right
                 radius: 8
                 width: parent.width * 1.1
                 height: parent.height * 1.35
