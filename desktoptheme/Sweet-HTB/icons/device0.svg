@@ -1,6 +1,6 @@
 <svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; }</style>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#a1adc8; }</style>
  </defs>
  <g id="device-notifier" class="ColorScheme-Text" transform="translate(-321,-529.36)" fill="currentColor">
   <path d="m329 533.36c-1.662 0-2.6099 1.3844-3 3l-3.8613 15.988c-8.4e-4 4e-3 -1e-3 8e-3 -2e-3 0.0117h2e-3c-0.0825 0.321-0.13867 0.65255-0.13867 1 0 2.216 1.784 4 4 4h22c2.216 0 4-1.784 4-4 0-0.34745-0.0562-0.679-0.13867-1h0.0215l-3.8828-16c-0.39187-1.6151-1.338-3-3-3zm-3 18h22c1.108 0 2 0.89199 2 2s-0.89199 2-2 2h-22c-1.108 0-2-0.89199-2-2s0.89199-2 2-2z"/>

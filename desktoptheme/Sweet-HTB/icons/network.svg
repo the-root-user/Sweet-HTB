@@ -49,7 +49,7 @@
        id="current-color-scheme"
        type="text/css">
       .ColorScheme-Text {
-        color:#31363b;
+        color:#a1adc8;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -58,7 +58,7 @@
         color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#31363b;
+        color:#a1adc8;
       }
       .ColorScheme-ViewBackground {
         color:#fcfcfc;
@@ -70,7 +70,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#31363b;
+        color:#a1adc8;
       }
       .ColorScheme-ButtonBackground {
         color:#eff0f1;
@@ -102,7 +102,7 @@
        style="display:none" />
     <path
        id="rect1686"
-       style="fill:#31363b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.667048"
+       style="fill:#a1adc8;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.667048"
        d="m 64.99997,-35.9998 v 0.414063 5.585937 l -3,-3 v 1.414063 l 3,3 v 0.171875 l -3,3 v 1.414062 l 3,-3 v 6 h 1 l 4,-4 -3.5,-3.5 3.5,-3.5 -4,-4 z m 1,1.414063 2.58593,2.585937 -2.58593,2.585938 z m 0,7 2.58593,2.585937 -2.58593,2.585938 z" />
   </g>
   <g

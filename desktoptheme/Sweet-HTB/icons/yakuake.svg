@@ -1,6 +1,6 @@
 <svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; } .ColorScheme-Highlight { color:#4285f4; }</style>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#4285f4; }</style>
  </defs>
  <g id="yakuake" class="ColorScheme-Text" fill="currentColor">
   <rect width="22" height="22" fill="none"/>

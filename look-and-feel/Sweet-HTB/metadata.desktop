@@ -1,5 +1,7 @@
 [Desktop Entry]
 Name=Sweet-HTB
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Type=Service
 X-KDE-PluginInfo-Author=@therootuser_
 X-KDE-PluginInfo-Category=Plasma Look And Feel
 X-KDE-PluginInfo-Email=

@@ -27,7 +27,7 @@
     <style
        type="text/css"
        id="current-color-scheme">.ColorScheme-Text {
-        color:#363636;
+        color:#a1adc8;
       }
       .ColorScheme-Background {
         color:#efefef;
@@ -36,7 +36,7 @@
         color:#3498db;
       }
       .ColorScheme-ViewText {
-        color:#363636;
+        color:#a1adc8;
       }
       .ColorScheme-ViewBackground {
         color:#fcfcfc;
@@ -48,7 +48,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#363636;
+        color:#a1adc8;
       }
       .ColorScheme-ButtonBackground {
         color:#efefef;
