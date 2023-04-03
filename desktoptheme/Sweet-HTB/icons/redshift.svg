@@ -93,20 +93,20 @@
     </g>
     <g
        id="redshift-status-on"
-       style="fill:#73e500cc;fill-opacity:1">
+       style="fill:#a1adc8;fill-opacity:1">
       <rect
          y="0"
          x="3.5527137e-15"
          height="32"
          width="32"
          id="rect910"
-         style="opacity:0.003;fill:#73e500cc;fill-opacity:1;stroke-width:1" />
+         style="opacity:0.003;fill:#a1adc8;fill-opacity:1;stroke-width:1" />
       <circle
          cx="15.962496"
          cy="11.679497"
          r="2.0010977"
          id="circle2"
-         style="fill:#73e500cc;fill-opacity:0.8;stroke-width:0.162697" />
+         style="fill:#a1adc8;fill-opacity:0.8;stroke-width:0.162697" />
       <path
          d="m 15.165311,9.499444 0.260314,-0.09761 -0.325378,-0.9110687 c -0.03257,-0.081348 -0.113889,-0.1138836 -0.178964,-0.081348 -0.06512,0.032536 -0.113883,0.1138849 -0.08139,0.1789609 z"
          id="path4"
