@@ -27,8 +27,7 @@ RowLayout {
 
 
     Label {
-        // text: Qt.formatDate(timeSource.data["Local"]["DateTime"])
-        text: Qt.formatDate(timeSource.data["Local"]["DateTime"], "dddd, MMMM dd")
+        text: Qt.formatDate(timeSource.data["Local"]["DateTime"], config.clock_format)
         color: config.clock_color
         style: softwareRendering ? Text.Outline : Text.Normal
         styleColor: softwareRendering ? ColorScope.backgroundColor : "transparent" //no outline, doesn't matter
@@ -47,7 +46,6 @@ RowLayout {
         font.family: config.font
 
     }
-    
     DataSource {
         id: timeSource
         engine: "time"

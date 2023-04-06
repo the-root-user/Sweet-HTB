@@ -354,16 +354,15 @@ PlasmaCore.ColorScope {
 
         }
 
-        
-        // background rectangle
+
         Rectangle {
             id: blurBg
             anchors.fill: parent
             anchors.centerIn: parent
-            color: "#121822"
+            color: "#0F111A"
             opacity: 0.1
             z:-1
-            radius: 12
+            radius: 10
         }
 
         Rectangle {
@@ -371,8 +370,8 @@ PlasmaCore.ColorScope {
             width: mainStack.width + actionButtonsColumn.width*2
             height: mainStack.height
             anchors.centerIn: mainStack
-            radius: 12
-            color: "#121822"
+            radius: 10
+            color: "#0F111A"
             opacity: 0.5
             z:-1
         }
@@ -382,8 +381,8 @@ PlasmaCore.ColorScope {
             width: actionButtonsColumn.width 
             height: mainStack.height
             anchors.centerIn: actionButtonsColumn
-            radius: 12
-            color: "#131a24"
+            radius: 10
+            color: "#0F111A"
             opacity: 0.5
             z:-1
         }
@@ -428,15 +427,6 @@ PlasmaCore.ColorScope {
                     duration: units.longDuration
                 }
             }
-            
-            Rectangle {
-                anchors.centerIn: parent
-                color: "black"
-                opacity: config.footer_bg_opacity_left
-                radius: 8
-                width: parent.width * 1.05
-                height: parent.height * 1.2
-            }
 
             PlasmaComponents.ToolButton {
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
@@ -446,11 +436,19 @@ PlasmaCore.ColorScope {
             }
 
             KeyboardButton {
-                id: keyboardButton
             }
 
             SessionButton {
                 id: sessionButton
+            }
+
+            Rectangle {
+                anchors.centerIn: parent
+                color: "black"
+                opacity: config.footer_bg_opacity_left
+                radius: 8
+                width: parent.width * 1.05
+                height: parent.height * 1.2
             }
 
         }
@@ -458,7 +456,7 @@ PlasmaCore.ColorScope {
         RowLayout {
             id: footerRight
             spacing: 10
-            visible: true
+            visible:true
 
             anchors {
                 bottom: parent.bottom
@@ -471,7 +469,14 @@ PlasmaCore.ColorScope {
                     duration: units.longDuration
                 }
             }
-            
+
+            Battery {}
+
+            Clock {
+                id: clock
+                visible: true
+            }
+
             Rectangle {
                 anchors.centerIn: parent
                 color: "black"
@@ -479,16 +484,6 @@ PlasmaCore.ColorScope {
                 radius: 8
                 width: parent.width * 1.1
                 height: parent.height * 1.35
-            }
-            
-            Battery {
-                id: battery
-                visible: true
-            }
-
-            Clock {
-                id: clock
-                visible: true
             }
         }
     }

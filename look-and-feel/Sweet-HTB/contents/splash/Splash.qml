@@ -97,7 +97,7 @@ Rectangle {
                     bottom: parent.bottom
                 }
                 width: (parent.width / 6) * (stage - 1)
-				color: "#84E500"
+				color: "#76E500"
                 Behavior on width { 
                     PropertyAnimation {
                         duration: 250

@@ -7,11 +7,9 @@ import QtQuick.Controls 1.3 as QQC
 
 QQCS.MenuStyle {
     frame: Rectangle {
-        color: "#1c2636"
-        // radius: 4
-        border.color: "#1a2332" // "transparent"
+        color: "#0F151D"
+        border.color: "#040608"
         border.width: 1
-        // background: "#ff00af"
     }
     itemDelegate.label: QQC.Label {
         height: contentHeight * 2
@@ -26,13 +24,9 @@ QQCS.MenuStyle {
         // color: config.selected_color
         gradient: Gradient {
             GradientStop { position: 0.0; color: config.selected_color }
-            GradientStop { position: 1.0; color: config.selected_color_1 }
-        }
+            GradientStop { position: 1.0; color: config.selected_color_1 } }
         radius: 8
-        border.color: "#2a394f" // "#1f2a3b"
+        border.color: "#040608"
         border.width: 2
-        // border.leftWidth: 3
-        // border.rightWidth: 3
-        // inset: 2
     }
 }

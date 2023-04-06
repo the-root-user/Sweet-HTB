@@ -57,11 +57,9 @@ Item {
         width: imageSource.width + 4 // Subtract to prevent fringing
         height: width
         radius: width / 2
-        color: "#161e2a"
-        // color: "#1a2332"
+        color: "#0F111A"
         opacity: 0.8
     }
-    // highlight circle
     Rectangle {
         anchors.centerIn: imageSource
         width: imageSource.width + 10 // Subtract to prevent fringing
@@ -70,8 +68,7 @@ Item {
         // color: "#73e500"
         gradient: Gradient {
             GradientStop { position: 0.0; color: config.selected_color }
-            GradientStop { position: 1.0; color: config.selected_color_1 }
-        }
+            GradientStop { position: 1.0; color: config.selected_color_1 } }
         opacity: 0.7
         z:-1
     }

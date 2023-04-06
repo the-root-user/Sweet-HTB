@@ -24,7 +24,7 @@ import org.kde.plasma.components 2.0 as PlasmaComponents
 import org.kde.plasma.workspace.components 2.0 as PW
 
 Row {
-    spacing: 5 // units.smallSpacing
+    spacing: units.smallSpacing
     visible: pmSource.data["Battery"]["Has Cumulative"]
 
     PlasmaCore.DataSource {
@@ -42,10 +42,10 @@ Row {
         height: batteryLabel.height
         width: height
     }
-    
+
     PlasmaComponents.Label {
         id: batteryLabel
-        height: 12 // undefined
+        height: undefined
         text: i18nd("plasma_lookandfeel_org.kde.lookandfeel","%1%", battery.percent)
         Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel","Battery at %1%", battery.percent)
         color: config.battery_color

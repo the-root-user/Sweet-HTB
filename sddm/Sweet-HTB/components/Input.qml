@@ -9,16 +9,16 @@ TextField {
     font.pointSize: config.fontSize
     font.family: config.font
     background: Rectangle {
+        // color: "#1a1e2d"
         // color: "#212c3f"
         gradient: Gradient {
             GradientStop { position: 0.0; color: "#212c3f" }
-            GradientStop { position: 1.0; color: "#1a2432" }
-        }
-        // color: "#1a2332"
-        radius: parent.width / 2
+            GradientStop { position: 1.0; color: "#1a2432" } }
+        radius: 10
         height: width / 9
         width: parent.width
-        opacity: enabled ? 0.5 : 0.3
+        opacity: 0.5
+        // opacity: enabled ? 0.5 : 0.3
         anchors.centerIn: parent
     }
 }

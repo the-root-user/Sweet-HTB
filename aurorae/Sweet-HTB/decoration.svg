@@ -264,8 +264,8 @@
        xlink:href="#linearGradient4215-49" />
     <style
        id="current-color-scheme">.ColorScheme-Text {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#a1adc8;
+        stop-color:#a1adc8;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -276,8 +276,8 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ViewText {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#a1adc8;
+        stop-color:#a1adc8;
       }
       .ColorScheme-ViewBackground {
         color:#fcfcfc;
@@ -292,8 +292,8 @@
         stop-color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#31363b;
-        stop-color:#31363b;
+        color:#a1adc8;
+        stop-color:#a1adc8;
       }
       .ColorScheme-ButtonBackground {
         color:#eff0f1;
