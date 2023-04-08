@@ -5,7 +5,7 @@
    version="1.1"
    id="svg85"
    sodipodi:docname="slider.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -23,10 +23,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="10.475161"
-     inkscape:cx="22.672684"
-     inkscape:cy="15.321961"
-     inkscape:current-layer="vertical-slider-hover" />
+     inkscape:zoom="49.793698"
+     inkscape:cx="19.28959"
+     inkscape:cy="-17.251179"
+     inkscape:current-layer="svg85"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -41,6 +48,30 @@
   </metadata>
   <defs
      id="defs9">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1084">
+      <stop
+         style="stop-color:#11cc00;stop-opacity:1;"
+         offset="0"
+         id="stop1080" />
+      <stop
+         style="stop-color:#76e500;stop-opacity:1;"
+         offset="1"
+         id="stop1082" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient859">
+      <stop
+         style="stop-color:#11cc00;stop-opacity:1;"
+         offset="0"
+         id="stop855" />
+      <stop
+         style="stop-color:#76e500;stop-opacity:1;"
+         offset="1"
+         id="stop857" />
+    </linearGradient>
     <radialGradient
        id="radialGradient915"
        cx="41"
@@ -55,6 +86,51 @@
          offset="1"
          id="stop6" />
     </radialGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient859"
+       id="linearGradient897"
+       x1="18.040792"
+       y1="-20.5"
+       x2="31.011312"
+       y2="-20.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1084"
+       id="linearGradient1086"
+       x1="17.890507"
+       y1="-17.451002"
+       x2="31.101118"
+       y2="-17.451002"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1084"
+       id="linearGradient1088"
+       x1="17.890507"
+       y1="-17.451002"
+       x2="31.101118"
+       y2="-17.451002"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1084"
+       id="linearGradient1090"
+       x1="17.890507"
+       y1="-17.451002"
+       x2="31.101118"
+       y2="-17.451002"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1084"
+       id="linearGradient1092"
+       x1="17.890507"
+       y1="-17.548998"
+       x2="31.101118"
+       y2="-17.548998"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      id="vertical-slider-handle"
@@ -200,10 +276,10 @@
        id="path46" />
     <path
        d="m 23,-23 v 5 h 3 v -5 z"
-       fill="#76e500"
+       fill="url(#linearGradient859)"
        stroke-width="3.873"
        id="path48"
-       style="fill:#ff6565;fill-opacity:1" />
+       style="fill-opacity:1;fill:url(#linearGradient1088)" />
   </g>
   <g
      id="groove-highlight-topleft">
@@ -214,7 +290,7 @@
        id="path51" />
     <path
        d="m 23,-23 c -2.8037,0 -5,2.1963 -5,5 h 5 z"
-       fill="#76e500"
+       fill="url(#linearGradient859)"
        stroke-width="4.9513"
        id="path53"
        style="fill:#fb5050;fill-opacity:1" />
@@ -224,7 +300,7 @@
      d="m23-18v1h3v-1z"
      fill="#fff"
      stroke-width="1.732"
-     style="fill:#ff6565;fill-opacity:1" />
+     style="fill:url(#linearGradient1090);fill-opacity:1" />
   <g
      id="groove-highlight-left">
     <path
@@ -234,10 +310,10 @@
        id="path57" />
     <path
        d="m 18,-18 v 1 h 5 v -1 z"
-       fill="#76e500"
+       fill="url(#linearGradient859)"
        stroke-width="2.236"
        id="path59"
-       style="fill:#ff6565;fill-opacity:1" />
+       style="fill:url(#linearGradient1086);fill-opacity:1" />
   </g>
   <g
      id="groove-top">
@@ -318,7 +394,8 @@
      transform="matrix(1,0,0,-1,0,-35)"
      width="100%"
      height="100%"
-     xlink:href="#groove-highlight-top" />
+     xlink:href="#groove-highlight-top"
+     style="fill-opacity:1;fill:url(#linearGradient1092)" />
   <use
      id="groove-highlight-right"
      transform="matrix(-1,0,0,1,49,0)"

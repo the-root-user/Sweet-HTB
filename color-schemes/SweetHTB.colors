@@ -92,8 +92,8 @@ ForegroundPositive=202,231,185
 ForegroundVisited=234,49,234
 
 [General]
-ColorScheme=Sweet-HTB
-Name=Sweet-HTB
+ColorScheme=SweetHTB
+Name=SweetHTB
 TintFactor=0.15
 TitlebarIsAccentColored=true
 shadeSortColumn=true
