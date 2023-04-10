@@ -5,7 +5,7 @@
    height="138"
    version="1"
    sodipodi:docname="decoration.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -34,16 +34,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="742"
+     inkscape:window-width="1920"
+     inkscape:window-height="1032"
      id="namedview56"
      showgrid="true"
-     inkscape:zoom="3.4584809"
-     inkscape:cx="119.27202"
-     inkscape:cy="44.961936"
+     inkscape:zoom="6.8327"
+     inkscape:cx="25.173065"
+     inkscape:cy="21.660544"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg3642"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
@@ -268,44 +268,44 @@
         stop-color:#a1adc8;
       }
       .ColorScheme-Background {
-        color:#eff0f1;
-        stop-color:#eff0f1;
+        color:#dee9ff;
+        stop-color:#dee9ff;
       }
       .ColorScheme-Highlight {
-        color:#3daee9;
-        stop-color:#3daee9;
+        color:#73e500;
+        stop-color:#73e500;
       }
       .ColorScheme-ViewText {
         color:#a1adc8;
         stop-color:#a1adc8;
       }
       .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-        stop-color:#fcfcfc;
+        color:#d3deff;
+        stop-color:#d3deff;
       }
       .ColorScheme-ViewHover {
-        color:#93cee9;
-        stop-color:#93cee9;
+        color:#84ff00;
+        stop-color:#84ff00;
       }
       .ColorScheme-ViewFocus{
-        color:#3daee9;
-        stop-color:#3daee9;
+        color:#73e500;
+        stop-color:#73e500;
       }
       .ColorScheme-ButtonText {
         color:#a1adc8;
         stop-color:#a1adc8;
       }
       .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-        stop-color:#eff0f1;
+        color:#dee9ff;
+        stop-color:#dee9ff;
       }
       .ColorScheme-ButtonHover {
-        color:#93cee9;
-        stop-color:#93cee9;
+        color:#84ff00;
+        stop-color:#84ff00;
       }
       .ColorScheme-ButtonFocus{
-        color:#3daee9;
-        stop-color:#3daee9;
+        color:#73e500;
+        stop-color:#73e500;
       }</style>
     <linearGradient
        id="shadow_active">
@@ -535,7 +535,7 @@
        inkscape:connector-curvature="0" />
     <path
        id="path111-6"
-       style="color:#eff0f1;display:inline;opacity:0.8;mix-blend-mode:multiply;fill:#202a3c;fill-opacity:1;stroke:none;stroke-width:0.310791;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;stop-color:#eff0f1"
+       style="color:#dee9ff;display:inline;opacity:0.8;mix-blend-mode:multiply;fill:#202a3c;fill-opacity:1;stroke:none;stroke-width:0.310791;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;stop-color:#dee9ff"
        class="ColorScheme-Background"
        d="m 16.999615,10.045289 v 0.279208 H 66.99964 v -0.279208 z"
        inkscape:label="path62" />
@@ -559,7 +559,7 @@
        inkscape:label="path63" />
     <path
        id="path63-1"
-       style="color:#eff0f1;display:none;opacity:0.8;mix-blend-mode:multiply;fill:#56709f;fill-opacity:1;stroke:none;stroke-width:0.193183;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;stop-color:#eff0f1"
+       style="color:#dee9ff;display:none;opacity:0.8;mix-blend-mode:multiply;fill:#56709f;fill-opacity:1;stroke:none;stroke-width:0.193183;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;stop-color:#dee9ff"
        class="ColorScheme-Background"
        inkscape:label="path61"
        d="m 13.909295,10.045458 c 0,0 -1.606222,0.10606 -2.704585,1.204368 -1.098363,1.098308 -1.204386,2.704546 -1.204386,2.704546 v 0.279209 c 0,0 0.106023,-1.606239 1.204386,-2.704547 1.098363,-1.098307 2.704585,-1.204368 2.704585,-1.204368 h 3.090955 v -0.279208 z" />
@@ -578,7 +578,7 @@
        inkscape:label="path-corner" />
     <path
        id="path63-1-2"
-       style="color:#eff0f1;display:none;opacity:0.8;mix-blend-mode:multiply;fill:#56709f;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;stop-color:#eff0f1"
+       style="color:#dee9ff;display:none;opacity:0.8;mix-blend-mode:multiply;fill:#56709f;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-opacity:1;stop-color:#dee9ff"
        class="ColorScheme-Background"
        inkscape:label="path63"
        d="m 102,26 c 0,0 4.15722,0.274509 7,3.117188 2.84278,2.842679 3.11719,7 3.11719,7 v 0.722656 c 0,0 -0.27441,-4.157321 -3.11719,-7 -2.84278,-2.842678 -7,-3.117187 -7,-3.117187 H 94 V 26 Z" />
