@@ -19,21 +19,20 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageshadow="2"
+     inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     showgrid="false"
-     inkscape:zoom="49.793698"
-     inkscape:cx="19.28959"
-     inkscape:cy="-17.251179"
-     inkscape:current-layer="svg85"
-     inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="16.029794"
+     inkscape:cx="39.925653"
+     inkscape:cy="14.97212"
      inkscape:window-width="1920"
-     inkscape:window-height="1032"
+     inkscape:window-height="1026"
      inkscape:window-x="0"
      inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg85" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -50,27 +49,15 @@
      id="defs9">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient1084">
+       id="linearGradient18577">
       <stop
          style="stop-color:#11cc00;stop-opacity:1;"
          offset="0"
-         id="stop1080" />
+         id="stop18573" />
       <stop
          style="stop-color:#76e500;stop-opacity:1;"
          offset="1"
-         id="stop1082" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient859">
-      <stop
-         style="stop-color:#11cc00;stop-opacity:1;"
-         offset="0"
-         id="stop855" />
-      <stop
-         style="stop-color:#76e500;stop-opacity:1;"
-         offset="1"
-         id="stop857" />
+         id="stop18575" />
     </linearGradient>
     <radialGradient
        id="radialGradient915"
@@ -86,169 +73,278 @@
          offset="1"
          id="stop6" />
     </radialGradient>
+    <style
+       id="current-color-scheme">.ColorScheme-Text {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#11cc00;
+        stop-color:#76e500;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+        stop-color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#11cc00F7;
+        stop-color:#11cc00F7;
+      }
+      .ColorScheme-ViewFocus{
+        color:#11cc00;
+        stop-color:#76e500;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+        stop-color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+        stop-color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#11cc00F7;
+        stop-color:#11cc00F7;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#11cc00;
+        stop-color:#76e500;
+      }</style>
+    <radialGradient
+       id="radialGradient915-3"
+       cx="41"
+       cy="20"
+       r="16"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.75,0,0,0.75,10.25,4.9999994)">
+      <stop
+         offset="0"
+         id="stop4-6" />
+      <stop
+         stop-opacity="0"
+         offset="1"
+         id="stop6-7" />
+    </radialGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient859"
-       id="linearGradient897"
-       x1="18.040792"
-       y1="-20.5"
-       x2="31.011312"
-       y2="-20.5"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18579"
+       x1="17.448515"
+       y1="-17.372593"
+       x2="40.633644"
+       y2="-17.372593"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1084"
-       id="linearGradient1086"
-       x1="17.890507"
-       y1="-17.451002"
-       x2="31.101118"
-       y2="-17.451002"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18581"
+       x1="15.669109"
+       y1="-18.372593"
+       x2="29.580187"
+       y2="-18.372593"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1084"
-       id="linearGradient1088"
-       x1="17.890507"
-       y1="-17.451002"
-       x2="31.101118"
-       y2="-17.451002"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18583"
+       x1="40.218151"
+       y1="-17.372593"
+       x2="17.033022"
+       y2="-17.372593"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1084"
-       id="linearGradient1090"
-       x1="17.890507"
-       y1="-17.451002"
-       x2="31.101118"
-       y2="-17.451002"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18585"
+       x1="40.218151"
+       y1="-13.62099"
+       x2="17.033022"
+       y2="-13.62099"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1084"
-       id="linearGradient1092"
-       x1="17.890507"
-       y1="-17.548998"
-       x2="31.101118"
-       y2="-17.548998"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18587"
+       x1="26.954323"
+       y1="-0.78184891"
+       x2="26.954323"
+       y2="-23.966978"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18589"
+       x1="17.669109"
+       y1="-14.045677"
+       x2="31.580187"
+       y2="-14.045677"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18591"
+       x1="17.448515"
+       y1="-14.045677"
+       x2="40.633644"
+       y2="-14.045677"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18593"
+       x1="17.448515"
+       y1="-13.62099"
+       x2="40.633644"
+       y2="-13.62099"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient18577"
+       id="linearGradient18595"
+       x1="17.669109"
+       y1="-13.62099"
+       x2="31.580187"
+       y2="-13.62099"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       id="radialGradient915-3-3"
+       cx="41"
+       cy="20"
+       r="16"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.81599275,0,0,0.81599275,7.5442908,3.6801437)">
+      <stop
+         offset="0"
+         id="stop4-6-6" />
+      <stop
+         stop-opacity="0"
+         offset="1"
+         id="stop6-7-7" />
+    </radialGradient>
   </defs>
   <g
      id="vertical-slider-handle"
      transform="matrix(0.75,0,0,0.75,-18.75,-3)"
-     stroke-width="0.91667">
+     stroke-width="0.91667"
+     style="display:none">
     <rect
        x="25"
        y="4"
        width="32"
        height="32"
-       opacity="0"
-       id="rect11" />
+       id="rect11"
+       style="opacity:0" />
     <circle
        cx="41"
        cy="20"
        r="16"
-       fill="url(#radialGradient915)"
-       opacity="0.05"
-       stroke-width="1.8333"
-       id="circle13" />
+       id="circle13"
+       style="opacity:0" />
     <circle
        cx="41"
        cy="20"
        r="9.3332996"
-       opacity="0.0"
-       stroke-width="1.0694"
-       id="circle15" />
-    <circle
-       cx="41"
-       cy="20"
-       r="8"
-       opacity="0.0"
-       fill="#ffffff"
-       id="circle17" />
+       id="circle15"
+       class="ColorScheme-Text"
+       style="fill:#bfceed;fill-opacity:1" />
   </g>
   <g
      id="vertical-slider-hover"
-     transform="matrix(0.75,0,0,0.75,6.25,-3)"
-     stroke-width="0.91667">
-    <circle
-       cx="41"
-       cy="20"
-       fill="url(#radialGradient915)"
-       opacity="0.15"
-       stroke-width="0.91667"
-       id="circle20"
-       r="16" />
-    <rect
-       x="24.315966"
-       y="3.3159661"
-       width="33.368069"
-       height="33.368069"
-       opacity="0"
-       id="rect22"
-       style="stroke-width:0.95586" />
-    <circle
-       cx="41"
-       cy="20"
-       r="9.7323179"
-       opacity="0.15"
-       stroke-width="0.55758"
-       id="circle24" />
-    <circle
-       cx="41"
-       cy="20"
-       r="8.3420172"
-       fill="#ffffff"
-       id="circle26"
-       style="stroke-width:0.95586" />
-  </g>
-  <g
-     id="vertical-slider-focus"
-     transform="matrix(0.75,0,0,0.75,31.25,-3)"
+     transform="matrix(0.75,0,0,0.75,5.25,-3)"
      stroke-width="0.91667">
     <circle
        cx="41"
        cy="20"
        r="16"
-       fill="url(#radialGradient915)"
-       opacity="0.2"
-       stroke-width="0.91667"
-       id="circle29" />
+       id="circle20"
+       class="ColorScheme-ButtonHover"
+       style="display:inline;fill:#000000;fill-opacity:1;opacity:0.01" />
     <rect
        x="25"
        y="4"
        width="32"
        height="32"
-       opacity="0"
-       id="rect31" />
+       id="rect22"
+       style="opacity:0" />
+    <circle
+       fill="url(#radialGradient915)"
+       stroke-width="0.687503"
+       id="circle20-5"
+       style="display:inline;fill:url(#radialGradient915-3)"
+       cy="20"
+       cx="41"
+       inkscape:label="circle20"
+       r="12" />
+    <circle
+       cx="41"
+       cy="20"
+       r="10.115716"
+       id="circle24"
+       class="ColorScheme-ButtonHover"
+       style="opacity:0.15;fill:#000000;fill-opacity:1;stroke-width:0.993515" />
     <circle
        cx="41"
        cy="20"
        r="9.3332996"
-       opacity="0.15"
-       stroke-width="0.53472"
-       id="circle33" />
+       id="circle7780"
+       class="ColorScheme-ButtonHover"
+       style="fill:#e4eeff;fill-opacity:1"
+       inkscape:label="circle25" />
+  </g>
+  <g
+     id="vertical-slider-focus"
+     transform="matrix(0.75,0,0,0.75,29.25,-3)"
+     stroke-width="0.91667">
+    <rect
+       x="25"
+       y="4"
+       width="32"
+       height="32"
+       id="rect31"
+       style="opacity:0" />
     <circle
        cx="41"
        cy="20"
-       r="8"
-       fill="#ffffff"
-       id="circle35" />
-  </g>
-  <g
-     id="groove-topleft">
-    <path
-       d="m7-24c-3.3644 0-6 2.6356-6 6h6z"
-       opacity=".13"
-       stroke-width="5.9416"
-       id="path38" />
-    <path
-       d="m7-24c-3.3644 0-6 2.6356-6 6h1c0-2.8037 2.1963-5 5-5v-1z"
-       opacity=".06"
-       id="path40" />
+       r="15.992904"
+       id="circle29"
+       class="ColorScheme-ButtonFocus"
+       style="display:inline;opacity:0.05;fill:#000000;fill-opacity:1;stroke-width:0.916263" />
+    <circle
+       fill="url(#radialGradient915)"
+       stroke-width="0.747997"
+       id="circle9408"
+       style="display:inline;fill:url(#radialGradient915-3-3)"
+       cy="20"
+       cx="41"
+       inkscape:label="circle20"
+       r="13.055885" />
+    <circle
+       cx="41"
+       cy="20"
+       r="10.468419"
+       id="circle33"
+       class="ColorScheme-ButtonFocus"
+       style="opacity:0.15;fill:#000000;fill-opacity:1;stroke-width:1.02816" />
+    <circle
+       cx="41"
+       cy="20"
+       r="9.3332996"
+       id="circle12144"
+       class="ColorScheme-ButtonFocus"
+       style="fill:#e6eeff;fill-opacity:1"
+       inkscape:label="circle36" />
   </g>
   <rect
      id="hint-tile-center"
-     x="-14"
+     x="10"
      y="-24"
      width="12"
      height="12"
@@ -256,167 +352,177 @@
      ry="12"
      fill="#4e9a06"
      stroke-width="6" />
-  <path
-     id="groove-center"
-     d="m7-18v1h3v-1z"
-     opacity=".13"
-     stroke-width="1.732" />
   <circle
      id="hint-handle-size"
-     cx="51"
-     cy="-15"
-     r="12"
-     fill="#ff2a2a" />
+     cx="49"
+     cy="-17"
+     fill="#ff2a2a"
+     r="10" />
   <g
-     id="groove-highlight-top">
+     id="g478"
+     class="ColorScheme-Highlight"
+     fill="currentColor"
+     transform="translate(0,78)">
+    <g
+       id="groove-topleft"
+       transform="matrix(0.5,0,0,0.5,0.5,-12)">
+      <path
+         d="m 7,-24 c -3.3644,0 -6,2.6356 -6,6 h 6 z"
+         id="path38"
+         style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+    </g>
     <path
-       d="m 23,-24 v 6 h 3 v -6 z"
-       opacity="0"
-       stroke-width="4.2426"
-       id="path46" />
-    <path
-       d="m 23,-23 v 5 h 3 v -5 z"
-       fill="url(#linearGradient859)"
-       stroke-width="3.873"
-       id="path48"
-       style="fill-opacity:1;fill:url(#linearGradient1088)" />
+       id="groove-center"
+       d="m 6,-19 v 1 h 3 v -1 z"
+       style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+    <g
+       id="groove-top"
+       transform="matrix(1,0,0,0.5,-1,-12)">
+      <path
+         d="m 7,-24 v 6 h 3 v -6 z"
+         id="path62"
+         style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+    </g>
+    <use
+       id="groove-topright"
+       transform="matrix(-1,0,0,1,15,-8e-8)"
+       width="100%"
+       height="100%"
+       xlink:href="#groove-topleft"
+       style="fill:#3a4f6f;fill-opacity:1" />
+    <g
+       id="groove-left"
+       transform="matrix(0.5,0,0,1,0.5,-1)">
+      <path
+         d="m 1,-18 v 1 h 6 v -1 z"
+         id="path68"
+         style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+    </g>
+    <use
+       id="groove-right"
+       transform="matrix(-1,0,0,1,15,-8e-8)"
+       width="100%"
+       height="100%"
+       xlink:href="#groove-left"
+       style="fill:#3a4f6f;fill-opacity:1" />
+    <use
+       id="groove-bottomleft"
+       transform="matrix(1,0,0,-1,0,-37)"
+       width="100%"
+       height="100%"
+       xlink:href="#groove-topleft"
+       style="fill:#3a4f6f;fill-opacity:1" />
+    <use
+       id="groove-bottomright"
+       transform="rotate(180,7.5,-18.5)"
+       width="100%"
+       height="100%"
+       xlink:href="#groove-topleft"
+       style="fill:#3a4f6f;fill-opacity:1" />
+    <use
+       id="groove-bottom"
+       transform="matrix(1,0,0,-1,0,-37)"
+       width="100%"
+       height="100%"
+       xlink:href="#groove-top"
+       style="fill:#3a4f6f;fill-opacity:1" />
   </g>
   <g
-     id="groove-highlight-topleft">
+     id="g497"
+     class="ColorScheme-Highlight"
+     fill="currentColor"
+     transform="translate(0,78)"
+     inkscape:label="groovez">
+    <g
+       id="groove-highlight-top"
+       transform="matrix(1,0,0,0.6,-2,-10.2)">
+      <path
+         d="m 23,-23 v 5 h 3 v -5 z"
+         id="path48"
+         style="fill-opacity:1;fill:url(#linearGradient18595)" />
+    </g>
+    <g
+       id="groove-highlight-topleft"
+       transform="matrix(0.6,0,0,0.6,5.2,-10.2)">
+      <path
+         d="m 23,-23 c -2.8037,0 -5,2.1963 -5,5 h 5 z"
+         id="path53"
+         style="fill-opacity:1;fill:url(#linearGradient18593)" />
+    </g>
     <path
-       d="m 23,-24 c -3.3644,0 -6,2.6356 -6,6 h 6 z"
-       opacity="0"
-       stroke-width="5.9416"
-       id="path51" />
-    <path
-       d="m 23,-23 c -2.8037,0 -5,2.1963 -5,5 h 5 z"
-       fill="url(#linearGradient859)"
-       stroke-width="4.9513"
-       id="path53"
-       style="fill:#fb5050;fill-opacity:1" />
+       id="groove-highlight-center"
+       d="m 21,-19 v 1 h 3 v -1 z"
+       style="fill-opacity:1;fill:url(#linearGradient18581)" />
+    <g
+       id="groove-highlight-left"
+       transform="matrix(0.6,0,0,1,5.2,-1)">
+      <path
+         d="m 18,-18 v 1 h 5 v -1 z"
+         id="path59"
+         style="fill-opacity:1;fill:url(#linearGradient18579)" />
+    </g>
+    <g
+       id="groove-highlight-topright"
+       transform="matrix(-0.6,0,0,0.6,39.8,-10.2)"
+       style="fill:#000000;fill-opacity:1">
+      <path
+         d="m 23,-23 c -2.8037,0 -5,2.1963 -5,5 h 5 z"
+         id="path18553"
+         style="fill:url(#linearGradient18585);fill-opacity:1" />
+    </g>
+    <g
+       id="groove-highlight-bottomleft"
+       transform="matrix(0.6,0,0,-0.6,5.2,-26.8)"
+       style="fill:#000000;fill-opacity:1">
+      <path
+         d="m 23,-23 c -2.8037,0 -5,2.1963 -5,5 h 5 z"
+         id="path18557"
+         style="fill:url(#linearGradient18591);fill-opacity:1" />
+    </g>
+    <g
+       id="groove-highlight-bottomright"
+       transform="matrix(0,-0.6,-0.6,0,15.2,-2.2)"
+       style="fill:#000000;fill-opacity:1">
+      <path
+         d="m 23,-23 c -2.8037,0 -5,2.1963 -5,5 h 5 z"
+         id="path18561"
+         style="fill:url(#linearGradient18587);fill-opacity:1" />
+    </g>
+    <g
+       id="groove-highlight-bottom"
+       transform="matrix(1,0,0,-0.6,-2,-26.8)"
+       style="fill:#000000;fill-opacity:1">
+      <path
+         d="m 23,-23 v 5 h 3 v -5 z"
+         id="path18565"
+         style="fill:url(#linearGradient18589);fill-opacity:1" />
+    </g>
+    <g
+       id="groove-highlight-right"
+       transform="matrix(-0.6,0,0,1,39.8,-1)"
+       style="fill:#000000;fill-opacity:1">
+      <path
+         d="m 18,-18 v 1 h 5 v -1 z"
+         id="path18569"
+         style="fill:url(#linearGradient18583);fill-opacity:1" />
+    </g>
   </g>
-  <path
-     id="groove-highlight-center"
-     d="m23-18v1h3v-1z"
-     fill="#fff"
-     stroke-width="1.732"
-     style="fill:url(#linearGradient1090);fill-opacity:1" />
-  <g
-     id="groove-highlight-left">
-    <path
-       d="m 17,-18 v 1 h 6 v -1 z"
-       opacity="0"
-       stroke-width="2.4494"
-       id="path57" />
-    <path
-       d="m 18,-18 v 1 h 5 v -1 z"
-       fill="url(#linearGradient859)"
-       stroke-width="2.236"
-       id="path59"
-       style="fill:url(#linearGradient1086);fill-opacity:1" />
-  </g>
-  <g
-     id="groove-top">
-    <path
-       d="m 7,-24 v 6 h 3 v -6 z"
-       opacity="0.13"
-       stroke-width="4.2426"
-       id="path62" />
-    <path
-       d="m 7,-24 v 1 h 3 v -1 z"
-       opacity="0.06"
-       stroke-width="1.732"
-       id="path64" />
-  </g>
-  <use
-     id="groove-topright"
-     transform="matrix(-1,0,0,1,17,0)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-topleft" />
-  <g
-     id="groove-left">
-    <path
-       d="m 1,-18 v 1 h 6 v -1 z"
-       opacity="0.13"
-       stroke-width="2.4494"
-       id="path68" />
-    <path
-       d="m 1,-18 v 1 h 1 v -1 z"
-       opacity="0.06"
-       stroke-width="0.99997"
-       id="path70" />
-  </g>
-  <use
-     id="groove-right"
-     transform="matrix(-1,0,0,1,17,0)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-left" />
-  <use
-     id="groove-bottomleft"
-     transform="matrix(1,0,0,-1,0,-35)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-topleft" />
-  <use
-     id="groove-bottomright"
-     transform="rotate(180,8.5,-17.5)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-topleft" />
-  <use
-     id="groove-bottom"
-     transform="matrix(1,0,0,-1,0,-35)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-top" />
-  <use
-     id="groove-highlight-topright"
-     transform="matrix(-1,0,0,1,49,0)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-highlight-topleft" />
-  <use
-     id="groove-highlight-bottomleft"
-     transform="matrix(1,0,0,-1,0,-35)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-highlight-topleft" />
-  <use
-     id="groove-highlight-bottomright"
-     transform="matrix(0,-1,-1,0,8,6)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-highlight-topleft" />
-  <use
-     id="groove-highlight-bottom"
-     transform="matrix(1,0,0,-1,0,-35)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-highlight-top"
-     style="fill-opacity:1;fill:url(#linearGradient1092)" />
-  <use
-     id="groove-highlight-right"
-     transform="matrix(-1,0,0,1,49,0)"
-     width="100%"
-     height="100%"
-     xlink:href="#groove-highlight-left" />
   <use
      id="horizontal-slider-handle"
-     transform="translate(0,30)"
+     transform="translate(0,24)"
      width="100%"
      height="100%"
-     xlink:href="#vertical-slider-handle" />
+     xlink:href="#vertical-slider-handle"
+     style="display:none" />
   <use
      id="horizontal-slider-hover"
-     transform="translate(0,30)"
+     transform="translate(0,24)"
      width="100%"
      height="100%"
      xlink:href="#vertical-slider-hover" />
   <use
      id="horizontal-slider-focus"
-     transform="translate(0,30)"
+     transform="translate(0,24)"
      width="100%"
      height="100%"
      xlink:href="#vertical-slider-focus" />
