@@ -3,7 +3,7 @@
    version="1.0"
    inkscape:output_extension="org.inkscape.output.svgz.inkscape"
    sodipodi:docname="checkmarks.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:version="0.32"
    id="svg2"
    height="16"
@@ -202,16 +202,16 @@
      fit-margin-left="0"
      fit-margin-top="0"
      inkscape:window-maximized="1"
-     inkscape:window-y="26"
+     inkscape:window-y="24"
      inkscape:window-x="0"
-     inkscape:window-height="970"
+     inkscape:window-height="1026"
      inkscape:window-width="1920"
      showgrid="true"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="checkbox"
      inkscape:document-units="px"
-     inkscape:cy="5.7503347"
-     inkscape:cx="11.991008"
-     inkscape:zoom="11.216738"
+     inkscape:cy="3.3845108"
+     inkscape:cx="14.263295"
+     inkscape:zoom="24.818949"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      objecttolerance="10"
@@ -221,7 +221,9 @@
      bordercolor="#666666"
      pagecolor="#ececec"
      id="base"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#ececec">
     <inkscape:grid
        originy="0"
        originx="-20"
@@ -253,17 +255,15 @@
        transform="translate(-51,1)"
        id="radiobutton">
       <circle
-         style="fill:url(#linearGradient871);fill-opacity:1;stroke:none;stroke-width:1.14286"
-         id="path4181-6"
-         cx="79"
-         cy="71"
-         r="8" />
-      <circle
          r="7"
          cy="71"
          cx="79"
          id="circle4183-2"
-         style="fill:#3e4357;fill-opacity:1;stroke:none;stroke-width:1.16667" />
+         style="fill:#3e4357;fill-opacity:1;stroke:none;stroke-width:1.16667;opacity:0.3" />
+      <path
+         id="path4181-6"
+         style="fill:url(#linearGradient871);fill-opacity:1;stroke:none;stroke-width:1.14286"
+         d="M 79 63 A 8 8 0 0 0 71 71 A 8 8 0 0 0 79 79 A 8 8 0 0 0 87 71 A 8 8 0 0 0 79 63 z M 79 64 A 7 7 0 0 1 86 71 A 7 7 0 0 1 79 78 A 7 7 0 0 1 72 71 A 7 7 0 0 1 79 64 z " />
       <circle
          r="3.5"
          style="fill:url(#linearGradient863);fill-opacity:1;stroke:none;stroke-width:0.875"
@@ -280,6 +280,10 @@
          id="path5"
          d="m 333.27734,235 c -1.108,0 -2,0.892 -2,2 v 12 c 0,1.108 0.892,2 2,2 h 12 c 1.108,0 2,-0.892 2,-2 v -12 c 0,-1.108 -0.892,-2 -2,-2 z m 9.70703,3.72461 c 0.96792,-0.0556 1.94344,0.95226 1.07032,1.98633 l -5.55469,6.57812 -3.57813,-3.00781 c -1.11762,-0.9392 0.19589,-3.16185 1.56055,-2.19531 l 1.92774,1.36328 3.67773,-4.27539 c 0.25228,-0.29339 0.57385,-0.43068 0.89648,-0.44922 z"
          style="fill:url(#linearGradient962);fill-opacity:1" />
+      <path
+         id="circle890"
+         style="display:inline;opacity:0.3;fill:#3e4357;fill-opacity:1;stroke:none;stroke-width:1.16667"
+         d="m 342.98438,238.72461 c -0.32263,0.0185 -0.64421,0.15583 -0.89649,0.44922 l -3.67773,4.27539 -1.92774,-1.36328 c -1.36466,-0.96654 -2.67816,1.25611 -1.56054,2.19531 l 3.57812,3.00781 5.55469,-6.57812 c 0.87312,-1.03407 -0.1024,-2.04193 -1.07031,-1.98633 z" />
     </g>
   </g>
 </svg>
