@@ -20,9 +20,9 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="33.082171"
-     inkscape:cx="297.86437"
-     inkscape:cy="60.667119"
+     inkscape:zoom="1.4117669"
+     inkscape:cx="-35.416613"
+     inkscape:cy="532.66585"
      inkscape:window-width="1920"
      inkscape:window-height="1026"
      inkscape:window-x="0"
@@ -989,6 +989,77 @@
        x2="38.154545"
        y2="28.274317"
        gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       r="2.116714"
+       gradientUnits="userSpaceOnUse"
+       cy="294.88193"
+       cx="2.118042"
+       id="aR">
+      <stop
+         id="stop307"
+         stop-color="#202020"
+         offset="0" />
+      <stop
+         id="stop309"
+         stop-color="#383a42"
+         offset=".21234144" />
+      <stop
+         id="stop311"
+         stop-opacity=".010152"
+         stop-color="#030303"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="linearGradient1933">
+      <stop
+         id="stop171"
+         style="stop-color:#245fc4"
+         offset="0" />
+      <stop
+         id="stop173"
+         style="stop-color:#286adc"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       r="2.116714"
+       gradientUnits="userSpaceOnUse"
+       cy="294.88193"
+       cx="2.118042"
+       id="aR-2">
+      <stop
+         id="stop307-1"
+         stop-color="#202020"
+         offset="0" />
+      <stop
+         id="stop309-4"
+         stop-color="#383a42"
+         offset=".21234144" />
+      <stop
+         id="stop311-1"
+         stop-opacity=".010152"
+         stop-color="#030303"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       r="2.116714"
+       gradientUnits="userSpaceOnUse"
+       cy="294.88193"
+       cx="2.118042"
+       id="aR-4">
+      <stop
+         id="stop307-19"
+         stop-color="#202020"
+         offset="0" />
+      <stop
+         id="stop309-6"
+         stop-color="#383a42"
+         offset=".21234144" />
+      <stop
+         id="stop311-10"
+         stop-opacity=".010152"
+         stop-color="#030303"
+         offset="1" />
+    </radialGradient>
   </defs>
   <g
      id="tooltip-shadow-left"
@@ -3454,7 +3525,8 @@
   </g>
   <g
      id="slidercursor-tickless-normal"
-     transform="translate(40,-128)">
+     transform="matrix(0.90909091,0,0,0.90909091,69.818182,-90.181819)"
+     style="display:none">
     <rect
        x="317"
        y="405"
@@ -3467,17 +3539,17 @@
        cy="416"
        r="8"
        id="circle741"
-       style="fill:#84e500;fill-opacity:1" />
+       style="opacity:0.9;fill:#84e500;fill-opacity:1" />
     <circle
        cx="328"
        cy="416"
        r="6"
        id="circle29777"
-       style="stroke-width:1.2;fill:#1c2636;fill-opacity:1" />
+       style="fill:#cddfff;fill-opacity:1;stroke-width:1.2" />
   </g>
   <g
      id="slidercursor-tickless-pressed"
-     transform="translate(40,-128)">
+     transform="matrix(0.95454545,0,0,0.95454545,56.909093,-109.09091)">
     <rect
        x="361"
        y="405"
@@ -3502,24 +3574,24 @@
        cy="416"
        r="5"
        id="circle46204"
-       style="fill:#1c2636;fill-opacity:1;stroke-width:1" />
+       style="fill:#cddfff;fill-opacity:1;stroke-width:1" />
   </g>
   <g
      id="slidercursor-tickless-focused"
-     transform="translate(40,-128)">
+     transform="matrix(0.90909091,0,0,0.90909091,71.818182,-90.181819)">
     <rect
        x="339"
        y="405"
        width="22"
        height="22"
-       opacity="0.001"
+       opacity="0.00100002"
        id="rect751" />
     <circle
        cx="350"
        cy="416"
        r="11"
        id="circle43281"
-       style="opacity:0.15;fill:#cddfff;fill-opacity:1;stroke-width:1" />
+       style="display:none;opacity:0.1;fill:#cddfff;fill-opacity:1;stroke-width:1" />
     <circle
        cx="350"
        cy="416"
@@ -3531,7 +3603,7 @@
        cy="416"
        r="6"
        id="circle755"
-       style="fill:#1c2636;fill-opacity:1" />
+       style="fill:#cddfff;fill-opacity:1" />
   </g>
   <g
      id="slidercursor-normal"
@@ -3546,11 +3618,11 @@
     <path
        d="m 328,431 c -3.8423,0 -7,3.1577 -7,7 0,3.8423 3.1577,7 7,7 h 0.002 0.002 c 1.87564,-0.003 3.67272,-0.76017 4.98632,-2.09961 l -0.5332,0.38867 c -0.11526,0.0576 0.0157,0.0317 0.31836,-0.19531 l 0.12305,-0.0918 4.90234,-5.00195 -1.37305,-1.40039 -3.39843,-3.4668 C 331.71163,431.77081 329.89527,431.00042 328,431 Z m 0,4 c 0.81332,1.8e-4 1.58867,0.3294 2.1543,0.91406 l 0.006,0.004 2.03906,2.08203 -1.82031,1.85547 -0.01,0.006 -0.23437,0.23828 C 329.5716,440.67385 328.80272,440.9983 327.99805,441 326.31849,440.99896 325,439.67984 325,438 c 0,-1.6805 1.3195,-3 3,-3 z"
        id="path53563"
-       style="fill:#84e500;fill-opacity:1" />
+       style="fill:#84e500;fill-opacity:1;opacity:0.9" />
     <path
        d="m 335,438 -3.4079,-3.4767 c -0.94165,-0.97333 -2.2378,-1.5231 -3.5921,-1.5234 -2.7614,0 -5,2.2386 -5,5 0,2.7614 2.2386,5 5,5 1.3405,-0.002 2.6242,-0.54194 3.5628,-1.499 0.004,-0.002 0.009,-0.004 0.013,-0.007 z"
        id="path53561"
-       style="fill:#1c2636;fill-opacity:1" />
+       style="fill:#cddfff;fill-opacity:1" />
   </g>
   <g
      id="slider-normal-right"
@@ -5671,7 +5743,7 @@
        id="path64528"
        cx="390"
        cy="310"
-       style="opacity:0.15;fill:#cddfff;stroke-width:0.999546"
+       style="display:inline;opacity:0.1;fill:#cddfff;stroke-width:0.999546"
        r="11" />
     <path
        d="m 390,303 c -3.8423,0 -7,3.1577 -7,7 0,3.8423 3.1577,7 7,7 h 0.002 0.002 c 1.87564,-0.003 3.67272,-0.76017 4.98632,-2.09961 l -0.5332,0.38867 c -0.11526,0.0576 0.0157,0.0317 0.31836,-0.19531 l 0.12305,-0.0918 4.90234,-5.00195 -1.37305,-1.40039 -3.39843,-3.4668 C 393.71163,303.77081 391.89527,303.00042 390,303 Z m 0,4 c 0.81332,1.8e-4 1.58867,0.3294 2.1543,0.91406 l 0.006,0.004 2.03906,2.08203 -1.82031,1.85547 -0.01,0.006 -0.23437,0.23828 C 391.5716,312.67385 390.80272,312.9983 389.99805,313 388.31849,312.999 387,311.67984 387,310 c 0,-1.6805 1.3195,-3 3,-3 z"
@@ -5680,7 +5752,7 @@
     <path
        d="m 397,310.0001 -3.4079,-3.4767 C 392.65045,305.55007 391.3543,305.0003 390,305 c -2.7614,0 -5,2.2386 -5,5 0,2.7614 2.2386,5 5,5 1.3405,-0.002 2.6242,-0.54194 3.5628,-1.499 0.004,-0.002 0.009,-0.004 0.013,-0.007 z"
        id="path64499"
-       style="fill:#1c2636;fill-opacity:1" />
+       style="fill:#cddfff;fill-opacity:1" />
   </g>
   <g
      id="slidercursor-pressed"
@@ -5698,7 +5770,7 @@
     <path
        d="m 395.8,310.00008 -2.72632,-2.78136 C 392.32036,306.44006 391.28344,306.00024 390.2,306 c -2.20912,0 -4,1.79088 -4,4 0,2.20912 1.79088,4 4,4 1.0724,-0.002 2.09936,-0.43355 2.85024,-1.1992 0.003,-0.002 0.007,-0.003 0.0104,-0.006 z"
        id="path64792"
-       style="fill:#1c2636;fill-opacity:1;stroke-width:0.8" />
+       style="fill:#cddfff;fill-opacity:1;stroke-width:0.8" />
   </g>
   <g
      id="slidercursor-tickless-disabled"
@@ -5721,7 +5793,7 @@
        cy="416"
        r="6"
        id="circle64884"
-       style="fill:#1c2636;fill-opacity:1;stroke-width:1.2" />
+       style="display:inline;opacity:0.45;fill:#cddfff;fill-opacity:1;stroke-width:1.2" />
   </g>
   <g
      id="slidercursor-disabled"
@@ -5734,13 +5806,14 @@
        opacity="0.00100002"
        id="rect64888" />
     <path
-       d="m 328,431 c -3.8423,0 -7,3.1577 -7,7 0,3.8423 3.1577,7 7,7 h 0.002 0.002 c 1.87564,-0.003 3.67272,-0.76017 4.98632,-2.09961 l -0.5332,0.38867 c -0.11526,0.0576 0.0157,0.0317 0.31836,-0.19531 l 0.12305,-0.0918 4.90234,-5.00195 -1.37305,-1.40039 -3.39843,-3.4668 C 331.71163,431.77081 329.89527,431.00042 328,431 Z m 0,4 c 0.81332,1.8e-4 1.58867,0.3294 2.1543,0.91406 l 0.006,0.004 2.03906,2.08203 -1.82031,1.85547 -0.01,0.006 -0.23437,0.23828 C 329.5716,440.67385 328.80272,440.9983 327.99805,441 326.31849,440.99896 325,439.67984 325,438 c 0,-1.6805 1.3195,-3 3,-3 z"
+       d="m 328,431 c -3.8423,0 -7,3.1577 -7,7 0,3.8423 3.1577,7 7,7 h 0.002 0.002 c 1.87564,-0.003 3.67272,-0.76017 4.98632,-2.09961 l -0.5332,0.38867 c -0.11526,0.0576 0.0157,0.0317 0.31836,-0.19531 l 0.12305,-0.0918 4.90234,-5.00195 -1.37305,-1.40039 -3.39843,-3.4668 C 331.71163,431.77081 329.89527,431.00042 328,431 Z"
        id="path64890"
-       style="opacity:0.35;fill:#84e500;fill-opacity:1" />
+       style="opacity:0.35;fill:#84e500;fill-opacity:1"
+       sodipodi:nodetypes="csscscccccccc" />
     <path
        d="m 335,438 -3.4079,-3.4767 c -0.94165,-0.97333 -2.2378,-1.5231 -3.5921,-1.5234 -2.7614,0 -5,2.2386 -5,5 0,2.7614 2.2386,5 5,5 1.3405,-0.002 2.6242,-0.54194 3.5628,-1.499 0.004,-0.002 0.009,-0.004 0.013,-0.007 z"
        id="path64892"
-       style="fill:#1c2636;fill-opacity:1" />
+       style="display:inline;opacity:0.45;fill:#cddfff;fill-opacity:1" />
   </g>
   <g
      id="arrow-menu-disabled"

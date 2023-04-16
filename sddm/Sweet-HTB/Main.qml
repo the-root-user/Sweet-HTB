@@ -397,19 +397,79 @@ PlasmaCore.ColorScope {
             visible: true
             z:-2
         }
-
-        GaussianBlur {
-            id: blur
+        
+        // GaussianBlur {
+        //     id: blur
+        //     height: blurBg.height
+        //     width: blurBg.width
+        //     source: blurArea
+        //     radius: config.blur_radius
+        //     samples: 50 * 2 + 1
+        //     cached: true
+        //     anchors.centerIn: blurBg
+        //     visible: true
+        //     z:-2
+        //     
+        //     // textureSource: noiseSource.texture
+        //     // textureSource: NoiseTexture {
+        //     //     id: noise
+        //     //     width: 1000
+        //     //     height: 500
+        //     //     noiseType: NoiseTexture.Perlin
+        //     //     z: -1
+        //     // }
+        // }
+        
+        Rectangle {
+            id: noiseRect
             height: blurBg.height
             width: blurBg.width
-            source: blurArea
-            radius: 50
-            samples: 50 * 2 + 1
-            cached: true
+            color: "transparent"
             anchors.centerIn: blurBg
-            visible: true
-            z:-2
+            z: -2
+            opacity: 0.99
+            
+            GaussianBlur {
+                id: blur
+                height: noiseRect.height
+                width: noiseRect.width
+                source: blurArea
+                radius: config.blur_radius
+                samples: 50 * 2 + 1
+                cached: true
+                anchors.centerIn: noiseRect
+                visible: true
+                z:-3
+            }
+            
+            Rectangle {
+                id: noiseLayer
+                width: noiseRect.width
+                height: noiseRect.height
+                color: "#00000000"
+                anchors.fill: parent
+                Image {
+                    id: noiseImage
+                    // if display is HD *
+                    // config.hd_display == "true" ? "" : 
+                    source: config.noise_texture
+                    opacity: 0.5
+                    fillMode: config.hd_display == "true" ? "" : Image.Tile
+                    width: noiseRect.width
+                    height: noiseRect.height
+                    transformOrigin: Item.TopLeft
+                    transform: Rotation {
+                        id: noiseRotation
+                        origin {
+                            x: noiseRect.width / 2
+                            y: noiseRect.height / 2
+                        }
+                        // angle: Math.random() * 360
+                    }
+                }
+            }
         }
+        
 
         //Footer
         RowLayout {

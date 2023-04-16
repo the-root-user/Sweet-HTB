@@ -92,21 +92,21 @@ if [ -d wallpapers/Sweet-HTB ]; then
     fi
 fi
 
-if ! [ -d $HOME/.local/share/icons/WhiteSur ]; then
-    sleep 0.5; echo -e "├─ Icon theme installation aborted."
-    echo -e "│   WhiteSur icon theme not found, please install it."
-else
-    if [ -d WhiteSur ]; then
-        sleep 0.2; echo -e "├── icon theme "
-        cp WhiteSur $HOME/.local/share/icons/ -r > /dev/null
-        if [ -d WhiteSur/actions ]; then
-            cp WhiteSur/actions $HOME/.local/share/icons/WhiteSur-dark -r
-        fi
-        if [ -d WhiteSur/places/symbolic ]; then
-            cp WhiteSur/places/symbolic $HOME/.local/share/icons/WhiteSur-dark/places -r
-        fi
-    fi
-fi
+# if ! [ -d $HOME/.local/share/icons/WhiteSur ]; then
+#     sleep 0.5; echo -e "├─ Icon theme installation aborted."
+#     echo -e "│   WhiteSur icon theme not found, please install it."
+# else
+#     if [ -d WhiteSur ]; then
+#         sleep 0.2; echo -e "├── icon theme "
+#         cp WhiteSur $HOME/.local/share/icons/ -r > /dev/null
+#         if [ -d WhiteSur/actions ]; then
+#             cp WhiteSur/actions $HOME/.local/share/icons/WhiteSur-dark -r
+#         fi
+#         if [ -d WhiteSur/places/symbolic ]; then
+#             cp WhiteSur/places/symbolic $HOME/.local/share/icons/WhiteSur-dark/places -r
+#         fi
+#     fi
+# fi
 
 if [[ $1 = 'sddm' ]]; then
     if [ -d sddm/Sweet-HTB ]; then
