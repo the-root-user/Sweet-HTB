@@ -72,7 +72,7 @@ SessionManagementScreen {
                 // color: "#0F111A"
                 opacity: 0.5
                 radius: parent.width / 2
-                height: 30
+                height: 35
                 width: passwordBox.width + 20
                 anchors.centerIn: parent
             }
@@ -117,7 +117,7 @@ SessionManagementScreen {
                 text: loginButton.text
                 font: loginButton.font
                 opacity: enabled ? 1.0 : 0.3
-                color: "#fefefe"
+                color: "#fcfdfe"
                 horizontalAlignment: Text.AlignHCenter
                 verticalAlignment: Text.AlignVCenter
                 elide: Text.ElideRight
@@ -130,7 +130,10 @@ SessionManagementScreen {
                 radius: width / 2
                 rotation: -90
                 anchors.centerIn: parent
-                color: "#84e500"
+                // color: "#84e500"
+                gradient: Gradient {
+                    GradientStop { position: 0.0; color: "#73e500" }
+                    GradientStop { position: 1.0; color: "#13cc00" } }
                 // color: "#00A9A5"
                
             }

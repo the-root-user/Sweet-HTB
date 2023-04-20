@@ -26,10 +26,11 @@
        type="text/css"
        id="current-color-scheme">.ColorScheme-NegativeText {
         color:#ff5555;
+        <!-- don't pick up the color scheme and mess things up -->
       }</style>
   </defs>
   <g
-     fill="currentColor"
+     fill="#ff5555"
      class="ColorScheme-NegativeText"
      id="22-22-edit-delete">
     <path
@@ -41,7 +42,7 @@
        d="m16.657 15.343a8 8 0 0 0-11.314 0 8 8 0 0 0 0 11.314 8 8 0 0 0 11.314 0 8 8 0 0 0 0-11.314zm-1.4142 1.4142a6 6 0 0 1 0.64772 7.7188l-8.3665-8.3665a6 6 0 0 1 7.7188 0.64772zm-9.133 0.76649 8.3665 8.3665a6 6 0 0 1-7.7188-0.64772 6 6 0 0 1-0.64772-7.7188z" />
   </g>
   <g
-     fill="currentColor"
+     fill="#ff5555"
      class="ColorScheme-NegativeText"
      id="edit-delete">
     <path

@@ -1,6 +1,16 @@
 <svg height='16' width='16' xmlns='http://www.w3.org/2000/svg'>
+    <defs
+     id="defs10">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text {
+        color:#a1adc8;
+      }</style>
+  </defs>
     <g transform='translate(-493 -97)'>
-        <path d='M503 110l-5-5 5-5z' fill='#dedede'/>
+        <path d='M503 110l-5-5 5-5z'
+            class="ColorScheme-Text"
+            style='fill:currentColor' />
         
     </g>
 </svg>

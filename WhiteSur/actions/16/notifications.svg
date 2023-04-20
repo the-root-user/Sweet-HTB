@@ -1,7 +1,64 @@
-<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-            color:#dedede;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="notifications.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="35.156662"
+     inkscape:cx="9.1590038"
+     inkscape:cy="11.804306"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7" />
+  <style
+     id="current-color-scheme"
+     type="text/css">.ColorScheme-Text {
+            color:#a1adc8;
+        }
+        .ColorScheme-NegativeText {
+            color:#da4453;
         }</style>
-    <circle cx="9.148" cy="2.5" r="0"/>
-    <path d="m8 2a1 1 0 0 0-1 1 1 1 0 0 0 0.0136719 0.1699219 3 3 0 0 0-2.0136719 2.8300781c0 1.8678453-0.6644936 2.6644936-2 4v1h10v-1c-1.335506-1.3355064-2-2.1321547-2-4a3 3 0 0 0-2.015625-2.8300781 1 1 0 0 0 0.015625-0.1699219 1 1 0 0 0-1-1zm0 2a2 2 0 0 1 2 2c0 1.7602592 0.64782 2.8885679 1.638672 4h-1.638672-4-1.6386719c0.9908518-1.1114321 1.6386719-2.2397408 1.6386719-4a2 2 0 0 1 2-2zm-1.4121094 8a1.5 1.5 0 0 0-0.0878906 0.5 1.5 1.5 0 0 0 1.5 1.5 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0-0.0878906-0.5h-2.8242188z" class="ColorScheme-Text" fill="currentColor"/>
+  <rect
+     x="-3.4674249e-05"
+     y="-3.5037599e-05"
+     width="16"
+     height="16"
+     fill="none"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     stroke-width="1.23077"
+     id="rect42"
+     style="display:inline" />
+  <path
+     class="ColorScheme-Text"
+     d="M 11,3 A 1,1 0 0 0 10.006,4.1 4.988,4.988 0 0 0 6,9 v 4.5 l -2,2 V 16 h 14 v -0.5 l -2,-2 V 9 A 4.987,4.987 0 0 0 11.994,4.1 1,1 0 0 0 11,3 Z m 0,2 a 4,4 0 0 1 4,4 v 4.922 L 16,15 H 6 L 7,13.922 V 9 A 4,4 0 0 1 11,5 Z M 9.27,17 a 2,2 0 0 0 1.73,1 2,2 0 0 0 1.729,-1 z"
+     opacity="0.35"
+     id="path3"
+     style="display:none;fill:currentColor" />
+  <path
+     class="ColorScheme-Text"
+     d="m 7.9983862,2.2499748 c 2.2901088,0 4.1773818,1.6981091 4.3522908,3.8948364 l 0.0097,0.1616145 0.0033,0.1632873 -7.27e-4,2.6151996 0.673018,1.6161454 c 0.01644,0.03935 0.02931,0.08 0.03855,0.121382 l 0.01105,0.06269 0.0063,0.09549 c 0,0.325818 -0.215636,0.606618 -0.544872,0.700436 l -0.08458,0.01949 -0.09782,0.0073 -2.5466912,-4.36e-4 -0.00364,0.117309 c -0.061891,0.948146 -0.8504728,1.697965 -1.8142546,1.697965 -0.9640001,0 -1.7527273,-0.750182 -1.8143273,-1.698619 l -0.00415,-0.116655 -2.5459636,4.36e-4 c -0.063964,0 -0.1275128,-0.0084 -0.1890109,-0.02502 l -0.090516,-0.03091 c -0.2986963,-0.124363 -0.4746745,-0.428 -0.4380199,-0.76509 l 0.015338,-0.09266 0.030851,-0.09316 0.6714909,-1.6139638 8e-4,-2.6241458 0.00313,-0.1633237 c 0.089178,-2.2669818 2.0120728,-4.0496 4.3587638,-4.0496 z M 9.0906771,11.707429 H 6.9088588 l 0.00538,0.102836 c 0.049855,0.518328 0.4623855,0.930619 0.9808,0.980146 l 0.1050473,0.0051 c 0.5670545,0 1.0330909,-0.432655 1.0858909,-0.985818 z M 7.9983862,2.9772475 c -1.9073455,0 -3.4694546,1.3990546 -3.6221819,3.1890909 l -0.00961,0.1543637 -0.00284,0.1490254 V 9.159109 l -0.027935,0.1397818 -0.7001527,1.6817452 8.6967264,0.0015 0.03295,-0.0015 -0.700727,-1.6816725 -0.02793,-0.1397818 7.3e-5,-2.6818905 -0.003,-0.1484364 C 11.557319,4.4572912 9.960087,2.9773639 7.9986325,2.9773639 Z"
+     id="path37"
+     style="display:inline;fill:currentColor;stroke-width:0.727273" />
 </svg>

@@ -66,14 +66,14 @@ Rectangle {
 
                     ScaleAnimator {
                         target: circle
-                        from: 0.97
+                        from: 0.96
                         to: 1
                         duration: 1000
                     }
                     ScaleAnimator {
                         target: circle
                         from: 1
-                        to: 0.97
+                        to: 0.96
                         duration: 1000
                     }
                 }
