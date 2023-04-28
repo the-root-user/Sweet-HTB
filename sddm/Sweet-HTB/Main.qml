@@ -543,7 +543,8 @@ PlasmaCore.ColorScope {
                 opacity: config.footer_bg_opacity_right
                 radius: 8
                 width: parent.width * 1.1
-                height: parent.height * 1.35
+                height: parent.height * 1.4
+                z: -1
             }
         }
     }

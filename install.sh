@@ -86,10 +86,7 @@ if [ -d wallpapers/Sweet-HTB ]; then
     if ! [ -d $HOME/.local/share/wallpapers/ ]; then
         mkdir -p $HOME/.local/share/wallpapers/
     fi
-    cp wallpapers/Sweet-HTB $HOME/.local/share/wallpapers/ -r
-    if [ -d wallpapers/Sweet-Wallpapers ]; then
-        cp wallpapers/Sweet-Wallpapers $HOME/.local/share/wallpapers/ -r
-    fi
+    cp wallpapers/* $HOME/.local/share/wallpapers/ -r
 fi
 
 if ! [ -d $HOME/.local/share/icons/WhiteSur ]; then

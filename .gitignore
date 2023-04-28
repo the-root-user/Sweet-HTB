@@ -1,9 +1,11 @@
 # Alternative icons
-*0.svg
-*1.svg
+*0.svg*
+*1.svg*
 
 # Folders
 
+# Wallpapers
+vectr-*.svg
 # Architecture specific extensions/prefixes
 # *.exe
 *.test

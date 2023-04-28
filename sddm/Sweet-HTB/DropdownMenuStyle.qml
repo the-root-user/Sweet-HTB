@@ -10,6 +10,8 @@ QQCS.MenuStyle {
         color: "#0F151D"
         border.color: "#040608"
         border.width: 1
+        radius: 1
+        opacity: 1
     }
     itemDelegate.label: QQC.Label {
         height: contentHeight * 2

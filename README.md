@@ -5,25 +5,25 @@ Modern theme for Hackers, with dark colors - Inspired from the UI of Hackthebox.
 
 Based on the awesome [WhiteSur](https://github.com/vinceliuice/WhiteSur-kde) theme by Vinceliuice
 
-![Cover](wallpapers/Sweet-Wallpapers/Sweet-HTB.png)
+![Cover](wallpapers/Sweet-Wallpapers/HTB.png)
 
 ## How does it look
 
 ### Login Screen
-![Login Screen](sddm/Sweet-HTB/Preview.png)
+![LoginScreen](sddm/Sweet-HTB/preview.png)
 
 <!-- ### Lock Sceen
-![Lock Screen](lockscreen.png) -->
+![LockScreen](lockscreen.png) -->
 
 ### Splash Screen
-![Splash Screen](look-and-feel/Sweet-HTB/contents/previews/splash.png)
+![SplashScreen](look-and-feel/Sweet-HTB/contents/previews/splash.png)
 
 ### Home
-![Default Wallpaper](looks.png)
+![DefaultHome](looks_home.png)
 
 **App view**
 
-![Dolphin AppView](looks1.png)
+![AppView](look-and-feel/Sweet-HTB/contents/previews/fullscreenpreview.jpg)
 
 ## Installation
 
