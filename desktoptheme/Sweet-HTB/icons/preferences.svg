@@ -36,7 +36,7 @@
      id="defs8507">
     <style
        id="current-color-scheme"
-       type="text/css">.ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#a1adc8; }</style>
+       type="text/css">.ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#11cc00; } .ColorScheme-ButtonBackground { color:#a1adc8; }</style>
   </defs>
   <g
      id="22-22-preferences-desktop-notification"
@@ -50,7 +50,7 @@
     <path
        class="ColorScheme-Highlight"
        d="m11 41.788c-4.9706 0-9 4.0294-9 9s4.0294 9 9 9 9-4.0294 9-9-4.0294-9-9-9z"
-       color="#5294e2"
+       color="#11cc00"
        fill="currentColor"
        id="path8511" />
     <path
@@ -148,7 +148,7 @@
        cx="10"
        cy="68"
        r="2"
-       fill="#5294e2"
+       fill="#11cc00"
        id="circle8541" />
   </g>
   <g
@@ -192,7 +192,7 @@
        cx="44"
        cy="56"
        r="2"
-       fill="#5294e2"
+       fill="#11cc00"
        id="circle8553" />
   </g>
   <g
@@ -300,7 +300,7 @@
     <path
        transform="translate(0,-45)"
        d="m116 42c-7.732 0-14 6.268-14 14s6.268 14 14 14 14-6.268 14-14-6.268-14-14-14zm-1 6h2v12h-2zm0 14h2v2h-2z"
-       fill="#5294e2"
+       fill="#11cc00"
        stroke-width="1.1417"
        id="path8583" />
     <rect
@@ -318,7 +318,7 @@
     <path
        class="ColorScheme-Highlight"
        d="m-70 43c-4.4183 0-8 3.5817-8 8s3.5817 8 8 8 8-3.5817 8-8-3.5817-8-8-8z"
-       color="#5294e2"
+       color="#11cc00"
        fill="currentColor"
        id="path8588" />
     <path

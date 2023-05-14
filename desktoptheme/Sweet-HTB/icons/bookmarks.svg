@@ -4,7 +4,7 @@
    <stop stop-color="#ff5245" offset="0"/>
    <stop stop-color="#fcf12f" offset="1"/>
   </linearGradient>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#363636; }</style>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#363636; } .ColorScheme-Highlight { color:#11cc00; } .ColorScheme-ButtonBackground { color:#363636; }</style>
   <linearGradient id="e" x1="919.71" x2="1108.6" y1="1446.5" y2="1300.7" gradientTransform="matrix(.14006 0 0 -.14006 -127.72 207.95)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
   <linearGradient id="f" x1="989.72" x2="1139.4" y1="1480.2" y2="1297.4" gradientTransform="matrix(.14006 0 0 -.14006 -127.72 207.95)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
  </defs>

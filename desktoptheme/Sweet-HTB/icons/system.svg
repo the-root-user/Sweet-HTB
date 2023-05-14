@@ -412,10 +412,10 @@
         color:#fcfcfc;
       }
       .ColorScheme-ViewHover {
-        color:#3daee9;
+        color:#11cc00;
       }
       .ColorScheme-ViewFocus{
-        color:#3daee9;
+        color:#11cc00;
       }
       .ColorScheme-ButtonText {
         color:#31363b;
@@ -424,10 +424,10 @@
         color:#eff0f1;
       }
       .ColorScheme-ButtonHover {
-        color:#3daee9;
+        color:#11cc00;
       }
       .ColorScheme-ButtonFocus{
-        color:#3daee9;
+        color:#11cc00;
       }</style><style
        id="current-color-scheme-36"
        type="text/css">.ColorScheme-Text { color:#a1adc8; }</style><linearGradient

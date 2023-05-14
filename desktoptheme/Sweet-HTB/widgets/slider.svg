@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="true"
-     inkscape:zoom="16.029794"
-     inkscape:cx="39.925653"
-     inkscape:cy="14.97212"
+     inkscape:zoom="14.418724"
+     inkscape:cx="10.403139"
+     inkscape:cy="42.514163"
      inkscape:window-width="1920"
      inkscape:window-height="1026"
      inkscape:window-x="0"
@@ -367,21 +367,23 @@
        id="groove-topleft"
        transform="matrix(0.5,0,0,0.5,0.5,-12)">
       <path
-         d="m 7,-24 c -3.3644,0 -6,2.6356 -6,6 h 6 z"
+         d="m 7,-26 c -3.3644,0 -6,4.6356 -6,8 h 6 z"
          id="path38"
-         style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+         style="opacity:0.18;fill:#000000;fill-opacity:1"
+         sodipodi:nodetypes="cccc" />
     </g>
     <path
        id="groove-center"
        d="m 6,-19 v 1 h 3 v -1 z"
-       style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+       style="fill:#000000;fill-opacity:1;opacity:0.18" />
     <g
        id="groove-top"
        transform="matrix(1,0,0,0.5,-1,-12)">
       <path
-         d="m 7,-24 v 6 h 3 v -6 z"
+         d="m 7,-26 v 8 h 3 v -8 z"
          id="path62"
-         style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+         style="opacity:0.18;fill:#000000;fill-opacity:1"
+         sodipodi:nodetypes="ccccc" />
     </g>
     <use
        id="groove-topright"
@@ -396,7 +398,7 @@
       <path
          d="m 1,-18 v 1 h 6 v -1 z"
          id="path68"
-         style="fill:#30415a;fill-opacity:1;opacity:0.9" />
+         style="fill:#000000;fill-opacity:1;opacity:0.18" />
     </g>
     <use
        id="groove-right"

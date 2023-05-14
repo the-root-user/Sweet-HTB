@@ -56,7 +56,7 @@
         color:#eff0f1;
       }
       .ColorScheme-Highlight {
-        color:#3daee9;
+        color:#11cc00;
       }
       .ColorScheme-ViewText {
         color:#a1adc8;
@@ -65,10 +65,10 @@
         color:#fcfcfc;
       }
       .ColorScheme-ViewHover {
-        color:#93cee9;
+        color:#73e500;
       }
       .ColorScheme-ViewFocus{
-        color:#3daee9;
+        color:#11cc00;
       }
       .ColorScheme-ButtonText {
         color:#a1adc8;
@@ -77,10 +77,10 @@
         color:#eff0f1;
       }
       .ColorScheme-ButtonHover {
-        color:#93cee9;
+        color:#73e500;
       }
       .ColorScheme-ButtonFocus{
-        color:#3daee9;
+        color:#11cc00;
       }</style>
   </defs>
   <g

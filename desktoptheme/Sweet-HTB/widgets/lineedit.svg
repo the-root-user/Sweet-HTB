@@ -85,9 +85,9 @@
   </defs>
   <sodipodi:namedview
      id="namedview85"
-     pagecolor="#cccccc"
-     bordercolor="#666666"
-     borderopacity="1.0"
+     pagecolor="#333333"
+     bordercolor="#4d4d4d"
+     borderopacity="1"
      objecttolerance="10.0"
      gridtolerance="10.0"
      guidetolerance="10.0"
@@ -98,10 +98,10 @@
      inkscape:current-layer="svg2"
      inkscape:blackoutopacity="0.0"
      inkscape:showpageshadow="2"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="6.303276"
-     inkscape:cx="37.916791"
-     inkscape:cy="46.483765"
+     inkscape:deskcolor="#404040"
+     inkscape:zoom="5.3016642"
+     inkscape:cx="30.179203"
+     inkscape:cy="87.142448"
      inkscape:window-width="1920"
      inkscape:window-height="1026"
      inkscape:window-x="0"
@@ -111,22 +111,23 @@
        type="xygrid"
        id="grid926"
        originx="0"
-       originy="0" />
+       originy="0"
+       visible="false" />
   </sodipodi:namedview>
   <style
      id="current-color-scheme"
      type="text/css">
         .ColorScheme-Text {
-            color:#232629;
+            color:#161e2a;
         }
         .ColorScheme-ViewBackground {
             color:#fcfcfc;
         }
         .ColorScheme-ViewHover {
-            color:#4a638d;
+            color:#cddfff;
         }
         .ColorScheme-ViewFocus {
-            color:#4a638d;
+            color:#cddfff;
         }
     </style>
   <g
@@ -134,61 +135,56 @@
      transform="matrix(0.9375,0,0,0.9375,-105.8125,135.6875)">
     <path
        id="rect1467-6-9"
-       d="m 123.53333,-2.8666667 c -3.54559,0 -6.4,2.85440439 -6.4,6.4000018 h 6.4 z"
+       d="M 123.53333,-3.4 C 119.98774,-3.4 116.6,-0.01226231 116.6,3.5333351 h 6.93333 z"
        class="ColorScheme-Text"
-       style="opacity:0.05" />
+       style="opacity:0.05"
+       sodipodi:nodetypes="cccc" />
     <path
        id="path1364"
        class="ColorScheme-ViewFocus"
-       d="M 123.53333,-5 C 118.80589,-5 115,-1.1941257 115,3.5333333 h 2.13333 c 0,-3.54559383 2.85442,-6.4 6.4,-6.4 z"
-       style="fill:#4a638d;fill-opacity:1" />
+       d="M 123.53333,-5 C 118.80589,-5 115,-1.1941257 115,3.5333333 h 1.6 C 116.6,-0.01226053 119.98775,-3.4 123.53333,-3.4 Z"
+       style="opacity:0.81;fill:#11cc00;fill-opacity:1"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="focusframe-left"
      transform="translate(-113,137)">
-    <rect
+    <path
        id="rect1521-2-0"
-       width="6"
-       height="15"
-       x="117"
-       y="3"
+       style="color:#232629;opacity:0.05"
        class="ColorScheme-Text"
-       style="opacity:0.05" />
+       d="m 116.5,3 h 6.5 v 15 h -6.5 z"
+       sodipodi:nodetypes="ccccc" />
     <rect
        id="rect2284-2"
-       width="2"
+       width="1.5"
        height="1"
        x="115"
        y="10"
-       class="ColorScheme-ViewFocus" />
-    <rect
-       id="rect1367"
-       width="2"
-       height="15"
-       x="115"
-       y="3"
        class="ColorScheme-ViewFocus"
-       style="fill:#4a638d;fill-opacity:1" />
+       style="stroke-width:0.866025" />
+    <path
+       id="rect1367"
+       style="color:#cddfff;opacity:0.81;fill:#11cc00"
+       class="ColorScheme-ViewFocus"
+       d="m 115,3 h 1.5 V 18 H 115 Z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="focusframe-top"
      transform="translate(-112,136)">
-    <rect
+    <path
        id="rect1523-9-3"
-       width="78"
-       height="6"
-       x="123"
-       y="-3"
+       style="color:#232629;opacity:0.05"
        class="ColorScheme-Text"
-       style="opacity:0.05" />
-    <rect
+       d="m 123,-3.5 h 78 V 3 h -78 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
        id="rect2286-7"
-       width="78"
-       height="2"
-       x="123"
-       y="-5"
+       style="color:#cddfff;opacity:0.81;fill:#11cc00;stroke-width:1.10397"
        class="ColorScheme-ViewFocus"
-       style="stroke-width:1.10397;fill:#4a638d;fill-opacity:1" />
+       d="m 123,-5 h 78 l 0,1.5 h -78 z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="focusframe-center"
@@ -239,7 +235,7 @@
        id="rect1467"
        d="m 121.4,-5 c -3.5456,0 -6.4,2.8544047 -6.4,6.4000025 h 6.4 z"
        class="ColorScheme-Text"
-       style="opacity:0.1;fill:#4a638d;fill-opacity:1" />
+       style="opacity:0.1;fill:#cddfff;fill-opacity:1" />
   </g>
   <g
      id="base-left"
@@ -251,7 +247,7 @@
        x="114"
        y="1"
        class="ColorScheme-Text"
-       style="opacity:0.1;fill:#4a638d;fill-opacity:1" />
+       style="opacity:0.1;fill:#cddfff;fill-opacity:1" />
   </g>
   <g
      id="base-top"
@@ -263,7 +259,7 @@
        x="121"
        y="-5"
        class="ColorScheme-Text"
-       style="opacity:0.1;fill:#4a638d;fill-opacity:1" />
+       style="opacity:0.1;fill:#cddfff;fill-opacity:1" />
   </g>
   <g
      id="base-center"
@@ -275,7 +271,7 @@
        x="121"
        y="1"
        class="ColorScheme-Text"
-       style="opacity:0.1;fill:#4a638d;fill-opacity:1" />
+       style="opacity:0.1;fill:#cddfff;fill-opacity:1" />
   </g>
   <rect
      id="hint-tile-center"
@@ -352,88 +348,82 @@
      x="49"
      y="4" />
   <rect
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:1.01369"
      id="focusframe-hint-top-margin"
-     width="2"
-     height="2"
+     width="2.0250483"
+     height="1.5"
      x="48"
      y="131" />
   <rect
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:0.866025"
      id="focusframe-hint-bottom-margin"
      width="2"
-     height="2"
+     height="1.5"
      x="48"
-     y="162" />
+     y="162.5" />
   <rect
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:0.866025"
      id="focusframe-hint-left-margin"
      width="2"
-     height="2"
+     height="1.5"
      x="-148"
      y="2"
      transform="rotate(-90)" />
   <rect
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:1"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:evenodd;stroke-width:0.866025"
      id="focusframe-hint-right-margin"
      width="2"
-     height="2"
+     height="1.5"
      x="-148"
-     y="96"
+     y="96.5"
      transform="rotate(-90)" />
   <g
      id="focus-topleft"
      transform="matrix(0.9375,0,0,0.9375,-106.8125,91.6875)">
     <path
        id="rect1467-6-0"
-       d="m 123.53333,-0.7333351 c -2.36373,0 -4.26667,1.9029373 -4.26667,4.2666702 h 4.26667 z"
+       d="m 123.53333,-1.2666675 c -2.36373,0 -4.8,2.4362697 -4.8,4.8000026 h 4.8 z"
        class="ColorScheme-Text"
-       style="opacity:0.05" />
+       style="opacity:0.05"
+       sodipodi:nodetypes="cccc" />
     <path
        id="path382"
        class="ColorScheme-ViewFocus"
-       d="m 123.53333,-2.8666667 c -3.54558,0 -6.4,2.85440617 -6.4,6.4 h 2.13334 c 0,-2.3637305 1.90294,-4.26666663 4.26666,-4.26666663 z"
-       style="fill:#4a638d;fill-opacity:1" />
+       d="m 123.53333,-2.8666667 c -3.54558,0 -6.4,2.85440617 -6.4,6.4 h 1.60001 c 0,-2.3637305 2.43627,-4.8 4.79999,-4.8 z"
+       style="opacity:0.81;fill:#11cc00;fill-opacity:1"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="focus-left"
      transform="translate(-113,93)">
-    <rect
+    <path
        id="rect1521-2-2"
-       width="4"
-       height="15"
-       x="118"
-       y="3"
+       style="color:#232629;opacity:0.05"
        class="ColorScheme-Text"
-       style="opacity:0.05" />
-    <rect
+       d="m 117.5,3 h 4.5 v 15 h -4.5 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
        id="rect2284-6"
-       width="2"
-       height="15"
-       x="116"
-       y="3"
+       style="color:#cddfff;opacity:0.81;fill:#11cc00"
        class="ColorScheme-ViewFocus"
-       style="fill:#4a638d;fill-opacity:1" />
+       d="m 116,3 h 1.5 V 18 H 116 Z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="focus-top"
      transform="translate(-113,92)">
-    <rect
+    <path
        id="rect1523-9-1"
-       width="78"
-       height="4"
-       x="123"
-       y="-1"
+       style="color:#232629;opacity:0.05"
        class="ColorScheme-Text"
-       style="opacity:0.05" />
-    <rect
+       d="m 123,-1.4999992 h 78 V 3 h -78 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
        id="rect2286-8"
-       width="78"
-       height="2"
-       x="123"
-       y="-3"
+       style="color:#cddfff;opacity:0.81;fill:#11cc00;stroke-width:1.10397"
        class="ColorScheme-ViewFocus"
-       style="stroke-width:1.10397;fill:#4a638d;fill-opacity:1" />
+       d="m 123,-3 h 78 v 1.5 h -78 z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="focus-center"
@@ -510,7 +500,7 @@
   <path
      id="hover-hint-top-margin"
      d="m 48.99998,44 h 2 v 1 h -2 z"
-     style="fill:#4a638d;fill-rule:evenodd;stroke-width:31.6228" />
+     style="fill:#3cb007;fill-rule:evenodd;stroke-width:31.6228;fill-opacity:1" />
   <g
      id="hover-topleft"
      transform="translate(-163,-56)">
@@ -520,9 +510,10 @@
        d="m 163,100 v 7 h 3 c 0,-3.32399 2.67601,-6 6,-6 v -1 z" />
     <path
        id="rect453"
-       d="m 172,101 c -3.324,0 -6,2.676 -6,6 h 2 c 0,-2.216 1.784,-4 4,-4 z"
+       d="m 172,101 c -3.324,0 -6,2.676 -6,6 h 1.5 c 0,-2.216 2.284,-4.5 4.5,-4.5 z"
        class="ColorScheme-ViewHover"
-       style="opacity:0.45;fill:#4a638d;fill-opacity:1" />
+       style="opacity:0.41;fill:#11cc00;fill-opacity:1"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="hover-left"
@@ -541,14 +532,12 @@
        x="113"
        y="2"
        style="opacity:0.15;fill:url(#linearGradient1107);stroke-width:0.57735" />
-    <rect
+    <path
        id="rect512"
-       width="2"
-       height="17"
-       x="116"
-       y="2"
+       style="color:#cddfff;opacity:0.41;fill:#11cc00"
        class="ColorScheme-ViewHover"
-       style="opacity:0.45;fill:#4a638d;fill-opacity:1" />
+       d="m 116,2 h 1.5 V 19 H 116 Z"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="hover-top"
@@ -567,8 +556,9 @@
     <path
        id="path529"
        class="ColorScheme-ViewHover"
-       d="m 122,-4.001 v 2 h 80 v -2 z"
-       style="opacity:0.45;fill:#4a638d;fill-opacity:1" />
+       d="m 122,-4.001 v 1.5 h 80 v -1.5 z"
+       style="opacity:0.41;fill:#11cc00;fill-opacity:1"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      id="hover-center"
@@ -586,9 +576,10 @@
      transform="translate(-163,-53.99906)">
     <path
        id="rect516"
-       d="m 166,123.99906 c 0,3.32399 2.67601,6 6,6 v -2 c -2.216,0 -4,-1.784 -4,-4 z"
+       d="m 166,123.99906 c 0,3.32399 2.67601,6 6,6 v -1.5 c -2.216,0 -4.5,-2.284 -4.5,-4.5 z"
        class="ColorScheme-ViewHover"
-       style="opacity:0.45;fill:#4a638d;fill-opacity:1" />
+       style="opacity:0.41;fill:#11cc00;fill-opacity:1"
+       sodipodi:nodetypes="ccccc" />
     <path
        id="rect1644"
        style="opacity:0.15;fill:url(#radialGradient2234);fill-opacity:1;stroke-width:0.524404"
@@ -610,9 +601,10 @@
        style="fill:none" />
     <path
        id="path533"
-       d="m 122,-1.999 v -2 h 80 v 2 z"
+       d="m 122,-2.499 v -1.5 h 80 v 1.5 z"
        class="ColorScheme-ViewHover"
-       style="opacity:0.45;fill:#4a638d;fill-opacity:1" />
+       style="opacity:0.41;fill:#11cc00;fill-opacity:1"
+       sodipodi:nodetypes="ccccc" />
   </g>
   <use
      x="0"
@@ -626,7 +618,7 @@
      height="5.0009918"
      x="48"
      y="76"
-     style="fill:#4a638d;fill-opacity:1" />
+     style="fill:#3cb007;fill-opacity:1" />
   <use
      x="0"
      y="0"
@@ -645,12 +637,12 @@
      height="1.9990005"
      x="0"
      y="60.000999"
-     style="fill:#4a638d;fill-opacity:1" />
+     style="fill:#3cb007;fill-opacity:1" />
   <rect
      id="hover-hint-right-margin"
      width="3"
      height="2.0009995"
      x="97"
      y="60"
-     style="fill:#4a638d;fill-opacity:1" />
+     style="fill:#3cb007;fill-opacity:1" />
 </svg>

@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=Sweet-HTB-alt
+Comment=A modern theme for Hackers
 
 X-KDE-PluginInfo-Author=Signore
 X-KDE-PluginInfo-Name=Sweet-HTB-alt
@@ -19,8 +20,8 @@ saturation=1.7
 [Wallpaper]
 defaultWallpaperTheme=Sweet-HTB
 defaultFileSuffix=.png
-defaultWidth=2560
-defaultHeight=1440
+defaultWidth=3840
+defaultHeight=2160
 
 [AdaptiveTransparency]
 enabled=true

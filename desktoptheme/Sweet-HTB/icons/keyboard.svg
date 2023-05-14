@@ -1,6 +1,6 @@
 <svg width="22" height="22" version="1.1">
  <defs>
-  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#a1adc8; }</style>
+  <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#a1adc8; } .ColorScheme-Highlight { color:#11cc00; } .ColorScheme-ButtonBackground { color:#a1adc8; }</style>
  </defs>
  <g id="22-22-keyboard-layout" transform="matrix(3.7795 0 0 3.7795 -119 -203.52)">
   <rect x="31.485" y="53.848" width="5.8208" height="5.8208" opacity="0" stroke-width=".1791"/>

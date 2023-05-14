@@ -20,8 +20,8 @@ saturation=1.7
 [Wallpaper]
 defaultWallpaperTheme=Sweet-HTB
 defaultFileSuffix=.png
-defaultWidth=2560
-defaultHeight=1440
+defaultWidth=3840
+defaultHeight=2160
 
 [AdaptiveTransparency]
 enabled=true
