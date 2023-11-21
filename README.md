@@ -13,6 +13,7 @@ Based on the awesome [WhiteSur](https://github.com/vinceliuice/WhiteSur-kde) the
 ![LoginScreen](sddm/Sweet-HTB/preview.png)
 
 <!-- ### Lock Sceen
+Used to be like this, but now isn't. Faced some issue after plasma > 5.20 which I'm not sure of.
 ![LockScreen](lockscreen.png) -->
 
 ### Splash Screen
