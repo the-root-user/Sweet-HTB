@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="64"
    height="64"
    fill="none"
@@ -14,7 +7,14 @@
    viewBox="0 0 64 64"
    id="svg32"
    sodipodi:docname="htop.svg"
-   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,17 +25,20 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="992"
+     inkscape:window-height="1026"
      id="namedview34"
      showgrid="false"
      inkscape:zoom="11.453125"
-     inkscape:cx="32"
-     inkscape:cy="32"
+     inkscape:cx="32.043656"
+     inkscape:cy="31.956344"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:current-layer="g30"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -60,10 +63,10 @@
     </mask>
     <filter
        id="filter1057"
-       x="-.027"
-       y="-.027"
-       width="1.054"
-       height="1.054"
+       x="-0.026517856"
+       y="-0.026517856"
+       width="1.0530357"
+       height="1.0530357"
        color-interpolation-filters="sRGB">
       <feGaussianBlur
          stdDeviation="0.61875"
@@ -75,7 +78,7 @@
        x2="-72"
        y1="60"
        y2="5"
-       gradientTransform="translate(192.81 23.753)"
+       gradientTransform="matrix(1.0181818,0,0,1.0181818,194.61918,23.161909)"
        gradientUnits="userSpaceOnUse">
       <stop
          stop-color="#323741"
@@ -93,9 +96,9 @@
     <rect
        x="65.805"
        y="28.763"
-       width="55"
-       height="55"
-       ry="15"
+       width="56"
+       height="56"
+       ry="13"
        fill="#141414"
        filter="url(#filter1057)"
        image-rendering="optimizeSpeed"
@@ -104,16 +107,17 @@
        stroke-width="2.7444"
        id="rect18" />
     <rect
-       x="65.805"
-       y="28.763"
-       width="55"
-       height="55"
-       ry="15"
+       x="65.305"
+       y="28.263"
+       width="56"
+       height="56"
+       ry="13"
        fill="url(#linearGradient1053-3)"
        image-rendering="optimizeSpeed"
        stroke-linecap="round"
-       stroke-width="2.7444"
-       id="rect20" />
+       stroke-width="2.7943"
+       id="rect20"
+       style="fill:url(#linearGradient1053-3)" />
     <path
        d="m 87.0726,34.594602 -0.05833,43.336796 h 0.17814 l 0.06621,-43.336796 z m 6.167184,0 -0.0599,43.336796 h 0.186021 l 0.05833,-43.336796 z m 6.23806,0 -0.05833,43.336796 h 0.17812 l 0.05993,-43.336796 z m -18.434079,0.04406 c -0.06173,0.0078 -0.124617,0.0078 -0.186022,0.0117 l -0.05833,43.21609 c 0.05923,0.0078 0.118602,0.0117 0.17814,0.0195 z m 24.690185,0.003 -0.06,43.246009 c 0.0595,-0.0078 0.12052,-0.0078 0.17971,-0.0117 l 0.0647,-43.217122 c -0.0613,-0.0078 -0.12284,-0.0117 -0.18443,-0.0195 z m 6.11984,2.779349 -0.0505,37.729611 c 0.0591,-0.05537 0.12201,-0.107233 0.17971,-0.163769 l 0.0552,-37.398441 c -0.0588,-0.05849 -0.12435,-0.109956 -0.18443,-0.167277 z m -37.048704,0.05693 c -0.05962,0.05771 -0.119943,0.114248 -0.178141,0.173125 l -0.05676,37.160123 c 0.05974,0.06161 0.118447,0.123998 0.179719,0.184434 z"
        color="#000000"

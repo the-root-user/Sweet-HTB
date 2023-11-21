@@ -43,12 +43,14 @@ if [ -f Kwrite-HTB.theme ]; then
     cp Kwrite-HTB.theme $HOME/.local/share/org.kde.syntax-highlighting/themes/Kwrite-HTB.theme
 fi
 
+kvantum="false"
 if [ -d Kvantum/Sweet-HTB ]; then
     sleep 0.2; echo -e "├── kvantum theme "
     if ! [ -d $HOME/.config/Kvantum/ ]; then
         mkdir -p $HOME/.config/Kvantum/
     fi
     cp Kvantum/Sweet-HTB $HOME/.config/Kvantum/ -r
+    kvantum="true"
 fi
 
 if [ -d desktoptheme/Sweet-HTB ]; then
@@ -132,7 +134,13 @@ if [[ "$REPLY" =~ ^[y/Y]$ ]]; then
     echo -ne "├─ Applying theme"
     sleep 0.3; echo -ne ".";
     lookandfeeltool -a Sweet-HTB 2> /dev/null
-    sleep 0.3; echo -ne "."; sleep 0.3; echo -ne ". ";
+    sleep 0.3; echo -ne ".";
+    if [[ "$kvantum" == "true" ]]; then
+        echo -e "[General]\ntheme=Sweet-HTB" > $HOME/.config/Kvantum/kvantum.kvconfig; fi
+    if [[ "$sddm_config" == "true" ]]; then
+        sddm_theme=Sweet-HTB; sddm_current_theme=$(cat /etc/sddm.conf.d/kde_settings.conf | grep Current | cut -d "=" -f 2)
+        sudo sed "s/$sddm_current_theme/$sddm_theme/" /etc/sddm.conf.d/kde_settings.conf; fi
+    sleep 0.3; echo -ne ". ";
     sleep 0.5; echo -e "Applied."
 else
     echo -ne "├─ Ok"

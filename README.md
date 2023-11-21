@@ -30,7 +30,8 @@ Based on the awesome [WhiteSur](https://github.com/vinceliuice/WhiteSur-kde) the
 ```shell
 git clone https://github.com/the-root-user/Sweet-HTB.git
 cd Sweet-HTB
-bash install.sh
+chmod +x install.sh
+./install.sh
 ```
 ![Installation](install.png)
 

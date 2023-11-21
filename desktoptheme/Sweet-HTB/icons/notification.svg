@@ -46,39 +46,17 @@
      id="defs5">
     <style
        id="current-color-scheme"
-       type="text/css">.ColorScheme-Text {
-        color:#a1adc8;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#11cc00;
-      }
-      .ColorScheme-ViewText {
-        color:#a1adc8;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#73e500;
-      }
-      .ColorScheme-ViewFocus{
-        color:#11cc00;
-      }
-      .ColorScheme-ButtonText {
-        color:#a1adc8;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#73e500;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#11cc00;
-      }</style>
+       type="text/css">
+          .ColorScheme-Text { color:#a1adc8; }
+          .ColorScheme-Background { color:#242424;}
+          .ColorScheme-Highlight { color:#4285f4;}
+          .ColorScheme-ViewText { color:#a1adc8;}
+          .ColorScheme-ViewBackground { color:#343434;}
+          .ColorScheme-ViewFocus{ color:#4285f4;}
+          .ColorScheme-ButtonText { color:#a1adc8;}
+          .ColorScheme-ButtonBackground { color:#242424;}
+          .ColorScheme-ButtonFocus{ color:#4285f4;}
+   </style>
   </defs>
   <g
      fill="currentColor"
@@ -124,27 +102,25 @@
     </g>
   </g>
   <g
-     id="22-22-notification-progress-inactive">
+     id="22-22-notification-progress-inactive"
+     transform="translate(-38,1)"
+     fill="currentColor"
+     class="ColorScheme-Text" >
     <path
        d="m40 40h22v22h-22z"
        fill="none"
        id="path21" />
-    <g
-       transform="translate(-38,1)"
-       fill="currentColor"
-       id="g27">
-      <path
-         class="ColorScheme-Text"
-         d="m89 41a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z"
-         id="path23" />
-      <circle
-         class="ColorScheme-Text"
-         cx="89"
-         cy="50"
-         r="7"
-         opacity=".15"
-         id="circle25" />
-    </g>
+    <path
+       class="ColorScheme-Text"
+       d="m89 41a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9zm0 1a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8z"
+       id="path23" />
+    <circle
+       class="ColorScheme-Text"
+       cx="89"
+       cy="50"
+       r="7"
+       opacity=".15"
+       id="circle25" />
   </g>
   <g
      id="22-22-notification-active"
@@ -167,7 +143,8 @@
        cx="15"
        cy="69"
        r="3"
-       fill="#11cc00"
+       class="ColorScheme-Highlight"
+       fill="currentColor"
        stroke-linecap="round"
        stroke-linejoin="round"
        stroke-width="2.1825"
@@ -285,7 +262,8 @@
        cx="107"
        cy="47"
        r="3"
-       fill="#11cc00"
+       class="ColorScheme-Highlight"
+       fill="currentColor"
        stroke-linecap="round"
        stroke-linejoin="round"
        stroke-width="1.3333"
