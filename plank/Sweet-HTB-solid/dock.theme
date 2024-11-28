@@ -1,8 +1,9 @@
 # Sweet-HTB
 # by Signore
 # https://github.com/the-root-user
+# if you don't have blur
 #
-# Based on TCE - Prime Line by PT_Alfred
+# Based on TCE-Prime Line by PT_Alfred
 
 [PlankTheme]
 # The roundness of the top corners.
@@ -67,6 +68,3 @@ ItemMoveTime=450
 CascadeHide=true
 # The color (RGBA) of the badge displaying urgent count
 BadgeColor=0;;0;;0;;0
-
-[Desktop Entry]
-Name[en_US]=dock.theme
