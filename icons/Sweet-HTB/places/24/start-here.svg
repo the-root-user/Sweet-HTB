@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="start-here.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.1936581"
+     inkscape:cx="17.29453"
+     inkscape:cy="8.6472652"
+     inkscape:window-width="1920"
+     inkscape:window-height="1022"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer 2" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#9fef00;}</style>
+  </defs>
+  <title
+     id="title6">start_here</title>
+  <g
+     id="Layer 2"
+     data-name="Layer 1"
+     transform="matrix(0.0882524,0,0,0.0882524,0,0.00246444)">
+    <rect
+       style="fill:none;fill-opacity:0.25;stroke:none;stroke-width:16.9967;stroke-opacity:0.3;-inkscape-stroke:none;stop-color:#000000"
+       id="rect906"
+       width="271.94727"
+       height="271.94727"
+       x="0"
+       y="-0.02792491"
+       rx="16.996704"
+       ry="16.996704" />
+    <path
+       class="cls-1"
+       d="M 230.95369,68.403462 227.6687,67.165963 137.3011,34.195954 a 3.9600005,3.9600005 0 0 0 -2.66251,0 L 41.016103,68.388466 A 3.8925004,3.8925004 0 0 0 38.4661,72.040963 V 200.29097 a 3.9000007,3.9000007 0 0 0 2.565002,3.65248 l 93.614988,33.75001 a 3.8850005,3.8850005 0 0 0 2.64751,0 l 93.6151,-33.75001 a 3.8925004,3.8925004 0 0 0 2.57247,-3.65248 V 72.040963 a 3.8850005,3.8850005 0 0 0 -2.52748,-3.637501 z M 128.42112,112.65351 V 219.96346 L 53.158603,192.64845 V 85.31596 Z m 74.01753,-37.267566 -66.15002,24.180034 a 0.93000024,0.93000024 0 0 1 -0.63749,0 L 69.501107,75.355974 a 0.93000024,0.93000024 0 0 1 0,-1.747493 L 135.65114,49.428456 a 0.93000024,0.93000024 0 0 1 0.63749,0 l 66.15002,24.180025 a 0.93000024,0.93000024 0 0 1 0,1.747493 z m 16.34994,9.960035 V 192.64845 l -75.26993,27.31501 V 112.62347 Z"
+       id="path8"
+       style="stroke-width:0.750028" />
+  </g>
+</svg>
