@@ -23,11 +23,10 @@ QQCS.MenuStyle {
     }
     itemDelegate.background: Rectangle {
         visible: styleData.selected
-        // color: config.selected_color
         gradient: Gradient {
             GradientStop { position: 0.0; color: config.selected_color }
             GradientStop { position: 1.0; color: config.selected_color_1 } }
-        radius: 8
+        radius: 16
         border.color: "#040608"
         border.width: 2
     }

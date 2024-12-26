@@ -67,6 +67,7 @@ SessionManagementScreen {
         echoMode: TextInput.Password
 
         Layout.fillWidth: true
+        // Layout.preferredWidth: parent.width
 
         onAccepted: {
             if (root.loginScreenUiVisible) {
@@ -112,29 +113,27 @@ SessionManagementScreen {
         font.pointSize: config.fontSize
         font.family: config.font
 
-        contentItem: Text {
-            text: loginButton.text
-            font: loginButton.font
-            opacity: enabled ? 1.0 : 0.4
-            color: enabled ? config.highlight_color : config.inactive_highlight_color
-            horizontalAlignment: Text.AlignHCenter
-            verticalAlignment: Text.AlignVCenter
-            elide: Text.ElideRight
-        }
-
         background: Rectangle {
             id: buttonBackground
-            width: parent.width
-            height: 30
-            radius: 10
-            // color: config.selected_color
+            width: parent.width - 10
+            height: 34
+            radius: 12
             gradient: Gradient {
                 GradientStop { position: 0.0; color: config.selected_color }
                 GradientStop { position: 1.0; color: config.selected_color_1 }
             }
-            opacity: enabled ? 1.0 : 0.4
+            opacity: enabled ? 1.0 : 0.3
             anchors.centerIn: parent
+        }
 
+        contentItem: Text {
+            text: loginButton.text
+            font: loginButton.font
+            opacity: buttonBackground.opacity
+            color: enabled ? config.highlight_color : config.inactive_highlight_color
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+            elide: Text.ElideRight
         }
 
         onClicked: startLogin();

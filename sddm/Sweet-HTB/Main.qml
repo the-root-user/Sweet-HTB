@@ -360,9 +360,8 @@ PlasmaCore.ColorScope {
             anchors.fill: parent
             anchors.centerIn: parent
             color: "#0F111A"
-            opacity: 0.1
+            opacity: 0.01
             z:-1
-            radius: 10
         }
 
         Rectangle {
@@ -370,7 +369,7 @@ PlasmaCore.ColorScope {
             width: mainStack.width + actionButtonsColumn.width*2
             height: mainStack.height
             anchors.centerIn: mainStack
-            radius: 10
+            radius: 40
             color: "#0F111A"
             opacity: 0.5
             z:-1
@@ -381,9 +380,9 @@ PlasmaCore.ColorScope {
             width: actionButtonsColumn.width 
             height: mainStack.height
             anchors.centerIn: actionButtonsColumn
-            radius: 10
+            radius: 40
             color: "#0F111A"
-            opacity: 0.5
+            opacity: 0.2
             z:-1
         }
 
@@ -409,15 +408,6 @@ PlasmaCore.ColorScope {
         //     anchors.centerIn: blurBg
         //     visible: true
         //     z:-2
-        //     
-        //     // textureSource: noiseSource.texture
-        //     // textureSource: NoiseTexture {
-        //     //     id: noise
-        //     //     width: 1000
-        //     //     height: 500
-        //     //     noiseType: NoiseTexture.Perlin
-        //     //     z: -1
-        //     // }
         // }
         
         Rectangle {
@@ -488,10 +478,20 @@ PlasmaCore.ColorScope {
                 }
             }
 
+            Rectangle {
+                anchors.centerIn: parent
+                color: "black"
+                opacity: config.footer_bg_opacity
+                radius: config.footer_bg_radius
+                width: parent.width * 1.05
+                height: parent.height * 1.2
+            }
+
             PlasmaComponents.ToolButton {
                 text: i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Button to show/hide virtual keyboard", "Virtual Keyboard")
                 iconName: inputPanel.keyboardActive ? "input-keyboard-virtual-on" : "input-keyboard-virtual-off"
                 onClicked: inputPanel.showHide()
+                height: parent.height
                 visible: inputPanel.status == Loader.Ready
             }
 
@@ -500,15 +500,6 @@ PlasmaCore.ColorScope {
 
             SessionButton {
                 id: sessionButton
-            }
-
-            Rectangle {
-                anchors.centerIn: parent
-                color: "black"
-                opacity: config.footer_bg_opacity_left
-                radius: 8
-                width: parent.width * 1.05
-                height: parent.height * 1.2
             }
 
         }
@@ -530,21 +521,20 @@ PlasmaCore.ColorScope {
                 }
             }
 
+            Rectangle {
+                anchors.centerIn: parent
+                color: "black"
+                opacity: config.footer_bg_opacity
+                radius: config.footer_bg_radius
+                width: parent.width * 1.1
+                height: parent.height * 1.5
+            }
+
             Battery {}
 
             Clock {
                 id: clock
                 visible: true
-            }
-
-            Rectangle {
-                anchors.centerIn: parent
-                color: "black"
-                opacity: config.footer_bg_opacity_right
-                radius: 8
-                width: parent.width * 1.1
-                height: parent.height * 1.4
-                z: -1
             }
         }
     }
