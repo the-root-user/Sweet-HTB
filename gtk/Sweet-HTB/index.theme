@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Sweet-HTB
+Comment=Sweet theme for sweet hackers
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Sweet-HTB
+MetacityTheme=Sweet-HTB
+IconTheme=Sweet-HTB
+CursorTheme=Fluent-dark-cursors
+ButtonLayout=close,maximize,minimize:menu
+
