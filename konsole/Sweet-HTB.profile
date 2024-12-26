@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Konsole-HTB
-Font=JetBrains Mono,11,-1,5,50,0,0,0,0,0
+Font=JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0
 TabColor=26,30,33
 
 [Cursor Options]
