@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=Sweet-HTB
+Description=Sweet theme for Sweet Hackers
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
 Type=Service
-X-KDE-PluginInfo-Author=@therootuser_
+X-KDE-PluginInfo-Author=Signore
 X-KDE-PluginInfo-Category=Plasma Look And Feel
 X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-EnabledByDefault=true

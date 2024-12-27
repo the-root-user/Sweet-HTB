@@ -1,7 +1,7 @@
 [SddmGreeterTheme]
 Name=Sweet-HTB
-Description=HTB theme for KDE Plasma
-Author=@therootuser_
+Description=Sweet-HTB theme for SDDM
+Author=Signore
 Copyright=(c) 2023, Signore
 License=GPL 3+
 Type=sddm-theme
