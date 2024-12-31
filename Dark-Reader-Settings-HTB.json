@@ -1,4 +1,5 @@
 {
+    "schemeVersion": 2,
     "enabled": true,
     "fetchNews": false,
     "theme": {
@@ -14,8 +15,8 @@
         "stylesheet": "",
         "darkSchemeBackgroundColor": "#1a2231",
         "darkSchemeTextColor": "#a1adc8",
-        "lightSchemeBackgroundColor": "#dcdad7",
-        "lightSchemeTextColor": "#181a1b",
+        "lightSchemeBackgroundColor": "#ccdcff",
+        "lightSchemeTextColor": "#111927",
         "scrollbarColor": "auto",
         "selectionColor": "auto",
         "styleSystemControls": true,
@@ -26,7 +27,7 @@
     "presets": [
         {
             "id": "preset-560ab1e8e4bd58809dcce1969e0d1a24",
-            "name": "Theme 1",
+            "name": "Sweet-HTB",
             "urls": [
                 "tryhackme.com"
             ],
@@ -43,8 +44,8 @@
                 "stylesheet": "",
                 "darkSchemeBackgroundColor": "#1a2231",
                 "darkSchemeTextColor": "#a1adc8",
-                "lightSchemeBackgroundColor": "#dcdad7",
-                "lightSchemeTextColor": "#181a1b",
+                "lightSchemeBackgroundColor": "#ccdcff",
+                "lightSchemeTextColor": "#111927",
                 "scrollbarColor": "auto",
                 "selectionColor": "auto",
                 "styleSystemControls": true,
@@ -55,17 +56,19 @@
         }
     ],
     "customThemes": [],
-    "siteList": [
-        "stuff.mit.edu",
-        "tryhackme.com"
+    "enabledByDefault": true,
+    "enabledFor": [],
+    "disabledFor": [
+        "github.com"
     ],
-    "siteListEnabled": [],
-    "applyToListedOnly": true,
     "changeBrowserTheme": false,
     "syncSettings": true,
     "syncSitesFixes": false,
-    "automation": "",
-    "automationBehaviour": "OnOff",
+    "automation": {
+        "enabled": false,
+        "mode": "",
+        "behavior": "OnOff"
+    },
     "time": {
         "activation": "18:00",
         "deactivation": "9:00"
@@ -75,10 +78,22 @@
         "longitude": null
     },
     "previewNewDesign": true,
+    "previewNewestDesign": false,
     "enableForPDF": true,
     "enableForProtectedPages": false,
     "enableContextMenus": false,
     "detectDarkTheme": false,
+    "installation": {
+        "date": 1735631821835,
+        "reason": "install",
+        "version": "4.9.96"
+    },
+    "siteList": [
+        "stuff.mit.edu",
+        "tryhackme.com"
+    ],
+    "siteListEnabled": [],
+    "applyToListedOnly": true,
     "readNews": [
         "v4-9-16",
         "v4-9",

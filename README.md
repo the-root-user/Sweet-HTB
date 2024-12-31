@@ -37,8 +37,9 @@ chmod +x install.sh && \
 ```
 ![Installation](install.png)
 
-Yes, simple as that.<br>
-Enjoy :)
-
 But, wait.. there's more!<br>
-There's this file [Dark-Reader-Settings-HTB.json](Dark-Reader-Settings-HTB.json) in the repo. After installing the [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) add-on in Firefox or any other browser, import the settings from this file into the add-on and enjoy the same dark mode as HTB on almost all other websites on the internet! TryHackMe is already in there :)
+There's this file [Dark-Reader-Settings-HTB.json](Dark-Reader-Settings-HTB.json) in the repo, which can make light looking sites like [this](dark-reader.png).<br>
+After installing the [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) add-on in your browser of choice, import the settings from this file into the add-on and enjoy the same dark mode as HTB on almost all other websites on the internet!<br>
+<!-- TryHackMe is already in there. They have got there own dark mode now. -->
+
+That's all. Keep hacking 💚
