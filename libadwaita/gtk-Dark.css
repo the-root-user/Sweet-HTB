@@ -1900,7 +1900,7 @@ list > row button.image-button:not(.flat):checked {
 
 popover.menu box.circular-buttons button.suggested-action.circular.image-button.model,
 list > row button.image-button:not(.flat).suggested-action {
-  color: #ccdcff;
+  color: #202939;
   background-color: #9FEF00;
   background-image: none;
   box-shadow: inset 0 1px rgba(204, 220, 255, 0.15), inset 0 -1px rgba(204, 220, 255, 0.03);
@@ -3046,8 +3046,8 @@ treeview.view.expander:disabled {
 
 columnview.view.progressbar,
 treeview.view.progressbar {
-  color: #202939;
   border-radius: 12px;
+  color: #202939;
   background-color: #9FEF00;
 }
 
@@ -6862,8 +6862,8 @@ scrolledwindow.inline undershoot.top {
 }
 
 .search-view {
+  color: #202939;
   background-color: #9FEF00;
-  color: #ccdcff;
 }
 
 .search-view menubutton button:focus:focus-visible {
@@ -6883,9 +6883,9 @@ image.circular {
 
 .installed-overlay-box {
   font-size: smaller;
+  color: #202939;
   background-color: #9FEF00;
   border-radius: 0;
-  color: #ccdcff;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -8580,7 +8580,7 @@ panelthemeselector checkbutton.theme-selector radio:checked {
 themeselector checkbutton.theme-selector radio:checked,
 panelthemeselector checkbutton.theme-selector radio:checked {
   -gtk-icon-source: -gtk-icontheme("object-select-symbolic");
-  color: #ccdcff;
+  color: #202939;
   background-color: #9FEF00;
 }
 
@@ -8602,7 +8602,7 @@ themeswitcher .check {
   padding: 0;
   margin: 0;
   border-radius: 9999px;
-  color: #ccdcff;
+  color: #202939;
   background-color: #9FEF00;
 }
 
