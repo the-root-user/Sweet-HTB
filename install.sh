@@ -112,7 +112,7 @@ if [ -d icons/$THEME ]; then
     THEME_DIR="$HOME/.local/share/icons/$THEME"
     sleep 0.2; echo -e "$LIME├──$LBLUE custom icons "
     [ -d "$THEME_DIR" ] && rm -rf "$THEME_DIR"*
-    cp -r $HOME/.local/share/icons/WhiteSur $THEME_DIR && rm $THEME_DIR/icon-theme.cache
+    cp -r $HOME/.local/share/icons/WhiteSur $THEME_DIR; [ -f "$THEME_DIR/icon-theme.cache" ] && rm $THEME_DIR/icon-theme.cache
     cp -r --remove-destination icons/$THEME/* $THEME_DIR
 
     sed -i "s/#363636/#ccdcff/g" "${THEME_DIR}"/{actions,devices,places}/{16,22,24}/*            2>/dev/null
@@ -121,13 +121,13 @@ if [ -d icons/$THEME ]; then
     sed -i "s/#363636/#ccdcff/g" "${THEME_DIR}"/{actions,devices}/32/*                           2>/dev/null
     sed -i "s/#363636/#ccdcff/g" "${THEME_DIR}"/{actions,apps,categories,emblems,devices,mimes,places,status}/symbolic/* 2>/dev/null
     sed -i "s/#f2f2f2/#ccdcff/g" "${THEME_DIR}"/status/{16,22,24,32}/*                           2>/dev/null
-    gtk-update-icon-cache $THEME_DIR # || echo theme1
+    # gtk-update-icon-cache $THEME_DIR # || echo theme1
 
     if [ -d icons/alt-folders ]; then
-      cp -r $THEME_DIR $THEME_DIR-alt && rm $THEME_DIR-alt/.icon-theme.cache
+      cp -r $THEME_DIR $THEME_DIR-alt; [ -f "$THEME_DIR-alt/.icon-theme.cache" ] && rm $THEME_DIR-alt/.icon-theme.cache
       cp -r icons/alt-folders/* $THEME_DIR-alt/places/scalable
       sed -i "s/Sweet-HTB/Sweet-HTB-alt/g" $THEME_DIR-alt/index.theme
-      gtk-update-icon-cache $THEME_DIR-alt # || echo theme2
+      # gtk-update-icon-cache $THEME_DIR-alt # || echo theme2
     fi
   fi
 fi
@@ -174,10 +174,10 @@ if [[ "$REPLY" =~ ^[y/Y]$ ]]; then
       DESKTOP="Other"
     fi
   done
-  DESKTOP="Other"
+  
   if [[ $DESKTOP != "Other" ]]; then
     [ $DESKTOP == "KDE" ] && [ -f look-and-feel/$THEME/contents/layouts/plasma-org.kde.plasma.desktop-appletsrc ] && read -p "$LIME├──$LBLUE Apply panel layout? (y/n) " PANEL
-    echo -ne "$LIME│ $LBLUE Applying theme"; sleep 0.4; echo -ne "."; sleep 0.4; echo -ne "."; sleep 0.4; echo -ne ".";
+    echo -ne "$LIME│ $LBLUE Applying theme for $DESKTOP"; sleep 0.4; echo -ne "."; sleep 0.4; echo -ne "."; sleep 0.4; echo -ne ".";
     if [[ $DESKTOP == "KDE" ]]; then
       # echo $THEME > $HOME/.config/kdedefaults/package
       # echo -e "[Theme]\nname=$THEME" > $HOME/.config/kdedefaults/plasmarc
@@ -204,9 +204,8 @@ if [[ "$REPLY" =~ ^[y/Y]$ ]]; then
     fi
     sleep 0.5; echo -e "$LIME Applied."
   else
-    echo -e "$LIME│ $LBLUE$RED Which desktop you have? I couldn't determine!"
-    echo -e "$LIME│ $LBLUE Please do: echo \$DESKTOP_SESSION"
-    echo -e "$LIME│ $LBLUE And report the issue with the output."
+    echo -e "$LIME│ $LBLUE$RED Which desktop you have? I couldn't recognize $DESKTOP"
+    echo -e "$LIME│ $LBLUE Please report the issue with the output."
   fi
 else
   echo -ne "$LIME│ $LBLUE Alright"; sleep 0.3; echo -ne ".. "; sleep 0.5; echo -ne "You don't get any candies "; sleep 1; echo -ne "😏"; sleep 2
