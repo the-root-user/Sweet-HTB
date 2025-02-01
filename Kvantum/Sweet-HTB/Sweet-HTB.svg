@@ -194,7 +194,7 @@
          offset="0"
          id="stop10130" />
       <stop
-         style="stop-color:#76e500;stop-opacity:1;"
+         style="stop-color:#71ef00;stop-opacity:1;"
          offset="1"
          id="stop10132" />
     </linearGradient>
@@ -205,8 +205,8 @@
         stop-color:#cddfff;
       }
       .ColorScheme-Highlight {
-        color:#76e500;
-        stop-color:#76e500;
+        color:#71ef00;
+        stop-color:#71ef00;
       }
       .ColorScheme-ViewText {
         color:#a1adc8;
@@ -221,8 +221,8 @@
         stop-color:#73e500;
       }
       .ColorScheme-ViewFocus{
-        color:#76e500;
-        stop-color:#76e500;
+        color:#71ef00;
+        stop-color:#71ef00;
       }
       .ColorScheme-ButtonText {
         color:#a7b4d0;
@@ -6107,7 +6107,7 @@
        y="27.78125" />
     <path
        id="rect2137"
-       style="color:#76e500;display:inline;opacity:0.8;fill:url(#linearGradient29228);stop-color:#76e500"
+       style="color:#71ef00;display:inline;opacity:0.8;fill:url(#linearGradient29228);stop-color:#71ef00"
        class="ColorScheme-Highlight"
        d="m 32.808334,27.78125 h 0.396874 v 1.5875 h -0.396874 z"
        sodipodi:nodetypes="ccccc" />
@@ -6129,7 +6129,7 @@
        height="0.39687499"
        x="34.395832"
        y="26.19375"
-       style="color:#76e500;display:inline;opacity:0.8;fill:url(#linearGradient21971);fill-opacity:1;stroke-width:0.866025;stop-color:#76e500" />
+       style="color:#71ef00;display:inline;opacity:0.8;fill:url(#linearGradient21971);fill-opacity:1;stroke-width:0.866025;stop-color:#71ef00" />
   </g>
   <g
      id="lineedit-normal-topright"
@@ -6146,7 +6146,7 @@
        id="path5119"
        class="ColorScheme-Highlight"
        d="m 39.158333,27.78125 c 0,-0.879473 -0.708025,-1.5875 -1.5875,-1.5875 v 0.396875 c 0.586317,0 1.243542,0.604307 1.243542,1.190625 z"
-       style="color:#76e500;display:inline;opacity:0.8;fill:url(#linearGradient21969);fill-opacity:1;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;display:inline;opacity:0.8;fill:url(#linearGradient21969);fill-opacity:1;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -6161,7 +6161,7 @@
        id="path44063-6"
        class="ColorScheme-Highlight"
        d="m 34.395833,26.19375 c -0.879473,0 -1.5875,0.708025 -1.5875,1.5875 h 0.396875 c 0,-0.586317 0.604307,-1.190626 1.190625,-1.190626 z"
-       style="color:#76e500;display:inline;opacity:0.8;fill:#171f2c;fill-opacity:0.9;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;display:inline;opacity:0.8;fill:#171f2c;fill-opacity:0.9;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -6179,7 +6179,7 @@
        id="path5125"
        class="ColorScheme-Highlight"
        d="m 37.570833,30.95625 c 0.879473,0 1.5875,-0.708025 1.5875,-1.5875 h -0.343958 c 0,0.586317 -0.657224,1.243542 -1.243542,1.243542 z"
-       style="color:#76e500;opacity:0.8;fill:url(#linearGradient15103);fill-opacity:1;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;opacity:0.8;fill:url(#linearGradient15103);fill-opacity:1;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -6197,7 +6197,7 @@
        id="path5127"
        class="ColorScheme-Highlight"
        d="m 32.808333,29.36875 c 0,0.879473 0.708025,1.5875 1.5875,1.5875 v -0.343958 c -0.586317,0 -1.190625,-0.657224 -1.190625,-1.243542 z"
-       style="color:#76e500;opacity:0.8;fill:url(#linearGradient8491);fill-opacity:1;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;opacity:0.8;fill:url(#linearGradient8491);fill-opacity:1;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -6213,7 +6213,7 @@
        height="100%" />
     <path
        id="rect5111"
-       style="color:#76e500;opacity:0.8;fill:#ccdfff;fill-opacity:0.02;stop-color:#76e500"
+       style="color:#71ef00;opacity:0.8;fill:#ccdfff;fill-opacity:0.02;stop-color:#71ef00"
        class="ColorScheme-Highlight"
        d="m 38.814375,27.78125 h 0.343957 v 1.5875 h -0.343957 z"
        sodipodi:nodetypes="ccccc" />
@@ -6231,7 +6231,7 @@
        height="100%" />
     <path
        id="rect5113"
-       style="color:#76e500;opacity:0.8;fill:url(#linearGradient61858);stop-color:#76e500"
+       style="color:#71ef00;opacity:0.8;fill:url(#linearGradient61858);stop-color:#71ef00"
        class="ColorScheme-Highlight"
        d="m 34.395833,30.612292 h 3.174999 v 0.343959 h -3.175 z"
        sodipodi:nodetypes="ccccc" />
@@ -6259,7 +6259,7 @@
        y="27.78125" />
     <path
        id="rect44045"
-       style="color:#76e500;opacity:1;fill:url(#linearGradient39228);fill-opacity:1;stop-color:#76e500"
+       style="color:#71ef00;opacity:1;fill:url(#linearGradient39228);fill-opacity:1;stop-color:#71ef00"
        class="ColorScheme-Highlight"
        d="m 32.808334,27.78125 h 0.396874 v 1.5875 h -0.396874 z"
        sodipodi:nodetypes="ccccc" />
@@ -6276,7 +6276,7 @@
        y="26.19375" />
     <path
        id="rect44051"
-       style="color:#76e500;display:inline;fill:url(#linearGradient17649);fill-opacity:1;stop-color:#76e500"
+       style="color:#71ef00;display:inline;fill:url(#linearGradient17649);fill-opacity:1;stop-color:#71ef00"
        class="ColorScheme-Highlight"
        d="m 34.395832,26.19375 h 3.175 v 0.396875 h -3.175 z"
        sodipodi:nodetypes="ccccc" />
@@ -6352,7 +6352,7 @@
        transform="scale(-1,1)" />
     <path
        id="use44081"
-       style="color:#76e500;fill:url(#linearGradient39144);fill-opacity:1;stop-color:#76e500"
+       style="color:#71ef00;fill:url(#linearGradient39144);fill-opacity:1;stop-color:#71ef00"
        class="ColorScheme-Highlight"
        transform="scale(-1,1)"
        d="m -39.158333,27.78125 h 0.343945 v 1.5875 h -0.343945 z"
@@ -6371,7 +6371,7 @@
        transform="scale(1,-1)" />
     <path
        id="use44087"
-       style="color:#76e500;fill:#11cc00;fill-opacity:1;stroke:none;stop-color:#76e500"
+       style="color:#71ef00;fill:#11cc00;fill-opacity:1;stroke:none;stop-color:#71ef00"
        class="ColorScheme-Highlight"
        transform="scale(1,-1)"
        d="m 34.395832,-30.956251 h 3.175 l 10e-7,0.343959 h -3.175001 z"
@@ -6928,7 +6928,7 @@
        d="m 56,270 c -5.52,0 -10,4.48 -10,10 0,5.52 4.48,10 10,10 5.52,0 10,-4.48 10,-10 0,-5.52 -4.48,-10 -10,-10 z"
        id="use1737-9"
        class="ColorScheme-Highlight"
-       style="color:#76e500;display:none;fill:url(#linearGradient13026);fill-opacity:1;stop-color:#76e500"
+       style="color:#71ef00;display:none;fill:url(#linearGradient13026);fill-opacity:1;stop-color:#71ef00"
        sodipodi:nodetypes="sssss" />
     <path
        d="m 56,271.16873 c -4.874859,0 -8.831271,3.95641 -8.831271,8.83127 0,4.87486 3.956412,8.83127 8.831271,8.83127 4.874859,0 8.831271,-3.95641 8.831271,-8.83127 0,-4.87486 -3.956412,-8.83127 -8.831271,-8.83127 z"
@@ -6948,7 +6948,7 @@
        d="m 56,278 c 1.1046,0 2,0.89543 2,2 0,1.10457 -0.89543,2 -2,2 -1.10457,0 -2,-0.89543 -2,-2 0,-1.10457 0.89543,-2 2,-2 z"
        id="path24349-0"
        class="ColorScheme-Highlight"
-       style="color:#76e500;display:none;fill:#cddfff;fill-opacity:1;stop-color:#76e500"
+       style="color:#71ef00;display:none;fill:#cddfff;fill-opacity:1;stop-color:#71ef00"
        sodipodi:nodetypes="sssss" />
   </g>
   <g
@@ -8049,7 +8049,7 @@
        y="27.78125" />
     <path
        id="path2188"
-       style="color:#76e500;display:inline;opacity:0.8;fill:url(#linearGradient2244);stop-color:#76e500"
+       style="color:#71ef00;display:inline;opacity:0.8;fill:url(#linearGradient2244);stop-color:#71ef00"
        class="ColorScheme-Highlight"
        d="m 32.808334,27.78125 h 0.396874 v 1.5875 h -0.396874 z"
        sodipodi:nodetypes="ccccc" />
@@ -8071,7 +8071,7 @@
        height="0.39687499"
        x="34.395832"
        y="26.19375"
-       style="color:#76e500;display:inline;opacity:0.8;fill:url(#linearGradient2242);fill-opacity:1;stroke-width:0.866025;stop-color:#76e500" />
+       style="color:#71ef00;display:inline;opacity:0.8;fill:url(#linearGradient2242);fill-opacity:1;stroke-width:0.866025;stop-color:#71ef00" />
   </g>
   <g
      id="lineedit-hover-topright"
@@ -8088,7 +8088,7 @@
        id="path2200"
        class="ColorScheme-Highlight"
        d="m 39.158333,27.78125 c 0,-0.879473 -0.708025,-1.5875 -1.5875,-1.5875 v 0.396875 c 0.586317,0 1.243542,0.604307 1.243542,1.190625 z"
-       style="color:#76e500;display:inline;opacity:0.8;fill:url(#linearGradient2240);fill-opacity:1;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;display:inline;opacity:0.8;fill:url(#linearGradient2240);fill-opacity:1;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -8103,7 +8103,7 @@
        id="path2206"
        class="ColorScheme-Highlight"
        d="m 34.395833,26.19375 c -0.879473,0 -1.5875,0.708025 -1.5875,1.5875 h 0.396875 c 0,-0.586317 0.604307,-1.190626 1.190625,-1.190626 z"
-       style="color:#76e500;display:inline;opacity:0.8;fill:#171f2c;fill-opacity:0.9;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;display:inline;opacity:0.8;fill:#171f2c;fill-opacity:0.9;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -8121,7 +8121,7 @@
        id="path2212"
        class="ColorScheme-Highlight"
        d="m 37.570833,30.95625 c 0.879473,0 1.5875,-0.708025 1.5875,-1.5875 h -0.343958 c 0,0.586317 -0.657224,1.243542 -1.243542,1.243542 z"
-       style="color:#76e500;opacity:0.8;fill:url(#linearGradient2238);fill-opacity:1.0;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;opacity:0.8;fill:url(#linearGradient2238);fill-opacity:1.0;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -8139,7 +8139,7 @@
        id="path2218"
        class="ColorScheme-Highlight"
        d="m 32.808333,29.36875 c 0,0.879473 0.708025,1.5875 1.5875,1.5875 v -0.343958 c -0.586317,0 -1.190625,-0.657224 -1.190625,-1.243542 z"
-       style="color:#76e500;opacity:0.8;fill:url(#linearGradient2236);fill-opacity:1.0;stroke-width:0.264584;stop-color:#76e500"
+       style="color:#71ef00;opacity:0.8;fill:url(#linearGradient2236);fill-opacity:1.0;stroke-width:0.264584;stop-color:#71ef00"
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
@@ -8155,7 +8155,7 @@
        height="100%" />
     <path
        id="path2224"
-       style="color:#76e500;opacity:0.8;fill:#ccdfff;fill-opacity:0.02;stop-color:#76e500"
+       style="color:#71ef00;opacity:0.8;fill:#ccdfff;fill-opacity:0.02;stop-color:#71ef00"
        class="ColorScheme-Highlight"
        d="m 38.814375,27.78125 h 0.343957 v 1.5875 h -0.343957 z"
        sodipodi:nodetypes="ccccc" />
@@ -8173,7 +8173,7 @@
        height="100%" />
     <path
        id="path2230"
-       style="color:#76e500;opacity:0.8;fill:url(#linearGradient2234);stop-color:#76e500;fill-opacity:1.0"
+       style="color:#71ef00;opacity:0.8;fill:url(#linearGradient2234);stop-color:#71ef00;fill-opacity:1.0"
        class="ColorScheme-Highlight"
        d="m 34.395833,30.612292 h 3.174999 v 0.343959 h -3.175 z"
        sodipodi:nodetypes="ccccc" />
