@@ -11,6 +11,16 @@ $time\
     $python\
     $conda\
     $nodejs\
+    $cpp\
+    $golang\
+    $ruby\
+    $php\
+    $lua\
+    $perl\
+    $elixir\
+    $haskell\
+    $swift\
+    $kotlin\
 )\
 $cmd_duration
 [╰─](fg:arrow)$character\
@@ -20,14 +30,12 @@ $cmd_duration
 # Disables the blank line at the start of the prompt
 add_newline = true
 
-
 # Palettes:
 #   old: the previous version.
 #   normal: dark gray / yellow / white palette.
 #   light: pastel light colors.
 # To change the colors: change to the corresponding palette.
 palette = "htb"
-
 
 [palettes.old]
 arrow = "#353535"
@@ -43,6 +51,16 @@ conda = "#3EB049"
 java = "#861215"
 rust = "#C33C00"
 clang = "#00599D"
+cpp = "#00599D"
+golang = "#00ADD8"
+ruby = "#CC342D"
+php = "#777BB4"
+lua = "#000080"
+perl = "#394E79"
+elixir = "#6E4A7E"
+haskell = "#5E5086"
+swift = "#F05138"
+kotlin = "#B125A6"
 duration = "yellow"
 text_color = "#EDF2F4"
 text_light = "#EDF2F4"
@@ -57,10 +75,20 @@ node = "#9FEF00"            # HTB green
 git = "#1f2937"             # Dark charcoal
 git_status = "#374151"      # Medium dark gray
 python = "#70df01"          # HTB green
-conda = "#6ee7b7"           # Light mint green
-java = "#9FEF00"            # HTB green
-rust = "#fb923c"            # Orange accent
-clang = "#60a5fa"           # Blue accent
+conda = "#70df01"           # Light mint green
+java = "#70df01"            # HTB green
+rust = "#70df01"            # Orange accent
+clang = "#70df01"           # Blue accent
+cpp = "#70df01"             # Blue accent (matches clang)
+golang = "#70df01"          # Cyan for Go
+ruby = "#70df01"            # Red accent
+php = "#70df01"            # Purple accent
+lua = "#70df01"             # Blue accent
+perl = "#70df01"            # Purple accent
+elixir = "#70df01"          # Purple accent
+haskell = "#70df01"         # Gray accent
+swift = "#70df01"           # Red accent
+kotlin = "#70df01"          # Purple accent
 duration = "#10b981"        # Emerald green
 text_color = "#9FEF00"      # HTB neon green text
 text_light = "#e5e7eb"      # Light gray text
@@ -80,6 +108,16 @@ conda = "#3EB049"
 java = "#861215"
 rust = "#C33C00"
 clang = "#00599D"
+cpp = "#00599D"
+golang = "#00ADD8"
+ruby = "#CC342D"
+php = "#777BB4"
+lua = "#000080"
+perl = "#394E79"
+elixir = "#6E4A7E"
+haskell = "#5E5086"
+swift = "#F05138"
+kotlin = "#B125A6"
 duration = "#F4FBFF"
 text_color = "#EDF2F4"
 text_light = "#26272A"
@@ -97,6 +135,16 @@ java = "#FF52A3"
 python = "#B4F9F8"
 node = "#81FF85"
 conda = "#BAF5C0"
+cpp = "#67E3FF"
+golang = "#2BC4E2"
+ruby = "#FF6B6B"
+php = "#AEAEF7"
+lua = "#4B70F5"
+perl = "#7B9BFF"
+elixir = "#B47AEA"
+haskell = "#8B7EC8"
+swift = "#FF6C3C"
+kotlin = "#D447C9"
 duration = "#91FFE7"
 text_color = "#26272A"
 text_light = "#26272A"
@@ -149,23 +197,29 @@ symbol = " "
 disabled=true
 
 [java]
-format = "[ ](fg:java)[$symbol$version](bg:java fg:text_color)[](fg:java)"
+format = "[ ](fg:java)[$symbol$version](bg:java fg:text_dark)[](fg:java)"
 version_format = "${raw}"
 symbol = " "
 disabled = true
 
 [nodejs]
 format = "[ ](fg:node)[$symbol$version]($style)[](fg:node)"
-style = "bg:node fg:text_light"
+style = "bg:node fg:text_dark"
 symbol = " "
 version_format = "${raw}"
 disabled=false
 
 [rust]
-format = "[ ](fg:rust)[$symbol$version](bg:rust fg:text_color)[](fg:rust)"
+format = "[ ](fg:rust)[$symbol$version](bg:rust fg:text_dark)[](fg:rust)"
 symbol = " "
 version_format = "${raw}"
 disabled=true
+
+[golang]
+format = "[ ](fg:golang)[$symbol$version](bg:golang fg:text_dark)[](fg:golang)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
 
 [python]
 disabled=false
@@ -176,16 +230,70 @@ style = "fg:text_dark bg:python"
 
 [conda]
 format = "[ ](fg:conda)[$symbol$environment]($style)[](fg:conda)"
-style = "bg:conda fg:text_color"
+style = "bg:conda fg:text_dark"
 ignore_base = false
 disabled=false
 symbol = " "
 
 [c]
-format = "[ ](fg:clang)[$symbol($version(-$name) )](bg:clang fg:text_color)[](fg:clang)"
+format = "[ ](fg:clang)[$symbol($version(-$name) )](bg:clang fg:text_dark)[](fg:clang)"
 symbol = " "
 version_format = "${raw}"
 disabled=true
+
+[cpp]
+format = "[ ](fg:cpp)[$symbol($version(-$name) )](bg:cpp fg:text_dark)[](fg:cpp)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[ruby]
+format = "[ ](fg:ruby)[$symbol$version](bg:ruby fg:text_dark)[](fg:ruby)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[php]
+format = "[ ](fg:php)[$symbol$version](bg:php fg:text_dark)[](fg:php)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[lua]
+format = "[ ](fg:lua)[$symbol$version](bg:lua fg:text_dark)[](fg:lua)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[perl]
+format = "[ ](fg:perl)[$symbol$version](bg:perl fg:text_dark)[](fg:perl)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[elixir]
+format = "[ ](fg:elixir)[$symbol$version](bg:elixir fg:text_dark)[](fg:elixir)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[haskell]
+format = "[ ](fg:haskell)[$symbol$version](bg:haskell fg:text_dark)[](fg:haskell)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[swift]
+format = "[ ](fg:swift)[$symbol$version](bg:swift fg:text_dark)[](fg:swift)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[kotlin]
+format = "[ ](fg:kotlin)[$symbol$version](bg:kotlin fg:text_dark)[](fg:kotlin)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
 
 [os.symbols]
 Alpine = " "
