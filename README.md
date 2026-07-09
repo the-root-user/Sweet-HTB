@@ -42,4 +42,6 @@ There's this file [Dark-Reader-Settings-HTB.json](Dark-Reader-Settings-HTB.json)
 After installing the [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) add-on in your browser of choice, import the settings from this file into the add-on and enjoy the same dark mode as HTB on almost all other websites on the internet!<br>
 <!-- TryHackMe is already in there. They have got there own dark mode now. -->
 
+Also check out the [Starship](https://starship.rs/) prompt configuration in the [starship](starship/starship.toml) directory for a matching terminal prompt!
+
 That's all. Keep hacking 💚
