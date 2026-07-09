@@ -162,16 +162,14 @@ echo ""
 echo -ne "$LIME┌─$LBLUE Do You want to apply the theme? (y/n) "
 read REPLY;
 if [[ "$REPLY" =~ ^[y/Y]$ ]]; then
-  DESKTOP=""
-  for val in mate gnome plasma KDE; do
-    if [[ "$XDG_CURRENT_DESKTOP" == *"$val"* ]] || [[ "$DESKTOP_SESSION" == *"$val"* ]] || \
+  DESKTOP="Other"
+  for val in mate gnome plasma kde cinnamon; do
+    if [[ "$(echo $XDG_CURRENT_DESKTOP | tr '[:upper:]' '[:lower:]')" == *"$val"* ]] || [[ "$(echo $DESKTOP_SESSION | tr '[:upper:]' '[:lower:]')" == *"$val"* ]] || \
       [[ -f "$HOME/.xsession" && "$(cat "$HOME/.xsession" | tr '[:upper:]' '[:lower:]')" == *"$val"* ]]
     then
-      DESKTOP=`echo $val | tr '[:lower:]' '[:upper:]'`
-      [ $DESKTOP == "plasma" ] && DESKTOP="KDE"
+      DESKTOP=$(echo $val | tr '[:lower:]' '[:upper:]')
+      [ "$DESKTOP" == "PLASMA" ] && DESKTOP="KDE"
       break
-    else
-      DESKTOP="Other"
     fi
   done
   
@@ -201,11 +199,17 @@ if [[ "$REPLY" =~ ^[y/Y]$ ]]; then
       dconf write /org/gnome/shell/extensions/user-theme/name "'Sweet-HTB'"
       gsettings set org.gnome.desktop.interface gtk-theme "Sweet-HTB"
       gsettings set org.gnome.desktop.interface icon-theme "Sweet-HTB"
+    elif [[ $DESKTOP == "CINNAMON" ]]; then
+      gsettings set org.cinnamon.desktop.interface gtk-theme "Sweet-HTB"
+      gsettings set org.cinnamon.desktop.interface icon-theme "Sweet-HTB"
+      gsettings set org.cinnamon.theme name "Sweet-HTB"
     fi
     sleep 0.5; echo -e "$LIME Applied."
   else
-    echo -e "$LIME│ $LBLUE$RED Which desktop you have? I couldn't recognize $DESKTOP"
-    echo -e "$LIME│ $LBLUE Please report the issue with the output."
+    echo -e "$LIME│ $LBLUE$RED Which desktop you have? I couldn't recognize it."
+    echo -e "$LIME│ $LBLUE XDG_CURRENT_DESKTOP: $XDG_CURRENT_DESKTOP"
+    echo -e "$LIME│ $LBLUE DESKTOP_SESSION: $DESKTOP_SESSION"
+    echo -e "$LIME│ $LBLUE Please report the issue with the above output."
   fi
 else
   echo -ne "$LIME│ $LBLUE Alright"; sleep 0.3; echo -ne ".. "; sleep 0.5; echo -ne "You don't get any candies "; sleep 1; echo -ne "😏"; sleep 2
