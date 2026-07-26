@@ -1,0 +1,328 @@
+format = """\
+[╭╴](fg:arrow)\
+$username\
+$directory\
+$time\
+(\
+    $git_branch\
+    $git_status\
+)\
+(\
+    $python\
+    $conda\
+    $nodejs\
+    $cpp\
+    $golang\
+    $ruby\
+    $php\
+    $lua\
+    $perl\
+    $elixir\
+    $haskell\
+    $swift\
+    $kotlin\
+)\
+$cmd_duration
+[╰─](fg:arrow)$character\
+"""
+# Add the modules you need
+
+# Disables the blank line at the start of the prompt
+add_newline = true
+
+# Palettes:
+#   old: the previous version.
+#   normal: dark gray / yellow / white palette.
+#   light: pastel light colors.
+# To change the colors: change to the corresponding palette.
+palette = "htb"
+
+[palettes.old]
+arrow = "#353535"
+os = "#3778BF"
+os_admin = "#6A040F"
+directory = "#3F37C9"
+node = "green"
+time = "#177E89"
+git = "#B02B10"
+git_status = "#8B1D2C"
+python = "#3776AB"
+conda = "#3EB049"
+java = "#861215"
+rust = "#C33C00"
+clang = "#00599D"
+cpp = "#00599D"
+golang = "#00ADD8"
+ruby = "#CC342D"
+php = "#777BB4"
+lua = "#000080"
+perl = "#394E79"
+elixir = "#6E4A7E"
+haskell = "#5E5086"
+swift = "#F05138"
+kotlin = "#B125A6"
+duration = "yellow"
+text_color = "#EDF2F4"
+text_light = "#EDF2F4"
+
+[palettes.htb]
+arrow = "#9FEF00"           # HTB signature neon green
+os = "#141d2b"              # Dark blue-black
+os_admin = "#9FEF00"        # Neon green for admin/root
+directory = "#1a2332"       # Slightly lighter dark blue
+time = "#2d3748"            # Dark gray-blue
+node = "#9FEF00"            # HTB green
+git = "#1f2937"             # Dark charcoal
+git_status = "#374151"      # Medium dark gray
+python = "#70df01"          # HTB green
+conda = "#70df01"           # Light mint green
+java = "#70df01"            # HTB green
+rust = "#70df01"            # Orange accent
+clang = "#70df01"           # Blue accent
+cpp = "#70df01"             # Blue accent (matches clang)
+golang = "#70df01"          # Cyan for Go
+ruby = "#70df01"            # Red accent
+php = "#70df01"            # Purple accent
+lua = "#70df01"             # Blue accent
+perl = "#70df01"            # Purple accent
+elixir = "#70df01"          # Purple accent
+haskell = "#70df01"         # Gray accent
+swift = "#70df01"           # Red accent
+kotlin = "#70df01"          # Purple accent
+duration = "#10b981"        # Emerald green
+text_color = "#9FEF00"      # HTB neon green text
+text_light = "#e5e7eb"      # Light gray text
+text_dark = "#111827"
+
+[palettes.normal]
+arrow = "#353535"
+os = "#2C3032"
+os_admin = "#6A040F"
+directory = "#363C3E"
+time = "#474D5C"
+node = "#F1DEA9"
+git = "#D0DBDA"
+git_status = "#DFEBED"
+python = "#F5CB5C"
+conda = "#3EB049"
+java = "#861215"
+rust = "#C33C00"
+clang = "#00599D"
+cpp = "#00599D"
+golang = "#00ADD8"
+ruby = "#CC342D"
+php = "#777BB4"
+lua = "#000080"
+perl = "#394E79"
+elixir = "#6E4A7E"
+haskell = "#5E5086"
+swift = "#F05138"
+kotlin = "#B125A6"
+duration = "#F4FBFF"
+text_color = "#EDF2F4"
+text_light = "#26272A"
+
+[palettes.light]
+arrow = "#353535"
+os = "#F7768E"
+os_admin = "#ACBEF1"
+directory = "#FF9578"
+time = "#FFDC72"
+git = "#F5F5F5"
+git_status = "#72FFD5"
+clang = "#67E3FF"
+java = "#FF52A3"
+python = "#B4F9F8"
+node = "#81FF85"
+conda = "#BAF5C0"
+cpp = "#67E3FF"
+golang = "#2BC4E2"
+ruby = "#FF6B6B"
+php = "#AEAEF7"
+lua = "#4B70F5"
+perl = "#7B9BFF"
+elixir = "#B47AEA"
+haskell = "#8B7EC8"
+swift = "#FF6C3C"
+kotlin = "#D447C9"
+duration = "#91FFE7"
+text_color = "#26272A"
+text_light = "#26272A"
+
+[username]
+style_user = 'os'
+style_root = 'os_admin'
+format = '[]($style)[  btw](bg:$style fg:text_color)[]($style)'
+disabled = false
+show_always = true
+
+[character]
+success_symbol = "[󰍟](fg:arrow)"
+error_symbol = "[󰍟](fg:red)"
+
+[directory]
+format = " [](fg:directory)[  $path ]($style)[$read_only]($read_only_style)[](fg:directory)"
+truncation_length = 2
+style = "fg:text_color bg:directory"
+read_only_style = "fg:text_color bg:directory"
+before_repo_root_style = "fg:text_color bg:directory"
+truncation_symbol = "…/"
+truncate_to_repo = true
+read_only ="  "
+
+[time]
+disabled = false
+format = " [](fg:time)[ $time]($style)[](fg:time)"
+time_format = "%H:%M"
+style = "fg:text_color bg:time"
+
+[cmd_duration]
+format = " [](fg:duration)[ $duration]($style)[](fg:duration)"
+style = "fg:text_light bg:duration"
+min_time = 500
+
+[git_branch]
+format = " [](fg:git)[$symbol$branch](fg:text_light bg:git)[](fg:git)"
+symbol = " "
+
+[git_status]
+format = '([ ](fg:git_status)[ $all_status$ahead_behind ]($style)[](fg:git_status))'
+style = "fg:text_light bg:git_status"
+
+[docker_context]
+disabled=true
+symbol = " "
+
+[package]
+disabled=true
+
+[java]
+format = "[ ](fg:java)[$symbol$version](bg:java fg:text_dark)[](fg:java)"
+version_format = "${raw}"
+symbol = " "
+disabled = true
+
+[nodejs]
+format = "[ ](fg:node)[$symbol$version]($style)[](fg:node)"
+style = "bg:node fg:text_dark"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[rust]
+format = "[ ](fg:rust)[$symbol$version](bg:rust fg:text_dark)[](fg:rust)"
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+[golang]
+format = "[ ](fg:golang)[$symbol$version](bg:golang fg:text_dark)[](fg:golang)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[python]
+disabled=false
+format = '[ ](fg:python)[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\))]($style)[](fg:python)'
+symbol = " "
+version_format = "${raw}"
+style = "fg:text_dark bg:python"
+
+[conda]
+format = "[ ](fg:conda)[$symbol$environment]($style)[](fg:conda)"
+style = "bg:conda fg:text_dark"
+ignore_base = false
+disabled=false
+symbol = " "
+
+[c]
+format = "[ ](fg:clang)[$symbol($version(-$name) )](bg:clang fg:text_dark)[](fg:clang)"
+symbol = " "
+version_format = "${raw}"
+disabled=true
+
+[cpp]
+format = "[ ](fg:cpp)[$symbol($version(-$name) )](bg:cpp fg:text_dark)[](fg:cpp)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[ruby]
+format = "[ ](fg:ruby)[$symbol$version](bg:ruby fg:text_dark)[](fg:ruby)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[php]
+format = "[ ](fg:php)[$symbol$version](bg:php fg:text_dark)[](fg:php)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[lua]
+format = "[ ](fg:lua)[$symbol$version](bg:lua fg:text_dark)[](fg:lua)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[perl]
+format = "[ ](fg:perl)[$symbol$version](bg:perl fg:text_dark)[](fg:perl)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[elixir]
+format = "[ ](fg:elixir)[$symbol$version](bg:elixir fg:text_dark)[](fg:elixir)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[haskell]
+format = "[ ](fg:haskell)[$symbol$version](bg:haskell fg:text_dark)[](fg:haskell)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[swift]
+format = "[ ](fg:swift)[$symbol$version](bg:swift fg:text_dark)[](fg:swift)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[kotlin]
+format = "[ ](fg:kotlin)[$symbol$version](bg:kotlin fg:text_dark)[](fg:kotlin)"
+symbol = " "
+version_format = "${raw}"
+disabled=false
+
+[os.symbols]
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Gentoo = " "
+Linux = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+openSUSE = " "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+Redox = " "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Windows = " "
