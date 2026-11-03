@@ -37,6 +37,14 @@ chmod +x install.sh && \
 ```
 ![Installation](install.png)
 
+### Starship Prompt
+
+A matching HTB theme config for the [Starship](https://starship.rs/) prompt is included in [`starship/starship.toml`](starship/starship.toml). It is installed to `~/.config/starship.toml` automatically when running `install.sh`.
+
+### GNOME Apps (libadwaita)
+
+The theme also supports modern GNOME/libadwaita applications with custom styles provided under [`libadwaita/Sweet-HTB`](libadwaita/Sweet-HTB) and installed to `~/.config/gtk-4.0`.
+
 But, wait.. there's more!<br>
 There's this file [Dark-Reader-Settings-HTB.json](Dark-Reader-Settings-HTB.json) in the repo, which can make light looking sites like [this](dark-reader.png).<br>
 After installing the [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) add-on in your browser of choice, import the settings from this file into the add-on and enjoy the same dark mode as HTB on almost all other websites on the internet!<br>

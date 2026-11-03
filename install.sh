@@ -68,6 +68,7 @@ if [ -f konsole/$THEME.profile ]; then
   # print "$LIME├──$LBLUE konsole theme "
   dir_check $HOME/.local/share/konsole
   cp konsole/$THEME.profile $HOME/.local/share/konsole/$THEME.profile
+  [ -f konsole/Konsole-HTB.colorscheme ] && cp konsole/Konsole-HTB.colorscheme $HOME/.local/share/konsole/Konsole-HTB.colorscheme
   [ -f konsole/$THEME.colorscheme ] && cp konsole/$THEME.colorscheme $HOME/.local/share/konsole/$THEME.colorscheme
 fi
 
@@ -91,11 +92,12 @@ if [ -d gtk/$THEME ]; then
   cp gtk/$THEME $HOME/.themes/ -r
 fi
 
-if [ -d libadwaita ]; then
+if [ -d libadwaita/$THEME ]; then
   echo -e "$LIME├──$LBLUE Gnome apps (libadwaita) theme"
-  cp -r $HOME/.config/gtk-4.0 $HOME/.config/gtk-4.0.old
-  rm -r $HOME/.config/gtk-4.0/*.css
-  cp -r libadwaita/* $HOME/.config/gtk-4.0/
+  dir_check $HOME/.config/gtk-4.0
+  [ -d $HOME/.config/gtk-4.0 ] && [ -n "$(ls -A $HOME/.config/gtk-4.0 2>/dev/null)" ] && cp -r $HOME/.config/gtk-4.0 $HOME/.config/gtk-4.0.old
+  rm -f $HOME/.config/gtk-4.0/*.css
+  cp -r libadwaita/$THEME/* $HOME/.config/gtk-4.0/
 fi
 
 if [ -d icons/$THEME ]; then
@@ -151,6 +153,13 @@ if [ -f albert/$THEME.qss ]; then
   if ! $(sudo -n true 2>/dev/null); then echo -ne "$LIME│ $LBLUE  Please provide "; fi
   [ ! -d /usr/share/albert/widgetsboxmodel/themes/ ] && sudo mkdir -p /usr/share/albert/widgetsboxmodel/themes/
   sudo cp albert/$THEME.qss /usr/share/albert/widgetsboxmodel/themes/
+fi
+
+if [ -f starship/starship.toml ]; then
+  print "$LIME├──$LBLUE Starship prompt config "
+  dir_check $HOME/.config
+  [ -f $HOME/.config/starship.toml ] && cp $HOME/.config/starship.toml $HOME/.config/starship.toml.old
+  cp starship/starship.toml $HOME/.config/starship.toml
 fi
 
 sleep 0.5
